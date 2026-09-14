@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+
+# Local batches (keep folders present via .gitkeep, ignore actual content)
+images/*
+!images/.gitkeep
+outputs/*
+!outputs/.gitkeep
