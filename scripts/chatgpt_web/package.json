@@ -1,0 +1,14 @@
+{
+  "name": "chatgpt-web-batch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-automated bulk image+prompt sending to chatgpt.com, one new chat per pair, using a logged-in ChatGPT session (no API key).",
+  "type": "commonjs",
+  "scripts": {
+    "login": "node login.js",
+    "send": "node send_batch.js"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
