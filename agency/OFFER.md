@@ -167,7 +167,7 @@ Here's what's included: we do a full custom website — copy, design, mobile opt
 
 We back it with a simple guarantee: if it's not live in 21 days, your first month of ongoing support is free. And if you see the first design and it's not right, we reset — no charge.
 
-The total value of everything in this system is around $4,700. Your investment is [quote range]. We do 50% to kick off, 50% when you approve the final site.
+The total value of everything in this system is around $4,700. Your investment is [Foundation $1,800–$2,200 / Full Presence $2,400–$2,800 — quote the one you recommended]. We do 50% to kick off, 50% when you approve the final site.
 
 The only question is: is now the right time to fix this — or are you okay with the site you have representing you to every new prospect who looks you up?"
 

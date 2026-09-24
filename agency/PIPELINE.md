@@ -15,36 +15,38 @@
 - Pull business from target niche list (Google Maps, Instagram, Facebook, referrals)
 - Qualify: Does the business have a weak/outdated/no website?
 - Find decision-maker name and contact info (phone preferred, then DM/email)
+- Scrub phone against the National DNC Registry + internal do-not-call list; log scrub date
 - Log in CRM with all available fields
 - Screenshot their current website (or note no site)
 
-**Exit Criteria:** First outreach attempt made
+**Exit Criteria:** Lead qualified and DNC-clean → moves to Demo Built
 
 ---
 
-### Stage 2: Contacted
-**Definition:** Outreach has been attempted (call, DM, voicemail, email).
+### Stage 2: Demo Built
+**Definition:** A personalized demo site exists at a live link **before the first dial** — the setter's hook is "we already built it," so it has to be true.
+**Owner:** Setter (collects info) → Owner or demo builder (builds + spot-checks)
+**Actions:**
+- Setter submits: business name, niche, services, city, phone, current site URL, and any verified facts (Google rating, years in business)
+- Build with `scripts/generate_demo.py` (pass verified facts only via `--highlights`) — or, for high-value leads, a custom build using the `frontend-design` + `vertical-site-conventions` skills
+- Deploy to a shareable link (`netlify-deploy` skill; see DEMO_PLAYBOOK.md)
+- Owner spot-checks the first demos each week: nothing invented, no scraped logos/photos
+- Paste demo link into CRM
+
+**Exit Criteria:** Demo link live and logged → lead enters the dial queue
+
+---
+
+### Stage 3: Contacted
+**Definition:** Outreach has been attempted (call, voicemail, email, DM).
 **Owner:** Setter
 **Actions:**
 - Log every touchpoint with timestamp
-- If no answer: voicemail on attempt 1, text follow-up within 2 hours
+- If no answer: voicemail on attempt 1, email with demo link same day (text only if they've previously said yes to texts)
 - Follow-up cadence runs (see Follow-Up Rules below)
-- If connected but not booked: handle objections, re-attempt booking
+- If connected but not booked: handle objections, re-attempt booking; offer to send the demo link either way
 
-**Exit Criteria:** Demo mentioned and meeting booked, OR lead marked Cold/Not Interested after full cadence
-
----
-
-### Stage 3: Demo Sent
-**Definition:** A personalized demo site has been built and shown/referenced in outreach.
-**Owner:** Setter (builds or requests demo) → Owner (reviews before sending)
-**Actions:**
-- Setter flags lead for demo build (submit name, business type, current site URL)
-- Owner or delegate builds demo site
-- Demo link dropped into follow-up call/text/DM as the hook
-- Setter references demo directly in outreach: "We already built it — just want to show you"
-
-**Exit Criteria:** Lead is aware the demo exists; follow-up call scheduled
+**Exit Criteria:** Meeting booked, OR lead marked Cold/Not Interested after full cadence
 
 ---
 
@@ -53,8 +55,8 @@
 **Owner:** Setter (books) → Owner (prepares)
 **Actions:**
 - Setter sends calendar link (Calendly or similar)
-- Confirmation text/email sent immediately after booking
-- 24-hour reminder sent by setter
+- Confirmation sent immediately after booking (text if they said yes to texts, otherwise email)
+- 24-hour reminder sent by setter (same channel rule; see `meeting-conversion` skill for show-rate tactics)
 - 1-hour reminder sent by setter
 - Owner receives lead brief: business name, niche, current site issues, setter notes
 - Owner reviews demo site before call
@@ -139,6 +141,8 @@ Capture the following for every lead:
 - Business name
 - Owner/decision-maker first name
 - Phone number (mobile preferred)
+- DNC scrubbed? (date) · Internal do-not-call flag
+- SMS consent (Y/N + date/time + how given — verbal on call, form, etc.)
 - Email address
 - Instagram / Facebook handle
 - Website URL (or "none")
@@ -175,17 +179,19 @@ Capture the following for every lead:
 | Attempt | Timing | Method |
 |---------|--------|--------|
 | 1 | Day 1 | Cold call — if no answer, leave voicemail |
-| 2 | Day 1 (2 hrs after VM) | Text follow-up referencing voicemail |
+| 2 | Day 1 (same day as VM) | Email with demo link, referencing voicemail |
 | 3 | Day 3 | Call again — if no answer, drop DM |
-| 4 | Day 5 | Call + text with demo hook |
-| 5 | Day 8 | Final call — "closing the loop" frame |
+| 4 | Day 5 | Call + email with demo hook |
+| 5 | Day 8 | Final call + "closing the loop" email |
 
 After 5 attempts with no response: mark Contacted/Cold, tag for re-nurture in 60 days.
 
-**Demo hook rule:** The demo should be introduced no later than Attempt 3. If a live conversation happens before then, drop it immediately.
+**Demo hook rule:** The demo is already built (Stage 2), so lead with it on attempt 1 — every voicemail and email mentions it.
+
+**Texting rule:** no texts to anyone who hasn't said yes to texts. Templates and reasons in SETTER_SCRIPT.md.
 
 ### Post-No-Show Follow-Up (Setter)
-- 2 hours after missed call: text to rebook
+- 2 hours after missed call: text to rebook if they gave SMS consent at booking, otherwise email
 - Same day: phone call attempt
 - 24 hours later: final rebook attempt
 - If no response after 3 rebook attempts: mark Contacted, restart cadence
@@ -193,7 +199,7 @@ After 5 attempts with no response: mark Contacted/Cold, tag for re-nurture in 60
 ### Owner Follow-Up (Proposal Sent)
 - Day 1 post-call: send proposal
 - Day 3: follow-up call ("Just checking you got the proposal — any questions?")
-- Day 7: follow-up text/email (create urgency around start date availability)
+- Day 7: follow-up email, or text if they gave consent (create urgency around start date availability — only if it's true)
 - Day 12: final follow-up — "I want to make sure I'm not holding a spot if you've decided to go another direction"
 - Day 12+: mark Closed Lost, setter re-nurtures in 60 days
 

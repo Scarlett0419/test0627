@@ -8,10 +8,12 @@
 
 ## Before You Dial
 
-- Pull up their website (or confirm they don't have one)
+- **Compliance check:** number scrubbed against the National Do Not Call Registry and our internal do-not-call list; it's between 8am and 9pm in *their* time zone. Skip the lead if either fails.
+- Pull up their website (or confirm they don't have one — Google Business Profile / Facebook only counts as "no site")
 - Know their first name and business name
-- Have one specific thing to call out about their site (slow, no booking, looks outdated, mobile broken, no photos)
-- Have the calendar link ready to send via text immediately after booking
+- Have one specific thing to call out about their site (slow, no booking, looks outdated, mobile broken, no photos — or simply "no website")
+- Demo link open in a tab and tested on your phone
+- Have the calendar link ready to text **once they say yes to a text**
 
 ---
 
@@ -25,6 +27,10 @@
 
 > "Perfect. So I was actually looking at your site and noticed [specific gap — e.g., 'it looks like you don't have a way for people to book online' / 'the site's not loading well on mobile' / 'it looks like it hasn't been updated in a while']. We actually went ahead and built you a demo of what a redesigned version could look like — no strings attached, we just do this to show people what's possible. Would you be open to jumping on a quick 15-minute call so we can walk you through it?"
 
+### Opener variant — no website at all
+
+> "Hey [First Name], this is [Your Name] from Vanguard. I was looking up [niche] in [city] and found [Business Name] on Google — great reviews, by the way — but I noticed there's no actual website, just the [Google listing / Facebook page]. So we went ahead and built you a demo of what one could look like, using your services and info. Would you be open to a quick 15-minute call so we can walk you through it?"
+
 **Key:** Be specific about their gap. Generic openers die. The demo line creates curiosity and lowers resistance — they're not agreeing to buy anything, just to look.
 
 ---
@@ -33,7 +39,7 @@
 
 ### "I'm not interested."
 
-> "Totally fair — I wouldn't be either if someone cold called me out of nowhere. I'll just say this: we actually already built the demo for your business specifically — took us a few hours. All I'm asking for is 15 minutes to show it to you. If you hate it, no harm done. If you like it, we can talk. That's really it."
+> "Totally fair — I wouldn't be either if someone cold called me out of nowhere. I'll just say this: we actually already built the demo for your business specifically. All I'm asking for is 15 minutes to show it to you. If you hate it, no harm done. If you like it, we can talk. That's really it."
 
 *(If still no:)*
 
@@ -89,13 +95,17 @@ Use this in your opener, but if you get a live conversation going before you dro
 
 Once they've expressed any openness:
 
-> "Great — let me grab a time that works for you. I'm going to text you a link right now to get on the calendar. It's a 15–30 minute call, and you'll be talking directly with the owner — not a salesperson. Does [day] or [day] work better for you?"
+> "Great — let me grab a time that works for you. Is this a cell I can text the calendar link and the demo to?"
+
+*(Wait for a clear yes. Note "SMS consent: yes, [date/time], verbal" in the CRM. No yes → send by email instead.)*
+
+> "I'm sending it now. It's a 15–30 minute call, and you'll be talking directly with the owner — not a salesperson. Does [day] or [day] work better for you?"
 
 *(Get a day, then narrow to a time)*
 
 > "Perfect. I'll send the link right now — just click it and grab the time. You should get a confirmation text and email. Does that work?"
 
-**Then immediately text them the calendar link.** Don't wait. Don't email. Text.
+**Then immediately send the calendar link** — by text if they said yes to texts, otherwise email. Don't wait.
 
 ---
 
@@ -109,23 +119,39 @@ Keep it under 25 seconds. Sound calm, not salesy.
 
 ---
 
-## Text / DM Follow-Up Templates
+## Follow-Up Templates
 
-### Text — After Voicemail (2 hours later)
+> **Texting rule:** never text a prospect who hasn't said yes to texts on a call. Unsolicited marketing texts carry TCPA exposure (per-message statutory damages). Every text must identify Vanguard and honor "STOP" immediately. Unreached leads get email + DM follow-ups instead. See `.claude/skills/sms` for the full rules, and get a lawyer's sign-off before scaling.
 
-> "Hey [First Name], left you a voicemail — [Your Name] from Vanguard. We built a demo version of your website and wanted to show it to you on a quick call. Worth 15 mins if you're open to it. Here's my calendar: [link]"
+### Email — After Voicemail (same day)
+
+**Subject:** Demo site for [Business Name]
+
+> "Hi [First Name] — [Your Name] from Vanguard. I just left you a voicemail. We built a demo version of a website for [Business Name] — here it is: [demo link]. If you'd like a 15-minute walkthrough (and to hear what it would take to make it real), grab a time here: [calendar link].
+>
+> [Your Name] · Vanguard · [business address] · Reply "no thanks" and I won't follow up again."
 
 ---
 
-### Text — Demo Hook Follow-Up (Day 3–5)
+### Email — Demo Hook Follow-Up (Day 3–5)
 
-> "Hey [First Name] — [Your Name] again from Vanguard. Still want to show you the demo we built for [Business Name]. It's specific to your business, not a template. 15 mins on a call this week? [link]"
+**Subject:** Re: Demo site for [Business Name]
+
+> "Hi [First Name] — quick nudge on the demo we built for [Business Name]: [demo link]. It's built around your actual services, not a template. Worth 15 minutes this week? [calendar link]"
 
 ---
 
-### Text — Final Follow-Up (Day 8)
+### Email — Final Follow-Up (Day 8)
 
-> "Hey [First Name] — wanted to close the loop. We built a demo of a redesigned site for [Business Name] and just didn't want to let it go to waste without showing you. If the timing's off, totally fine. Just reply 'not now' and I'll leave you alone. Otherwise, grab a time here: [link]"
+**Subject:** Closing the loop
+
+> "Hi [First Name] — last note from me. The demo for [Business Name] is still up here: [demo link]. If the timing's off, no problem — just reply 'not now' and I'll leave you be. Otherwise, grab a time: [calendar link]"
+
+---
+
+### Text — Only After Verbal Consent on a Call
+
+> "Hi [First Name], it's [Your Name] from Vanguard — here's the demo we built for [Business Name]: [demo link] and the calendar link for your walkthrough: [calendar link]. Reply STOP to opt out."
 
 ---
 
@@ -146,7 +172,7 @@ Keep it under 25 seconds. Sound calm, not salesy.
 1. **Never oversell.** Your only job is to get the call booked.
 2. **Always reference something specific** about their website or business.
 3. **Drop the demo hook early** — it's your biggest differentiator.
-4. **Text the calendar link immediately** after they verbally agree.
-5. **Don't explain pricing.** If they ask, say "that's a great question for the call — it depends on what you actually need."
+4. **Send the calendar link immediately** after they verbally agree — text only with their OK, otherwise email.5. **Don't explain pricing.** If they ask, say "that's a great question for the call — it depends on what you actually need."
 6. **Don't badmouth their current site.** Be curious and helpful, not critical.
 7. **Log every touchpoint in CRM the same day.**
+8. **Anyone who says "don't call me" goes on the internal do-not-call list the same day.** No exceptions.

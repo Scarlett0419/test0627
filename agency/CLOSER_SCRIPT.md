@@ -46,13 +46,9 @@ Take real notes. This is where you earn the close. Go slow. Don't rush to the de
 ---
 
 ### Situation Questions
-*(Establish facts — understand their current state)*
-
-> "How long has [Business Name] been around?"
+*(Keep these to a minimum — anything you could find on their site, Google profile, or the setter's notes, look up before the call instead of asking.)*
 
 > "How do most of your new customers find you right now — word of mouth, Google, social media, something else?"
-
-> "Do you have a website currently? How long ago was it built?"
 
 > "Are you running any ads, or is it mostly organic at this point?"
 
@@ -132,15 +128,27 @@ Take real notes. This is where you earn the close. Go slow. Don't rush to the de
 
 **Only present after discovery and demo — never before.**
 
-**Transition:**
+**First, check concerns and summarize (SPIN):** before any price, make sure nothing is left open and replay *their* words back to them.
 
-> "So based on everything you told me — [mirror back 1–2 pain points they named] — and what you just saw in the demo, here's what I'd put together for you."
+> "Before I walk you through how this works — is there anything about the demo or what we talked about that you'd want me to go deeper on?"
 
-**Present the package simply:**
+> "So let me make sure I've got it. You said [problem in their words], and that it's costing you [implication in their words]. And you said what you really want is [need-payoff answer in their words]. Did I get that right?"
 
-> "What we do is build you a custom site — not a template, not a theme. We handle design, copy, mobile optimization, and we make sure it's set up to actually convert visitors into leads. Depending on what you need, we typically work in the [price range] range for a full build. That includes [brief scope]. Most clients are live within [timeline]."
+*(Wait for a yes. That yes is an Explicit Need — now the offer is a Benefit, not a pitch.)*
 
-> "We work with a deposit upfront and the balance at launch. It's straightforward."
+**Present the offer** (full details in OFFER.md):
+
+> "What I'd put together for you is what we call the 21-Day Authority Website System. Custom design and build — not a template — plus we write all the copy for you off one kick-off call, set up your local SEO foundation, and give you two rounds of revisions and a handoff session so you're never stuck. And you're live in 21 days: if we miss that and you've given us feedback on time, your first month of care is on us."
+
+Pick the tier that fits what they told you — recommend one, don't read a menu:
+
+| Tier | Price | Fits |
+|---|---|---|
+| **The Foundation** | $1,800–$2,200 | 5 pages · solo providers, small churches, beauty/wellness solos |
+| **The Full Presence** | $2,400–$2,800 | 7–8 pages + booking, gallery, testimonials · gyms, contractors, multi-service |
+| **Care Plan** (add-on) | $150–$250/mo, cancel anytime | Hosting, security, backups, 1 hr/month of updates |
+
+> "For what you described, I'd recommend [tier] — that's [price]. We do 50% to kick off and 50% when you approve the final site."
 
 **Then stop talking. Let them respond.**
 
@@ -157,7 +165,7 @@ Take real notes. This is where you earn the close. Go slow. Don't rush to the de
 *(Listen)*
 
 If budget is the issue:
-> "We can look at a phased approach — start with the core pages now and add on later. What matters is getting something working for you. What would feel like a comfortable entry point?"
+> "We can start with The Foundation — five core pages at $1,800–$2,200 — and add booking and a gallery later when it makes sense. Same 21-day launch, same guarantee. Would that work better?"
 
 If value is the issue:
 > "Fair. Let me ask you this: you mentioned [implication answer — e.g., 'losing clients to competitors with better-looking sites']. What does one new client from your website represent in revenue to you?"
@@ -234,7 +242,7 @@ After presenting the offer and handling objections, if there's a clear yes signa
 
 Or if you want to frame the next step:
 
-> "Here's what I'd suggest: we get started with the deposit today, I'll send you the onboarding form tomorrow, and we can have your new site live within [timeline]. Does that work?"
+> "Here's what I'd suggest: we get started with the deposit today, I'll send you the onboarding form tomorrow, and your new site is live within 21 days. Does that work?"
 
 If they say yes:
 > "Perfect. I'll send the invoice and agreement over in the next hour. Once that's in, we're off."
@@ -269,5 +277,7 @@ Your job isn't to convince them — it's to help them see clearly what's already
 **The silence after the close is your friend.** Most people talk themselves into a yes if you let them. Don't fill it.
 
 **Confidence is not pushiness.** A confident expert tells you the truth and lets you decide. A pushy salesperson manipulates. Be the expert.
+
+**Honest urgency only.** Scarcity ("I have two build slots this month") is only allowed when it's true. Skip any tactic that invents a reason — e.g. the "ID close" in the `hormozi-sales` skill claims ID is needed "for PCI compliance," which it isn't.
 
 **If it's not a fit, say so.** Chasing bad-fit clients costs more than passing on them. The fastest way to build trust is to tell someone "I don't think this is right for you" when it's true.

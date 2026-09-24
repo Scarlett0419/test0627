@@ -13,8 +13,8 @@ The demo is a pattern interrupt. It replaces "we build great websites" with "we 
 - Setter researches the prospect (5–10 min)
 - Setter generates the demo using `generate_demo.py`
 - Setter uploads and gets the live URL (see Section 4)
-- Setter dials — demo URL ready to drop into a text or email mid-call
-- If the prospect doesn't pick up: send the URL in the voicemail follow-up text
+- Setter dials — demo URL ready to send mid-call (by text only if they say yes to a text, otherwise email)
+- If the prospect doesn't pick up: send the URL in the voicemail follow-up **email** (no cold texts — see SETTER_SCRIPT.md)
 
 Do not build demos in bulk and blast them. Build one targeted demo per qualified prospect. If the prospect doesn't meet your ICP (wrong industry, too small, already has a good site), skip the demo and dial with a standard pitch.
 
@@ -102,19 +102,21 @@ The demo is a hook, not a presentation. The setter's job is to get curiosity, no
 > "Hey [Name], this is [Setter] from Vanguard — quick question for you. We came across [Business Name] online and noticed your current site and we actually put together a quick demo of what a new version could look like for you. I wanted to see if [Owner Name] had 30 seconds to take a look at it."
 
 If they ask what it is:
-> "It's a live webpage — I can text you the link right now while we're talking. It's just a free mockup, takes 10 seconds to open."
+> "It's a live webpage — want me to text you the link right now while we're talking? It's just a free mockup, takes 10 seconds to open."
 
 If they say they're busy / not interested:
-> "Totally get it. I'll send you the link anyway — it's already built, might as well see it. What's the best number for a text?"
+> "Totally get it. It's already built, so it'd be a shame for it to go to waste — can I email or text you the link so you can look whenever?"
+
+*(Only send it if they say yes, by the channel they chose. Log SMS consent in the CRM.)*
 
 **Key rules for setters:**
 - Never say "we'd like to build you a website" — say "we already built you a demo"
-- Send the URL via text during the call, not after — keeps them on the line
+- With their OK, send the URL during the call, not after — keeps them on the line
 - The goal of the call is to book the consultation, not to pitch the demo
 - Do not spend more than 60 seconds describing the demo on the cold call
 
-**Follow-up text format:**
-> "Hey [Name] — [Setter] from Vanguard. Here's that demo site we built for [Business Name]: [URL]. Completely free, no strings. Happy to walk you through it on a quick call this week."
+**Follow-up text format** (only after they said yes to a text):
+> "Hey [Name] — [Setter] from Vanguard. Here's that demo site we built for [Business Name]: [URL]. Completely free, no strings. Happy to walk you through it on a quick call this week. Reply STOP to opt out."
 
 ---
 
@@ -147,7 +149,7 @@ Let them react. Do not jump in to sell.
 You don't have permission. Using a business's logo without consent — even on a private demo — opens IP liability. The script intentionally uses text-only branding. If they want to see it with their logo, that's a step that happens after they engage.
 
 ### Do not make up testimonials or reviews
-The trust-bar stats (500+ clients, 5 stars, etc.) are placeholders that reflect the prospect's business, not fabricated reviews attributed to real people. Never add "Jane D. — 5 stars" style fake quotes.
+The demo has no stats bar unless you pass verified facts with `--highlights` (e.g. `"4.8★:Google rating,22:Years in Austin"` copied from their Google profile). Never guess numbers — a prospect who sees "500+ clients" on their own demo when they've served 80 knows instantly it's fake. Never add "Jane D. — 5 stars" style quotes.
 
 ### Do not use real client photos from their existing site
 Pulling images from their current site for the demo is a copyright issue. The demo uses no images — clean type-and-grid layout only. If they want a photo-forward version, that's the proposal stage.
@@ -171,10 +173,10 @@ The demo is for the decision-maker (owner, founder, operator). If you only have 
 | Step | Action | Time |
 |------|--------|------|
 | Research prospect | GBP, website, Instagram | 5–10 min |
-| Generate demo | `python generate_demo.py --business_name ...` | 1 min |
+| Generate demo | `python3 scripts/generate_demo.py --business_name ...` | 1 min |
 | Host demo | Netlify Drop | 2 min |
-| Setter dials | Reference demo on call, text URL mid-call | Live |
-| Follow-up text | Send URL + 2-sentence message | 1 min |
+| Setter dials | Reference demo on call, send URL mid-call (with OK) | Live |
+| Follow-up | Email URL + 2-sentence message (text only with consent) | 1 min |
 | Consultation | Open demo on screen share, redirect to project | 5 min |
 
 ---
