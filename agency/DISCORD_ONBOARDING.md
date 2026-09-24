@@ -53,7 +53,7 @@ GHL webhooks post into these channels. **Humans do not post top-level messages h
 | `#booked-calls` | New appointment booked | The booking setter confirms in the thread that the lead brief is complete in GHL | O, SC, ST |
 | `#no-shows` | Appointment no-show or cancelled | The booking setter replies in the thread with the rebook plan, then the outcome (the rebook starts within 2 hours, per `PIPELINE.md`) | O, SC, ST |
 | `#demo-requests` | Setter requests a demo build for a lead (see §5) | The builder claims the request and posts the demo link in the thread. The setter confirms they tested it | O, SC, ST, DB |
-| `#wins` | Deal closed / deposit paid | Congratulations go in the thread | All roles |
+| `#wins` | Deal closed / payment received | Congratulations go in the thread | All roles |
 | `#pipeline-alerts` | Proposal signed or viewed, onboarding form submitted, other stage changes | The owner acts. Setters can read along | O, SC |
 
 ### TRAINING

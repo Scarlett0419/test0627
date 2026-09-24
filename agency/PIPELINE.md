@@ -94,7 +94,7 @@
 ---
 
 ### Stage 7: Closed Won
-**Definition:** Client has paid deposit or signed agreement.
+**Definition:** Client has signed the agreement and paid the project fee in full.
 **Owner:** Owner
 **Actions:**
 - Send onboarding form / kick-off questionnaire

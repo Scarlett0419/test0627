@@ -6,7 +6,7 @@ Everything needed to take the pipeline in `PIPELINE.md`, `OFFER.md`, `SETTER_SCR
 
 ## Phase 0 — Legal & Admin
 
-- [ ] Form an LLC — liability shield before any contracts are signed or deposits collected
+- [ ] Form an LLC — liability shield before any contracts are signed or payments collected
 - [ ] Open a business bank account — keep client payments separate from personal funds
 - [ ] Lawyer review of the client contract (proposal/scope/payment terms in `OFFER.md`) before it's used live
 - [ ] Lawyer review of calling/texting practices — B2B calls are partly exempt from the federal DNC rules, but small-business owners' cell phones blur that line, and state rules vary; get this signed off before setters start dialing at volume
@@ -20,7 +20,7 @@ Everything needed to take the pipeline in `PIPELINE.md`, `OFFER.md`, `SETTER_SCR
 - [ ] Set up dialer for setters — confirm call recording is only enabled in one-party-consent states; disable recording (or get explicit consent) in all-party-consent states
 - [ ] Build reminder workflows: 24-hour, 1-hour, and no-show follow-up (matches cadence in `PIPELINE.md` Stage 4 and Post-No-Show rules)
 - [ ] Build proposal/contract templates in GHL Documents & Contracts with e-signature — done when a template can be sent and signed end-to-end (see `OFFER.md` pricing/terms)
-- [ ] Connect Stripe — configure 50% deposit invoice at kick-off and 50% final invoice at launch approval
+- [ ] Connect Stripe — configure full up-front payment at signing, plus a monthly Care Plan subscription started at launch
 - [ ] Build client onboarding form (kick-off questionnaire per `PIPELINE.md` Stage 7: brand assets, domain access, copy)
 - [ ] Configure DND settings for internal do-not-call — anyone who says "don't call me" gets flagged same day (per `SETTER_SCRIPT.md` Setter Rule 8)
 

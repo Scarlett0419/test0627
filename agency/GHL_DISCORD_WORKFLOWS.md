@@ -15,7 +15,7 @@
 | 2b | `#no-shows` | `DISCORD 2b · Cancelled` | Appointment Status = Cancelled | Orange `15105570` (#E67E22) |
 | 3 | `#demo-requests` | `DISCORD 3 · Demo request` | Form Submitted = "Demo Build Request" | Purple `10181046` (#9B59B6) |
 | 4a | `#wins` | `DISCORD 4a · Closed Won` | Pipeline Stage Changed → Closed Won | Green `3066993` (#2ECC71) |
-| 4b | `#wins` | `DISCORD 4b · Deposit paid` | Payment Received | Green `3066993` (#2ECC71) |
+| 4b | `#wins` | `DISCORD 4b · Payment received` | Payment Received | Green `3066993` (#2ECC71) |
 | 5a | `#pipeline-alerts` | `DISCORD 5a · Proposal sent` | Pipeline Stage Changed → Proposal Sent | Yellow `15844367` (#F1C40F) |
 | 5b | `#pipeline-alerts` | `DISCORD 5b · Contract signed` | Documents & Contracts, status Completed | Teal `1752220` (#1ABC9C) |
 | 5c | `#pipeline-alerts` | `DISCORD 5c · Onboarding form in` | Form Submitted = "Client Onboarding" | Grey `9807270` (#95A5A6) |
@@ -239,9 +239,9 @@ Alternative: **Opportunity Status Changed** with *Moved To Status* = Won. Use **
 }
 ```
 
-### Workflow 4b: `#wins` (deposit payment received)
+### Workflow 4b: `#wins` (payment received)
 
-**Trigger:** **Payment Received**. Optionally filter to your deposit product or invoice if those filters appear on your plan; we couldn't verify the filter list. Payment Received also covers manually recorded payments. If you bill only through GHL invoices, you can use the **Invoice** trigger with status **Paid** instead.
+**Trigger:** **Payment Received**. Optionally filter to your project products (not the Care Plan) if those filters appear on your plan; we couldn't verify the filter list. Payment Received also covers manually recorded payments. If you bill only through GHL invoices, you can use the **Invoice** trigger with status **Paid** instead.
 
 The payment-amount merge field name is **unverified**. Open the picker inside this Custom Webhook while it sits under the Payment Received trigger, insert the amount field, and swap it for `{{PAYMENT_AMOUNT_FROM_PICKER}}` below. Until you do, the literal placeholder text will show in Discord, which is harmless but ugly.
 
@@ -253,7 +253,7 @@ The payment-amount merge field name is **unverified**. Open the picker inside th
     {
       "title": "Payment received: {{contact.company_name}}",
       "color": 3066993,
-      "description": "**Business:** {{contact.company_name}}\n**Amount:** {{PAYMENT_AMOUNT_FROM_PICKER}}\n**Set by:** {{contact.setter_assigned}}\n\nIf this is the deposit, move the opportunity to Closed Won (if it isn't already) and log Deposit Collected.",
+      "description": "**Business:** {{contact.company_name}}\n**Amount:** {{PAYMENT_AMOUNT_FROM_PICKER}}\n**Set by:** {{contact.setter_assigned}}\n\nIf this is a project payment, move the opportunity to Closed Won (if it isn't already) and log Payment Collected.",
       "footer": { "text": "Vanguard · Payments" }
     }
   ]
@@ -296,7 +296,7 @@ The document-name merge field is unverified, so the template name goes in as sta
     {
       "title": "Contract signed: {{contact.company_name}}",
       "color": 1752220,
-      "description": "**Business:** {{contact.company_name}}\n**Signed by:** {{contact.first_name}} {{contact.last_name}}\n**Document:** Vanguard Website Agreement\n\nCheck the deposit invoice went out. If paid, move to Closed Won.",
+      "description": "**Business:** {{contact.company_name}}\n**Signed by:** {{contact.first_name}} {{contact.last_name}}\n**Document:** Vanguard Website Agreement\n\nCheck the payment went through. If paid, move to Closed Won.",
       "footer": { "text": "Vanguard · Documents & Contracts" }
     }
   ]

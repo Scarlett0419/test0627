@@ -35,11 +35,11 @@ Every reason a prospect hesitates becomes a deliverable or guarantee.
 
 | # | Obstacle (Why They Don't Buy) | Solution (Deliverable or Guarantee) |
 |---|-------------------------------|-------------------------------------|
-| 1 | "I've been burned by a freelancer before — they took my money and disappeared" | Milestone-based payment: 50% at kick-off, 50% at launch. Nothing owed until they're happy. |
+| 1 | "I've been burned by a freelancer before — they took my money and disappeared" | Written scope + two guarantees (21-Day Launch, "Love It or We Fix It") in a signed contract; owner builds it personally. |
 | 2 | "I don't have time to write all the copy and gather content" | Done-With-You Copy Brief: one 60-minute kick-off call captures everything needed. Vanguard writes the copy. |
 | 3 | "I don't know what I actually need on a website" | Niche-specific site blueprint delivered before any design work starts |
 | 4 | "It'll take months and I need it now" | 21-Day Delivery Guarantee: if the site isn't live within 21 days of kick-off (assuming client provides feedback on schedule), the next month of care plan is free |
-| 5 | "I can't afford it right now" | Structured payment plan option (50/50 or 3-part); framed against the cost of a bad first impression (leads lost per month) |
+| 5 | "I can't afford it right now" | Down-sell to The Foundation tier; framed against the cost of a bad first impression (leads lost per month) |
 | 6 | "I'm not sure it'll actually bring in clients" | Conversion-first architecture: every page built with a clear call-to-action and inquiry path — not just "pretty" |
 | 7 | "Wix/Squarespace is cheaper — why pay more?" | Wix sites look like Wix. Vanguard builds on platforms that scale, rank, and convert. Premium clients judge you before they call. |
 | 8 | "I'll need to hire someone every time I want to change something" | Training session + optional ongoing Care Plan so they're never dependent |
@@ -90,8 +90,8 @@ Every reason a prospect hesitates becomes a deliverable or guarantee.
 - Best for: fitness studios, construction companies, multi-service businesses
 
 **Payment Terms:**
-- 50% at kick-off (due before work begins)
-- 50% at launch approval
+- 100% up front, paid when the contract is signed, before work begins
+- Care Plan billed monthly from launch (optional retention)
 
 > *Rationale: Project-based pricing is clean, easy to close on a call, and aligns with how local/service businesses think. Avoid hourly — it signals commodity and invites nickel-and-diming.*
 
@@ -167,7 +167,7 @@ Here's what's included: we do a full custom website — copy, design, mobile opt
 
 We back it with a simple guarantee: if it's not live in 21 days, your first month of ongoing support is free. And if you see the first design and it's not right, we reset — no charge.
 
-The total value of everything in this system is around $4,700. Your investment is [Foundation $1,800–$2,200 / Full Presence $2,400–$2,800 — quote the one you recommended]. We do 50% to kick off, 50% when you approve the final site.
+The total value of everything in this system is around $4,700. Your investment is [Foundation $1,800–$2,200 / Full Presence $2,400–$2,800 — quote the one you recommended]. It's paid in full up front, and once you're live, the Care Plan keeps it maintained month to month.
 
 The only question is: is now the right time to fix this — or are you okay with the site you have representing you to every new prospect who looks you up?"
 

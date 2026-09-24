@@ -148,7 +148,7 @@ Pick the tier that fits what they told you — recommend one, don't read a menu:
 | **The Full Presence** | $2,400–$2,800 | 7–8 pages + booking, gallery, testimonials · gyms, contractors, multi-service |
 | **Care Plan** (add-on) | $150–$250/mo, cancel anytime | Hosting, security, backups, 1 hr/month of updates |
 
-> "For what you described, I'd recommend [tier] — that's [price]. We do 50% to kick off and 50% when you approve the final site."
+> "For what you described, I'd recommend [tier] — that's [price]. That's paid up front when you sign, and we start right away. After launch, most clients add the Care Plan so they never have to think about the site again."
 
 **Then stop talking. Let them respond.**
 
@@ -242,7 +242,7 @@ After presenting the offer and handling objections, if there's a clear yes signa
 
 Or if you want to frame the next step:
 
-> "Here's what I'd suggest: we get started with the deposit today, I'll send you the onboarding form tomorrow, and your new site is live within 21 days. Does that work?"
+> "Here's what I'd suggest: you sign and pay today, I'll send you the onboarding form tomorrow, and your new site is live within 21 days. Does that work?"
 
 If they say yes:
 > "Perfect. I'll send the invoice and agreement over in the next hour. Once that's in, we're off."
