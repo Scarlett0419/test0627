@@ -27,7 +27,7 @@ listing's lifetime sales happened in the last week, i.e. new and already hot
 Listing URLs for every row are in `etsyhunt-listing-ids-2026-09-01.json`
 (EtsyHunt product IDs are Etsy listing IDs: `https://www.etsy.com/listing/<id>`).
 Not opened from here, since Etsy blocks this environment. Higher IDs are newer
-listings: 44xx–45xx million were created recently, 17xx–18xx million are older.
+listings: IDs around 4.3–4.6 billion are recent, around 1.7–1.9 billion are older.
 
 ## Excluded
 
