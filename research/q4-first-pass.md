@@ -22,6 +22,13 @@ listing's lifetime sales happened in the last week, i.e. new and already hot
 | 4 | **Personalized kids' name corduroy backpack / purse** | SonaMade 292 / 5,060 · TheCozyStudioCraft 204 / 2,368 | Physical | Strong gift item all year that Christmas lifts further. Two shops share the pattern. |
 | 5 | **Engraved bridesmaid compact mirror** | ForeverYourGiftStore 170 / 619 (new) · TheVinc 151 / 11,917 | Physical | New entrant is winning against an established seller; wedding plus stocking-stuffer demand. |
 
+## Listing links
+
+Listing URLs for every row are in `etsyhunt-listing-ids-2026-09-01.json`
+(EtsyHunt product IDs are Etsy listing IDs: `https://www.etsy.com/listing/<id>`).
+Not opened from here, since Etsy blocks this environment. Higher IDs are newer
+listings: 44xx–45xx million were created recently, 17xx–18xx million are older.
+
 ## Excluded
 
 - Trademark/IP risk: Lord of the Rings map, Winnie the Pooh patterns, Disney
