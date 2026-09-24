@@ -10,7 +10,12 @@ Usage:
         --phone "(555) 123-4567" \
         --location "Austin, TX" \
         --services "Facials,Lash Extensions,Brow Tinting,Chemical Peels" \
-        --booking_url "https://calendly.com/vanguard-agency"
+        --booking_url "https://calendly.com/vanguard-agency" \
+        --highlights "4.9★:Google rating,12:Years in Austin"
+
+    --highlights is optional and must only contain facts verified from the
+    prospect's own Google profile, site, or socials. Omit it and the trust bar
+    is left out entirely.
 
     Or with JSON input:
     python generate_demo.py --json '{"business_name": "Iron Core Gym", ...}'
@@ -20,6 +25,7 @@ import argparse
 import json
 import re
 import sys
+from html import escape
 from pathlib import Path
 
 
@@ -98,6 +104,37 @@ def render_services(services: list[str], accent: str, icon_set: list[str]) -> st
     return "\n".join(cards)
 
 
+def render_trust_bar(highlights: list[tuple[str, str]]) -> str:
+    if not highlights:
+        return ""
+    items = "\n".join(
+        f"""        <div class="trust-item">
+          <span class="trust-num">{num}</span>
+          <span class="trust-label">{label}</span>
+        </div>"""
+        for num, label in highlights
+    )
+    return f"""<div class="trust-bar">
+    <div class="container">
+      <div class="trust-inner">
+{items}
+      </div>
+    </div>
+  </div>"""
+
+
+def parse_highlights(raw) -> list[tuple[str, str]]:
+    if not raw:
+        return []
+    entries = raw if isinstance(raw, list) else str(raw).split(",")
+    pairs = []
+    for entry in entries:
+        num, sep, label = str(entry).partition(":")
+        if sep and num.strip() and label.strip():
+            pairs.append((num.strip(), label.strip()))
+    return pairs
+
+
 def generate_html(
     business_name: str,
     industry: str,
@@ -106,7 +143,16 @@ def generate_html(
     location: str,
     services: list[str],
     booking_url: str,
+    highlights: list[tuple[str, str]] | None = None,
 ) -> str:
+    business_name = escape(business_name)
+    tagline = escape(tagline)
+    phone = escape(phone)
+    location = escape(location)
+    services = [escape(s) for s in services]
+    booking_url = escape(booking_url)
+    trust_bar = render_trust_bar([(escape(n), escape(l)) for n, l in highlights or []])
+
     preset = INDUSTRY_PRESETS.get(industry, INDUSTRY_PRESETS["other"])
     accent = preset["accent"]
     bg = preset["bg_light"]
@@ -584,28 +630,7 @@ def generate_html(
   </section>
 
   <!-- Trust bar -->
-  <div class="trust-bar">
-    <div class="container">
-      <div class="trust-inner">
-        <div class="trust-item">
-          <span class="trust-num">5★</span>
-          <span class="trust-label">Rated</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-num">500+</span>
-          <span class="trust-label">Clients Served</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-num">{"10+" if industry not in ("faith",) else "5+"}</span>
-          <span class="trust-label">Years Experience</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-num">100%</span>
-          <span class="trust-label">Satisfaction Focus</span>
-        </div>
-      </div>
-    </div>
-  </div>
+  {trust_bar}
 
   <!-- Services -->
   <section class="section" id="services">
@@ -651,7 +676,7 @@ def generate_html(
       <div class="footer-inner">
         <span class="footer-copy">&copy; {business_name}. All rights reserved.</span>
         <span class="watermark">
-          Demo by <a href="https://vanguardagency.co" target="_blank">Vanguard</a>
+          Demo by Vanguard
         </span>
       </div>
     </div>
@@ -692,6 +717,11 @@ def parse_args() -> argparse.Namespace:
         help="CTA booking/contact URL",
     )
     p.add_argument(
+        "--highlights",
+        default="",
+        help='Verified facts only, "value:label" comma-separated, e.g. "4.9★:Google rating,12:Years in Austin"',
+    )
+    p.add_argument(
         "--output_dir",
         default=".",
         help="Directory to save the output HTML file (default: current dir)",
@@ -718,6 +748,7 @@ def main() -> None:
             "location": args.location,
             "services": args.services,
             "booking_url": args.booking_url,
+            "highlights": args.highlights,
         }
 
     # Validate required fields
@@ -747,6 +778,7 @@ def main() -> None:
         location=data.get("location", ""),
         services=services,
         booking_url=data.get("booking_url", "https://calendly.com/vanguard-agency"),
+        highlights=parse_highlights(data.get("highlights")),
     )
 
     output_dir = Path(args.output_dir if not args.json else data.get("output_dir", "."))
