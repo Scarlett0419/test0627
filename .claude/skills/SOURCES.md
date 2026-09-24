@@ -22,3 +22,18 @@ LICENSE files: the anthropics skills ship LICENSE.txt. For the three MIT skills,
 | contract-and-proposal-writer | https://github.com/alirezarezvani/claude-skills (business-growth/skills/contract-and-proposal-writer) | 19392f7a08264ed00486a251f5b2098321771f94 | MIT | Web-dev fixed-price contract and monthly retainer templates (milestone payments, IP on full payment, change orders, termination). A starting point, not legal advice. |
 
 LICENSE: each folder has a copy of its repo-root MIT LICENSE. Nothing else in the skill folders was changed. Note: prospecting's "Tool Integrations" table links to ../../tools/ files in the source repo, which were not copied, so those links do not resolve.
+
+## Outbound sales, appointment-setting and pipeline skills (added 2026-09-24)
+
+| Skill | Repo | Commit SHA | License | Why it's useful |
+|---|---|---|---|---|
+| sales-enablement | https://github.com/coreyhaines31/marketingskills (skills/sales-enablement) | 5b2c0007766c6a1cf1d53fd8fc73e979e0821022 | MIT | Builds setter talk tracks, objection docs (objection, why they say it, response, proof, follow-up question), demo-walkthrough scripts and a sales playbook. |
+| cold-email | https://github.com/coreyhaines31/marketingskills (skills/cold-email) | 5b2c0007766c6a1cf1d53fd8fc73e979e0821022 | MIT | Short peer-voice outreach and 3-5 touch follow-up sequences with a different angle each time and a breakup email that is honoured. Bans fake "Re:" subject lines. |
+| sms | https://github.com/coreyhaines31/marketingskills (skills/sms) | 5b2c0007766c6a1cf1d53fd8fc73e979e0821022 | MIT | Mainly here for its TCPA / A2P 10DLC / quiet-hours / STOP-HELP compliance reference before setters text prospects. The sequence templates are written for e-commerce. |
+| meeting-conversion | https://github.com/louisblythe/Sales-Skills (skills/meeting-conversion) | e0f13a6eb41be22fa1f8493b148077cdd6c6654a | MIT (README statement only; repo has no LICENSE file, see LICENSE-NOTE.txt) | Show-rate playbook for booked appointments: confirmation within 5 minutes, day-before and day-of reminders, pre-meeting check-in, and no-show recovery. |
+| next-step-commitment | https://github.com/zime-ai/zime-gtm-skills (skills/next-step-commitment) | 4f134175badd08302f070c77449822c48403eeb1 | MIT | Checks a call transcript's ending: did the setter lock in a specific action, a date, and something the prospect also committed to? Gives one rewrite. Runs locally. |
+| sandler | https://github.com/zime-ai/zime-gtm-skills (skills/sandler) | 4f134175badd08302f070c77449822c48403eeb1 | MIT | Coaches the closer by scoring a call transcript on the Sandler steps (up-front contract, pain, budget, decision, fulfilment) with a quote for every finding. It flags pitching before pain and closes that were assumed rather than agreed. |
+| negotiation | https://github.com/wondelai/skills (negotiation) | c172996495bed0fcd26896a9416b2093fd7073f0 | MIT | Chris Voss techniques for the close: labelling, calibrated "how/what" questions, accusation audit, "that's right", and handling "that's not fair". |
+| pipeline-reviewer | https://github.com/quotakit/salesops-skills (skills/pipeline-reviewer) | b88a629fcfcafd0a1d348b9f70eb9de6a1fea19c | MIT | Weekly review of a CRM export using a bundled local pandas script (no network access): flags stale, slipped and aging deals, shows totals per rep, and gives a fix/kill list. |
+
+LICENSE: the repo-root MIT LICENSE was copied into each folder as LICENSE, except meeting-conversion (see note above). Nothing else in the skill folders was changed. prospecting (listed above) was already installed and was not duplicated. The coreyhaines31 skills link to ../../tools/ files that were not copied, so those links do not resolve.

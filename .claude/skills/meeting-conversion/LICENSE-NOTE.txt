@@ -1,0 +1,4 @@
+Source: https://github.com/louisblythe/Sales-Skills (skills/meeting-conversion)
+Commit: e0f13a6eb41be22fa1f8493b148077cdd6c6654a
+The repo has no LICENSE file. Its README.md "License" section states:
+"MIT - Use these however you want."
