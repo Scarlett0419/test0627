@@ -335,7 +335,7 @@ Custom build? (optional): no / yes — why this lead is high-value: [one line]
 WELCOME TO VANGUARD
 
 What we do: we build premium websites for local service businesses (beauty/wellness,
-beauty/wellness, fitness, construction/trades). Setters cold call businesses with
+fitness, trades, auto, pet and other local services). Setters cold call businesses with
 weak or missing websites. Before we dial, we've already built them a demo. The
 setter books a 15–30 min call with the owner, and the owner closes and delivers.
 
