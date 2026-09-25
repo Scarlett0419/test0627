@@ -14,7 +14,7 @@ Do this before every call:
 - [ ] Review setter notes in CRM — what objections came up? What resonated?
 - [ ] Pull up their current website and spend 2 minutes on it
 - [ ] Pull up the demo site — make sure it loads and looks right
-- [ ] Know their niche and which social proof client fits best (Christ United / Elixa Beauty / MagniFit / Vanguard Structures)
+- [ ] Know their niche and which social proof client fits best (Kremmester / Elixa Beauty / MagniFit / Vanguard Structures)
 - [ ] Have your offer and pricing ready (don't wing the numbers)
 - [ ] Clear your environment — no distractions, good audio, camera on if video call
 - [ ] Set a 30-minute timer — respect their time and yours
@@ -144,7 +144,7 @@ Pick the tier that fits what they told you — recommend one, don't read a menu:
 
 | Tier | Price | Fits |
 |---|---|---|
-| **The Foundation** | $1,800–$2,200 | 5 pages · solo providers, small churches, beauty/wellness solos |
+| **The Foundation** | $1,800–$2,200 | 5 pages · solo providers, no-website businesses, beauty/wellness solos |
 | **The Full Presence** | $2,400–$2,800 | 7–8 pages + booking, gallery, testimonials · gyms, contractors, multi-service |
 | **Care Plan** (add-on) | $150–$250/mo, cancel anytime | Hosting, security, backups, 1 hr/month of updates |
 
@@ -272,7 +272,7 @@ If they say yes:
 ## Mindset Notes
 
 **You are the guide. They are the hero.**
-Your job isn't to convince them — it's to help them see clearly what's already true: their website is costing them, and you know how to fix it. You've done it for Christ United, Elixa Beauty, MagniFit, and Vanguard Structures. You're not guessing.
+Your job isn't to convince them — it's to help them see clearly what's already true: their website is costing them, and you know how to fix it. You've done it for Kremmester, Elixa Beauty, MagniFit, and Vanguard Structures. You're not guessing.
 
 **The silence after the close is your friend.** Most people talk themselves into a yes if you let them. Don't fill it.
 

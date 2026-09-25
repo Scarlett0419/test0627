@@ -60,7 +60,7 @@ Research date: 2026-09-24. The official pages were found through web search. Dir
 
    | Field | Assumed key | Type | Note |
    |---|---|---|---|
-   | Niche | `contact.niche` | Dropdown | faith / beauty-wellness / fitness / construction-trades / other |
+   | Niche | `contact.niche` | Dropdown | beauty-wellness / fitness / trades / auto / pet-local-services / other |
    | Demo Link | `contact.demo_link` | URL / single line | |
    | Setter Assigned | `contact.setter_assigned` | User (per pay plan) | **Check in testing.** If a User-type field posts an ID instead of a name, switch to `{{user.name}}` (the contact's assigned user) or make it a Dropdown of setter names |
    | City | `contact.city` | standard field | |

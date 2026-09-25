@@ -28,7 +28,7 @@ You need five things. All five are findable in under 10 minutes using only publi
 Obvious — but confirm the exact trading name from their Google Business Profile (GBP), not a directory listing that may be outdated.
 
 ### Industry
-Pick from: `beauty`, `fitness`, `faith`, `construction`, or `other`. Match to the closest preset so the tone and design language fit.
+Pick from: `beauty`, `fitness`, `construction` (all trades), or `other` (auto, pet and other services). Match to the closest preset so the tone and design language fit.
 
 ### Tagline
 Check in order:

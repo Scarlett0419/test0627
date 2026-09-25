@@ -77,7 +77,7 @@
 
 ### "Who are you again? What company?"
 
-> "Vanguard — we do website design for local businesses. We've worked with [relevant social proof by niche — e.g., 'faith organizations like Christ United' / 'salons like Elixa Beauty' / 'gyms like MagniFit' / 'contractors like Vanguard Structures']. We're not a big agency — we're boutique, which means you'd actually be working directly with the owner."
+> "Vanguard — we do website design for local businesses. We've worked with [relevant social proof by niche — e.g., 'salons like Elixa Beauty' / 'gyms like MagniFit' / 'contractors like Vanguard Structures']. We're not a big agency — we're boutique, which means you'd actually be working directly with the owner."
 
 ---
 

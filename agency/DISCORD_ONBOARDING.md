@@ -299,7 +299,7 @@ DEMO REQUEST
 Setter: [Name]
 GHL contact: [link]
 Business name: [exact trading name, as on their Google Business Profile]
-Niche: faith / beauty-wellness / fitness / construction-trades / other: [___]
+Niche: beauty-wellness / fitness / trades / auto / pet-local-services / other: [___]
 Services (4–8): [service 1], [service 2], [service 3], [service 4], ...
   Source: [URL of their services page / GBP Services tab / IG highlights / Yelp / Mindbody]
 City, State: [city, ST]
@@ -334,7 +334,7 @@ Custom build? (optional): no / yes — why this lead is high-value: [one line]
 ```
 WELCOME TO VANGUARD
 
-What we do: we build premium websites for local service businesses (faith orgs,
+What we do: we build premium websites for local service businesses (beauty/wellness,
 beauty/wellness, fitness, construction/trades). Setters cold call businesses with
 weak or missing websites. Before we dial, we've already built them a demo. The
 setter books a 15–30 min call with the owner, and the owner closes and delivers.

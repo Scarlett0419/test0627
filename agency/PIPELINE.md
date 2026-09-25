@@ -2,7 +2,7 @@
 
 **Agency:** Vanguard — Premium Website Design for Local & Service Businesses
 **Model:** Setter cold outreach → Owner closes and delivers
-**Niches:** Faith organizations, Beauty/Wellness, Fitness, Construction/Trades
+**Niches:** US local service businesses — Beauty/Wellness, Fitness, Trades, Auto, Pet & other local services (playbooks in `agency/industries/`)
 
 ---
 
@@ -148,7 +148,7 @@ Capture the following for every lead:
 - Website URL (or "none")
 
 **Qualification**
-- Niche (faith / beauty-wellness / fitness / construction-trades / other)
+- Niche (beauty-wellness / fitness / trades / auto / pet-local-services / other)
 - City / market
 - Website quality rating: None / Terrible / Outdated / Decent / Good
 - Estimated business size (solo / small team / established)
@@ -207,7 +207,6 @@ After 5 attempts with no response: mark Contacted/Cold, tag for re-nurture in 60
 
 ## Notes on Niche Prioritization
 
-- **Faith orgs:** Long decision cycles, but high loyalty and referral potential. Social proof: Christ United.
 - **Beauty/Wellness:** Fast decisions, visual-driven — demo impact is highest here. Social proof: Elixa Beauty.
 - **Fitness:** Competitive, but owners respond to lead generation angle. Social proof: MagniFit.
 - **Construction/Trades:** High deal sizes, skeptical buyers — credibility and professionalism are the key levers. Social proof: Vanguard Structures.
