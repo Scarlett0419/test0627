@@ -39,7 +39,7 @@ Every reason a prospect hesitates becomes a deliverable or guarantee.
 | # | Obstacle (Why They Don't Buy) | Solution (Deliverable or Guarantee) |
 |---|-------------------------------|-------------------------------------|
 | 1 | "I've been burned by a freelancer before — they took my money and disappeared" | Written scope + two guarantees (21-Day Launch, "Love It or We Fix It") in a signed contract; owner builds it personally. |
-| 2 | "I don't have time to write all the copy and gather content" | Done-With-You Copy Brief: one 60-minute kick-off call captures everything needed. Vanguard writes the copy. |
+| 2 | "I don't have time to write all the copy and gather content" | Done-With-You Copy Brief: a short onboarding form plus one 30-minute kick-off call capture everything needed. Vanguard writes the copy. |
 | 3 | "I don't know what I actually need on a website" | Niche-specific site blueprint delivered before any design work starts |
 | 4 | "It'll take months and I need it now" | 21-Day Delivery Guarantee: if the site isn't live within 21 days of kick-off (assuming client provides feedback on schedule), the next month of care plan is free |
 | 5 | "I can't afford it right now" | Down-sell to The Foundation tier; framed against the cost of a bad first impression (leads lost per month) |
@@ -191,7 +191,7 @@ Includes:
 
 "Here's what we do for businesses like yours. Most local service businesses either have no website at all or one that doesn't reflect how good they actually are, and that costs them clients who judge the site before they ever call. What we've built is what we call the 21-Day Authority Website System.
 
-Here's what's included: we do a full custom website — copy, design, mobile optimization, local SEO foundation, the works. You do a 60-minute kick-off call with me, and I take it from there. You're not writing copy, you're not hunting down stock photos, you're not managing a designer. 21 days later, you have a site that makes your business look like the category leader it is.
+Here's what's included: we do a full custom website — copy, design, mobile optimization, local SEO foundation, the works. You fill in a short form and do a 30-minute kick-off call with me, and I take it from there. You're not writing copy, you're not hunting down stock photos, you're not managing a designer. 21 days later, you have a site that makes your business look like the category leader it is.
 
 We back it with a simple guarantee: if it's not live in 21 days, your first month of ongoing support is free. And if you see the first design and it's not right, we reset — no charge.
 

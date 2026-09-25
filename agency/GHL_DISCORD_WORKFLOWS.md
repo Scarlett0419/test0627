@@ -306,7 +306,7 @@ The document-name merge field is unverified, so the template name goes in as sta
 ### Workflow 5c: `#pipeline-alerts` (onboarding form submitted)
 
 **Trigger:** **Form Submitted**, *Form is* **Client Onboarding**.
-Onboarding answers (brand notes, logins) are long and sensitive. **Don't** merge them into Discord. The post only says the form arrived.
+Onboarding answers (brand notes, account details) are long and sensitive. **Don't** merge them into Discord. The post only says the form arrived.
 
 ```json
 {
