@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Skin + Me Support</title>
+<style>
+  :root { --bg:#fbf6f2; --ink:#2b2321; --muted:#7a6c66; --accent:#c8826b; --card:#fff; --line:#ecdfd7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1f1a18; --ink:#f3ebe6; --muted:#b3a59e; --accent:#e09a82; --card:#2a2422; --line:#3a312e; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui,sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:2rem; margin:0 0 8px; }
+  h1 span { color:var(--accent); }
+  p.lead { color:var(--muted); margin:0 0 32px; }
+  .cards { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); margin-bottom:32px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .card b { display:block; margin-bottom:4px; }
+  .card small { color:var(--muted); overflow-wrap:anywhere; }
+  form { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:24px; display:grid; gap:16px; }
+  label { display:grid; gap:6px; font-weight:600; font-size:.9rem; }
+  input, select, textarea { font:inherit; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--ink); }
+  input:focus, select:focus, textarea:focus { outline:2px solid var(--accent); outline-offset:1px; }
+  button { font:inherit; font-weight:600; padding:12px; border:0; border-radius:8px; background:var(--accent); color:#fff; cursor:pointer; }
+  #thanks { display:none; color:var(--accent); font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Skin <span>+</span> Me Support</h1>
+  <p class="lead">Questions about an order, your routine, or a product? We usually reply within one business day.</p>
+
+  <div class="cards">
+    <div class="card"><b>Email</b><small>support@skinandme.example</small></div>
+    <div class="card"><b>Hours</b><small>Mon–Fri, 9am–5pm</small></div>
+    <div class="card"><b>Response time</b><small>Within 1 business day</small></div>
+  </div>
+
+  <form id="f">
+    <label>Name <input name="name" required autocomplete="name"></label>
+    <label>Email <input type="email" name="email" required autocomplete="email"></label>
+    <label>Topic
+      <select name="topic">
+        <option>Order or delivery</option>
+        <option>Product advice</option>
+        <option>Returns &amp; refunds</option>
+        <option>Subscription</option>
+        <option>Other</option>
+      </select>
+    </label>
+    <label>Message <textarea name="message" rows="5" required></textarea></label>
+    <button type="submit">Send message</button>
+    <div id="thanks" role="status">Thanks! Your message is on its way to our team.</div>
+  </form>
+</main>
+<script>
+  document.getElementById('f').addEventListener('submit', e => {
+    e.preventDefault();
+    e.target.reset();
+    document.getElementById('thanks').style.display = 'block';
+  });
+</script>
+</body>
+</html>
