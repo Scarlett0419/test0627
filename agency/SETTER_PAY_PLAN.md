@@ -52,7 +52,7 @@ Because clients pay 100% up front, the setter is paid in full on the first payou
 
 - **8–10% of each project** ($184–$230 on a $2,300 deal). Nothing on appointments that don't close.
 - At target (~13.6 deals/month): ~$31K project revenue, ~$3.1K setter commission.
-- **Capacity check:** one setter at target sends you 13–14 builds a month. Confirm you can deliver that many inside the 21-Day Launch Guarantee before hiring more setters.
+- **Capacity check:** one setter at target sends you 13–14 builds a month. Confirm you can deliver that many inside the 14-Day Launch Guarantee before hiring more setters.
 
 ---
 

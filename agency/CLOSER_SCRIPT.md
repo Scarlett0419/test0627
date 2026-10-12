@@ -138,7 +138,7 @@ Take real notes. This is where you earn the close. Go slow. Don't rush to the de
 
 **Present the offer** (full details in OFFER.md):
 
-> "What I'd put together for you is what we call the 21-Day Authority Website System. Custom design and build — not a template — plus we write all the copy for you off one kick-off call, set up your local SEO foundation, and give you two rounds of revisions and a handoff session so you're never stuck. And you're live in 21 days: if we miss that and you've given us feedback on time, your first month of care is on us."
+> "What I'd put together for you is what we call the 14-Day Authority Website System. Custom design and build — not a template — plus we write all the copy for you off one kick-off call, set up your local SEO foundation, and give you two rounds of revisions and a handoff session so you're never stuck. And you're live in 14 days: if we miss that and you've given us feedback on time, your first month of care is on us."
 
 Pick the tier that fits what they told you — recommend one, don't read a menu:
 
@@ -165,7 +165,7 @@ Pick the tier that fits what they told you — recommend one, don't read a menu:
 *(Listen)*
 
 If budget is the issue:
-> "We can start with The Foundation — five core pages at $1,800–$2,200 — and add booking and a gallery later when it makes sense. Same 21-day launch, same guarantee. Would that work better?"
+> "We can start with The Foundation — five core pages at $1,800–$2,200 — and add booking and a gallery later when it makes sense. Same 14-day launch, same guarantee. Would that work better?"
 
 If value is the issue:
 > "Fair. Let me ask you this: you mentioned [implication answer — e.g., 'losing clients to competitors with better-looking sites']. What does one new client from your website represent in revenue to you?"
@@ -242,7 +242,7 @@ After presenting the offer and handling objections, if there's a clear yes signa
 
 Or if you want to frame the next step:
 
-> "Here's what I'd suggest: you sign and pay today, I'll send you the onboarding form tomorrow, and your new site is live within 21 days. Does that work?"
+> "Here's what I'd suggest: you sign and pay today, I'll send you the onboarding form tomorrow, and your new site is live within 14 days. Does that work?"
 
 If they say yes:
 > "Perfect. I'll send the invoice and agreement over in the next hour. Once that's in, we're off."

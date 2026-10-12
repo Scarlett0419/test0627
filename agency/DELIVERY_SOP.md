@@ -1,5 +1,5 @@
 # Vanguard: Client Delivery SOP
-**The 21-Day Authority Website System, from payment to launch and beyond**
+**The 14-Day Authority Website System, from payment to launch and beyond**
 
 Picks up where `PIPELINE.md` Stage 7 (Closed Won) ends. Offer terms come from `OFFER.md`. Notifications are in `GHL_DISCORD_WORKFLOWS.md`.
 
@@ -22,8 +22,8 @@ Picks up where `PIPELINE.md` Stage 7 (Closed Won) ends. Offer terms come from `O
 |---|---|---|---|
 | 1. Payment → automations | Stripe/GHL payment received | Automated + Owner | Welcome email and onboarding form sent, `#wins` posted, project card created |
 | 2. Onboarding form | Welcome email | Client | Form submitted, assets uploaded, GBP manager invite sent |
-| 3. Kick-off call (Day 0) | Form submitted | Owner + Client | Call held, timeline dates confirmed by email. **The 21-day clock starts.** |
-| 4. Build (Days 1–21) | Kick-off | Owner | Site live on the client domain |
+| 3. Kick-off call (Day 0) | Form submitted | Owner + Client | Call held, timeline dates confirmed by email. **The 14-day clock starts.** |
+| 4. Build (Days 1–14) | Kick-off | Owner | Site live on the client domain |
 | 5. Launch + handoff | QA passed | Owner | Launch checklist complete, handoff session held |
 | 6. Care Plan offer | Handoff session | Owner | Client said yes (billing set up) or no (logged) |
 | 7. Post-launch asks | Launch + 7 days | Owner | Review requested, referral asked, testimonial captured or declined |
@@ -116,7 +116,7 @@ Payment is 100% upfront at signing. **No work and no kick-off booking until paym
 |---|---|---|
 | +48h | SMS + email (GHL auto) | "Hi {{first_name}}, quick nudge: your onboarding form is the only thing between us and your kick-off. Takes about 20 min: {{link}}" |
 | +96h | Owner calls personally | Offer to fill it out together on the phone (15 min) |
-| +7 days | Email | Friendly note: the project is on hold until the form comes in, and the 21-day clock hasn't started yet |
+| +7 days | Email | Friendly note: the project is on hold until the form comes in, and the 14-day clock hasn't started yet |
 | Weekly after | Email | Light touch, and log it in GHL |
 
 The clock doesn't start until kick-off, so a slow form costs the client time, not Vanguard's guarantee.
@@ -125,9 +125,9 @@ The clock doesn't start until kick-off, so a slow form costs the client time, no
 
 ## 3. Kick-off call (30 min, Zoom/phone, recorded with permission)
 
-**This call starts the 21-day clock. Day 0 = kick-off date.**
+**This call starts the 14-day clock. Day 0 = kick-off date.**
 
-**Prep (Owner, 15 min before):** read the form answers, look at their current site/GBP/competitors, and draft a sitemap and the 21-day dates.
+**Prep (Owner, 15 min before):** read the form answers, look at their current site/GBP/competitors, and draft a sitemap and the 14-day dates.
 
 | Min | Agenda |
 |---|---|
@@ -143,24 +143,24 @@ The clock doesn't start until kick-off, so a slow form costs the client time, no
 
 ---
 
-## 4. The 21-day build timeline
+## 4. The 14-day build timeline
 
 Calendar days from kick-off (Day 0). Client review windows are **2 business days** (the "N" in the contract; the Owner may change it, but keep it consistent everywhere). Dates are written into the Template B email.
 
 | Day | Milestone | Owner does | Client does | Done when |
 |---|---|---|---|---|
 | 0 | Kick-off | Call + confirmation email | Attends, confirms dates | Template B sent |
-| 1–3 | **Sitemap + copy draft** | Writes all copy (per `vertical-site-conventions` for the niche), final sitemap | Sends any missing assets | Copy doc and sitemap shared |
-| 4 | **Design direction** | Homepage design preview (desktop + mobile), built on the frontend-design approach | Reviews copy + design direction (2 business days) | Client replied: approve / changes / "missed the mark" (triggers Section 6) |
-| 5–10 | **Build** | Builds all pages, forms, booking, GBP link, SEO basics on a staging URL (Netlify preview) | Nothing needed | All pages on staging |
-| 11 | **Revision round 1 sent** | Sends staging link + feedback instructions (Template C) | Consolidated feedback in **one** email (2 business days) | Feedback received |
-| 12–14 | R1 changes | Applies changes | — | Changes done |
-| 15 | **Revision round 2 sent** | Sends updated staging (Template C) | Final feedback (2 business days) | Feedback received |
-| 16–17 | R2 changes + **pre-launch QA** | Applies changes, runs the Section 5 checklist | Sends written launch approval | "Approved to launch" received |
-| 18 | **Launch** | DNS, go-live, Section 7 checklist | Available for DNS help if needed | Site live on the domain, SSL on |
-| 19–21 | **Buffer** | Absorbs slippage and handles the handoff session | Attends handoff | Handoff held |
+| 1–2 | **Sitemap + copy draft** | Writes all copy (per `vertical-site-conventions` for the niche), final sitemap | Sends any missing assets | Copy doc and sitemap shared |
+| 3 | **Design direction** | Homepage design preview (desktop + mobile), built on the frontend-design approach | Reviews copy + design direction (2 business days) | Client replied: approve / changes / "missed the mark" (triggers Section 6) |
+| 4–7 | **Build** | Builds all pages, forms, booking, GBP link, SEO basics on a staging URL (Netlify preview) | Nothing needed | All pages on staging |
+| 8 | **Revision round 1 sent** | Sends staging link + feedback instructions (Template C) | Consolidated feedback in **one** email (2 business days) | Feedback received |
+| 9–10 | R1 changes | Applies changes | — | Changes done |
+| 11 | **Revision round 2 sent** | Sends updated staging (Template C) | Final feedback (1 business day) | Feedback received |
+| 12 | R2 changes + **pre-launch QA** | Applies changes, runs the Section 5 checklist | Sends written launch approval | "Approved to launch" received |
+| 13 | **Launch** | DNS, go-live, Section 7 checklist | Available for DNS help if needed | Site live on the domain, SSL on |
+| 14 | **Buffer** | Absorbs slippage and handles the handoff session | Attends handoff | Handoff held |
 
-**Buffer:** the plan targets launch on Day 18, which leaves 3 days of Owner-side buffer inside the guarantee. Don't spend the buffer on scope creep.
+**Buffer:** the plan targets launch on Day 13, which leaves 1 day of Owner-side buffer inside the guarantee. Your current average is under 7 days, so most builds finish well ahead of this plan. Don't spend the buffer on scope creep.
 
 ### How client delays pause the clock
 - The clock pauses when a client deliverable is late: a review reply past its 2-business-day window, missing assets they committed to, a GBP/DNS action we're waiting on, or an unavailable approver.
@@ -215,10 +215,10 @@ Tick all of these before asking for launch approval.
 
 ## 6. "Love It or We Fix It" process
 
-**What triggers it:** at the **Day 4 design direction preview** (the first design preview), the client says the look and feel **missed the mark entirely**. This is different from normal revision notes like "change the blue", "move this section" or "different photo". Those go into R1/R2.
+**What triggers it:** at the **Day 3 design direction preview** (the first design preview), the client says the look and feel **missed the mark entirely**. This is different from normal revision notes like "change the blue", "move this section" or "different photo". Those go into R1/R2.
 
 **Process**
-1. Client says so in writing within the Day 4 review window.
+1. Client says so in writing within the Day 3 review window.
 2. Owner holds a 15-min call. Collect 2–3 new reference sites and new style words. Figure out what felt wrong.
 3. Owner builds a **new visual direction** (a new layout, type and color approach, not tweaks) within 3 business days.
 4. The client reviews it in the normal 2-business-day window. From here the normal R1/R2 process applies.
@@ -226,14 +226,14 @@ Tick all of these before asking for launch approval.
 **Limits**
 - **One reset per project.** It covers visual direction only, not scope, page count, copy strategy or features.
 - It must be invoked at the first design preview, not after build or revisions.
-- There's no charge, and the investment doesn't change. Launch moves by the days the reset takes; state the new date in writing. The 21-Day guarantee date moves too, because this is a client-requested redo. Say so kindly and clearly in the call and the email.
+- There's no charge, and the investment doesn't change. Launch moves by the days the reset takes; state the new date in writing. The 14-Day guarantee date moves too, because this is a client-requested redo. Say so kindly and clearly in the call and the email.
 - If the second direction is also rejected, the Owner steps in personally (a call) to find a path. More resets are at the Owner's discretion. There are no refunds under this policy unless the contract says otherwise.
 
 ---
 
 ## 7. Launch checklist and handoff
 
-### 7.1 Launch checklist (Day 18)
+### 7.1 Launch checklist (Day 13)
 - [ ] Written launch approval from the approver
 - [ ] **Backup** of the final build (git tag/commit + zip in the project folder). For the old site, save a copy/screenshot of any pages being replaced
 - [ ] Production deploy (Netlify: `netlify deploy --prod`, or push to the production branch). See the `netlify-deploy` skill
@@ -250,7 +250,7 @@ Tick all of these before asking for launch approval.
 
 **Done when:** all boxes are ticked and the site has been live and error-free for 24h.
 
-### 7.2 Handoff session (30 min, within the Day 19–21 buffer)
+### 7.2 Handoff session (30 min, within the Day 14 buffer)
 | Min | Agenda |
 |---|---|
 | 0–5 | Walk through the live site on their phone |
@@ -286,7 +286,7 @@ Tick all of these before asking for launch approval.
 > - **"Let me think":** "Totally fine. I'll send a one-page summary. Any time in the next 30 days the setup is the same." (Follow up in 7 days.)
 > - **No:** "No problem. If anything comes up, updates are available at [hourly/flat rate TBD by owner]." Log the reason.
 
-If the 21-Day guarantee was missed, the first month is free. Say that up front: "Your first month is on us, as promised."
+If the 14-Day guarantee was missed, the first month is free. Say that up front: "Your first month is on us, as promised."
 
 **Done when:** yes (billing active) or no (reason logged in GHL).
 
@@ -327,7 +327,7 @@ If the 21-Day guarantee was missed, the first month is free. Say that up front: 
 **Change request process**
 1. The client asks for something new. Owner replies: "Great idea. That's outside the current package. Here's the quote and how it affects the timeline."
 2. A written quote with price and days added. The client approves and pays before work starts.
-3. Added work either goes **after launch** (default, which protects the 21-day date) or extends the launch date by agreement in writing.
+3. Added work either goes **after launch** (default, which protects the 14-day date) or extends the launch date by agreement in writing.
 4. Log it in GHL. Small items (under 15 min, Owner's discretion) can be done free, once, and should be named as a courtesy.
 
 ---
@@ -343,7 +343,7 @@ These are **estimates**, not measured data. Replace them with your real numbers 
 
 **When at capacity**
 1. Keep accepting payments only if you can give a kick-off date **within 10 business days** (estimate threshold). Otherwise…
-2. **Waitlist:** offer the next open kick-off date in writing before they pay. The 21-day clock starts at kick-off, so the guarantee is safe.
+2. **Waitlist:** offer the next open kick-off date in writing before they pay. The 14-day clock starts at kick-off, so the guarantee is safe.
 3. **Tell the setters** in Discord (`#scripts-and-docs` or a pinned post in `#wins`): "Next kick-off slot: [date]." Setters say "Our next build slot opens [date]." Don't invent scarcity; only say it when it's true.
 4. Review capacity every Monday: active builds, their day numbers, the next open slot.
 
@@ -358,12 +358,12 @@ Merge fields use GHL syntax. Replace [brackets] before sending.
 
 Hi {{contact.first_name}},
 
-Thank you! Your payment is in and your 21-Day Authority Website is officially underway.
+Thank you! Your payment is in and your 14-Day Authority Website is officially underway.
 
 **Step 1 (about 20–30 min):** fill out your onboarding form: [form link]
 Upload your logo and photos, tell us about your services, and add us as a manager on your Google Business Profile (steps are in the form). **We'll never ask for your passwords.**
 
-**Step 2:** book your 30-min kick-off call: [calendar link]. Your 21-day timeline starts on that call.
+**Step 2:** book your 30-min kick-off call: [calendar link]. Your 14-day timeline starts on that call.
 
 Questions? Just reply here.
 
@@ -381,10 +381,10 @@ Great call today. Here's what we agreed:
 **Still needed from you:** [items + due date]
 
 **Your timeline**
-- Copy + design direction to review: [Day 4 date]
-- Revision round 1: [Day 11 date]
-- Revision round 2: [Day 15 date]
-- Launch: [Day 18 date] (guarantee date: [Day 21 date])
+- Copy + design direction to review: [Day 3 date]
+- Revision round 1: [Day 8 date]
+- Revision round 2: [Day 11 date]
+- Launch: [Day 13 date] (guarantee date: [Day 14 date])
 
 Each review has a **2-business-day** reply window. If a reply comes in late, the launch and guarantee dates move by the same number of days. I'll always confirm any change by email.
 

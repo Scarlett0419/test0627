@@ -1,6 +1,6 @@
-# The 21-Day Authority Website System — Setter One-Pager
+# The 14-Day Authority Website System — Setter One-Pager
 
-**What we sell (one sentence):** A done-for-you custom website that makes a local business look as good as it actually is — live in 21 days from kick-off, built to turn people who look them up into calls and bookings.
+**What we sell (one sentence):** A done-for-you custom website that makes a local business look as good as it actually is — live in 14 days from kick-off, built to turn people who look them up into calls and bookings.
 
 **Who it's for:** US local service businesses with **no website or a weak one** — barbers/salons/nail/spa, gyms/CrossFit/martial arts/yoga, trades (roofing, fencing, painting, plumbing, HVAC, concrete, landscaping), auto repair/towing/detailing, pet grooming, cleaning, daycare, tailors, photographers, small restaurants. Many only have Google, Yelp, or Facebook — that's a great fit, not a disqualifier.
 
@@ -16,7 +16,7 @@ Paid 100% upfront at signing. Optional Care Plan $150–$250/mo from launch (mon
 > **Never quote price on a call.** If asked: *"That depends on what you need — that's for the call with the owner. He'll walk you through it and give you an exact number."*
 
 ## Guarantees in plain words
-- **21-Day Launch:** Site is live within 21 days of the kick-off call, as long as the client gets feedback back on time. If we miss it, their first Care Plan month is free.
+- **14-Day Launch:** Site is live within 14 days of the kick-off call, as long as the client gets feedback back on time. If we miss it, their first Care Plan month is free.
 - **Love It or We Fix It:** If they see the first design and it's totally not them, we redo the look — not just tweak it — at no extra cost.
 
 ## What setters CAN / CAN'T promise
@@ -25,7 +25,7 @@ Paid 100% upfront at signing. Optional Care Plan $150–$250/mo from launch (mon
 |-----------|-------------|
 | You'll talk directly with the owner who builds it | Any price, discount, or payment plan |
 | We handle the copy, design, mobile, and basic local SEO | "You'll get X more customers / rank #1 on Google" |
-| Live in 21 days from kick-off (if feedback is on time) | Live in 21 days from *today* / from the call |
+| Live in 14 days from kick-off (if feedback is on time) | Live in 14 days from *today* / from the call |
 | They can see a demo/examples on the call | Specific features or custom integrations are included |
 | The call is free, ~20–30 min, no obligation | Stats, testimonials, or results we haven't been given |
 

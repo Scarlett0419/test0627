@@ -8,7 +8,7 @@
 > `Value = (Dream Outcome × Perceived Likelihood) ÷ (Time Delay × Effort & Sacrifice)`
 
 ### Dream Outcome
-**"A website that makes your business look as good as it actually is — live in 21 days, attracting the right clients on autopilot."**
+**"A website that makes your business look as good as it actually is — live in 14 days, attracting the right clients on autopilot."**
 
 **Who it's for:** US local service businesses with **no website or a weak one** — barbershops/salons/nail/spa, gyms/CrossFit/martial arts/yoga, trades (roofing, fencing, painting, plumbing, HVAC, concrete, landscaping), auto repair/towing/detailing, pet grooming, cleaning, daycare, tailors, photographers, small restaurants. Many have *no site at all* — only a Google Business Profile, Yelp, or Facebook page.
 
@@ -18,7 +18,7 @@
 | **Appearance** | Outdated, generic, Wix-tier site that embarrasses them when they send the link | A polished, custom site they're proud to share — one that reflects the real quality of their work |
 | **Trust / Credibility** | Prospects can't tell if they're legit | Visitors immediately trust them and inquire |
 | **Lead Quality** | Tire-kickers, price shoppers, wrong-fit clients | Pre-qualified, ready-to-buy leads who already see the value |
-| **Time** | Months of back-and-forth with cheap freelancers or doing it themselves | Done-for-you in 21 days, no chasing |
+| **Time** | Months of back-and-forth with cheap freelancers or doing it themselves | Done-for-you in 14 days, no chasing |
 | **Effort** | Owner has to manage designers, write copy, source photos | Owner hands off and focuses on their work |
 
 ### Value Equation Levers
@@ -27,7 +27,7 @@
 |-------|----------------------|
 | **↑ Dream Outcome** | "Look as good as you actually are" is emotionally resonant for pride-driven local owners — beauty, fitness, trades, auto, pet, cleaning, food |
 | **↑ Perceived Likelihood** | Real portfolio (Kremmester, Elixa Beauty, MagniFit, Vanguard Structures, etc.), niche expertise, owner-built = accountable |
-| **↓ Time Delay** | 21-day delivery promise; structured intake process; no committee delays |
+| **↓ Time Delay** | 14-day delivery promise; structured intake process; no committee delays |
 | **↓ Effort & Sacrifice** | Full done-for-you: copy direction, layout, mobile optimization, launch — owner's only job is one kick-off call and feedback rounds |
 
 ---
@@ -38,10 +38,10 @@ Every reason a prospect hesitates becomes a deliverable or guarantee.
 
 | # | Obstacle (Why They Don't Buy) | Solution (Deliverable or Guarantee) |
 |---|-------------------------------|-------------------------------------|
-| 1 | "I've been burned by a freelancer before — they took my money and disappeared" | Written scope + two guarantees (21-Day Launch, "Love It or We Fix It") in a signed contract; owner builds it personally. |
+| 1 | "I've been burned by a freelancer before — they took my money and disappeared" | Written scope + two guarantees (14-Day Launch, "Love It or We Fix It") in a signed contract; owner builds it personally. |
 | 2 | "I don't have time to write all the copy and gather content" | Done-With-You Copy Brief: a short onboarding form plus one 30-minute kick-off call capture everything needed. Vanguard writes the copy. |
 | 3 | "I don't know what I actually need on a website" | Niche-specific site blueprint delivered before any design work starts |
-| 4 | "It'll take months and I need it now" | 21-Day Delivery Guarantee: if the site isn't live within 21 days of kick-off (assuming client provides feedback on schedule), the next month of care plan is free |
+| 4 | "It'll take months and I need it now" | 14-Day Delivery Guarantee: if the site isn't live within 14 days of kick-off (assuming client provides feedback on schedule), the next month of care plan is free |
 | 5 | "I can't afford it right now" | Down-sell to The Foundation tier; framed against the cost of a bad first impression (leads lost per month) |
 | 6 | "I'm not sure it'll actually bring in clients" | Conversion-first architecture: every page built with a clear call-to-action and inquiry path — not just "pretty" |
 | 7 | "Wix/Squarespace is cheaper — why pay more?" | Wix sites look like Wix. Vanguard builds on platforms that scale, rank, and convert. Premium clients judge you before they call. |
@@ -94,7 +94,7 @@ For prospects with only Google/Yelp/Facebook, don't pitch a "redesign" — pitch
 | **Local SEO Foundation Package** | On-page SEO setup (title tags, meta descriptions, heading structure, Google Business optimization checklist) | $400 |
 | **2 Rounds of Revisions** | Two structured feedback-and-revision cycles to dial in look and feel before launch | $300 |
 | **Owner's Handoff Session** | 30-minute 1:1 walkthrough so the owner can confidently make basic updates post-launch | $200 |
-| **21-Day Delivery Guarantee** | If the site isn't live in 21 days (client holding up their end), the first month of the Care Plan is free | Priceless / risk reversal |
+| **14-Day Delivery Guarantee** | If the site isn't live in 14 days (client holding up their end), the first month of the Care Plan is free | Priceless / risk reversal |
 | **"Love It or We Fix It" Revision Policy** | If the design direction misses the mark entirely, Vanguard resets and rebuilds the visual direction — not just tweaks | Confidence / risk reversal |
 | | | |
 | **TOTAL STATED VALUE** *(internal estimate — validate)* | | **$4,700** |
@@ -141,13 +141,13 @@ Includes:
 
 ## 5. Guarantee Structure
 
-### Primary Guarantee: **The 21-Day Launch Guarantee**
+### Primary Guarantee: **The 14-Day Launch Guarantee**
 
-> *"If your site isn't live within 21 days of your kick-off call — and you've provided your feedback on schedule — your first month of the Care Plan is on us. No asterisks, no arguments."*
+> *"If your site isn't live within 14 days of your kick-off call — and you've provided your feedback on schedule — your first month of the Care Plan is on us. No asterisks, no arguments."*
 
 **Why this works:**
 - Effort-based (tied to a process Vanguard controls)
-- 21 days is genuinely achievable for a one-person shop — it's not a lie
+- 14 days is genuinely achievable for a one-person shop — it's not a lie
 - The penalty (one free Care Plan month, ~$150–$250) is low cost to deliver, high confidence signal to the buyer
 - It reframes the risk: the prospect worries the project will drag on forever. This guarantee kills that objection.
 
@@ -170,16 +170,16 @@ Includes:
 
 ---
 
-### **The 21-Day Authority Website System**
+### **The 14-Day Authority Website System**
 
-> *"A done-for-you website that makes your business look as good as it actually is — live in 21 days, built to earn trust and attract the right clients from day one."*
+> *"A done-for-you website that makes your business look as good as it actually is — live in 14 days, built to earn trust and attract the right clients from day one."*
 
 **Why this name works:**
-- **21-Day** — specific time promise, signals speed and accountability
+- **14-Day** — specific time promise, signals speed and accountability
 - **Authority** — speaks to the dream outcome (credibility, trust, premium positioning)
 - **Website System** — implies it's more than a "page," it's a complete solution
 - Avoids generic words like "package" or "service"
-- Easy to say on a sales call: *"What I want to walk you through is our 21-Day Authority Website System..."*
+- Easy to say on a sales call: *"What I want to walk you through is our 14-Day Authority Website System..."*
 
 ---
 
@@ -189,11 +189,11 @@ Includes:
 
 ---
 
-"Here's what we do for businesses like yours. Most local service businesses either have no website at all or one that doesn't reflect how good they actually are, and that costs them clients who judge the site before they ever call. What we've built is what we call the 21-Day Authority Website System.
+"Here's what we do for businesses like yours. Most local service businesses either have no website at all or one that doesn't reflect how good they actually are, and that costs them clients who judge the site before they ever call. What we've built is what we call the 14-Day Authority Website System.
 
-Here's what's included: we do a full custom website — copy, design, mobile optimization, local SEO foundation, the works. You fill in a short form and do a 30-minute kick-off call with me, and I take it from there. You're not writing copy, you're not hunting down stock photos, you're not managing a designer. 21 days later, you have a site that makes your business look like the category leader it is.
+Here's what's included: we do a full custom website — copy, design, mobile optimization, local SEO foundation, the works. You fill in a short form and do a 30-minute kick-off call with me, and I take it from there. You're not writing copy, you're not hunting down stock photos, you're not managing a designer. 14 days later, you have a site that makes your business look like the category leader it is.
 
-We back it with a simple guarantee: if it's not live in 21 days, your first month of ongoing support is free. And if you see the first design and it's not right, we reset — no charge.
+We back it with a simple guarantee: if it's not live in 14 days, your first month of ongoing support is free. And if you see the first design and it's not right, we reset — no charge.
 
 The total value of everything in this system is around $4,700 *[internal estimate — owner to confirm before using]*. Your investment is [Foundation $1,800–$2,200 / Full Presence $2,400–$2,800 — quote the one you recommended]. It's paid in full up front, and once you're live, the Care Plan keeps it maintained month to month.
 
@@ -207,7 +207,7 @@ The following items should be populated with real numbers once available:
 
 - **[TBD: get from client]** — Avg number of new inquiries per month before vs. after site launch (ask Kremmester, Elixa Beauty, MagniFit)
 - **[TBD: get from client]** — Client testimonial quotes tied to specific outcomes (leads, bookings, credibility shift)
-- **[TBD: get from client]** — Average project turnaround time from past builds (to validate the 21-day claim with data)
+- **[TBD: get from client]** — Average project turnaround time from past builds (to validate the 14-day claim with data)
 - **[TBD: get from client]** — Care Plan retention rate (how long clients stay on average) — useful for LTV framing
 
 ---
