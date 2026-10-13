@@ -8,6 +8,12 @@ time" but without driving a browser against ChatGPT's consumer web UI
 (which is against OpenAI's Terms of Service for automated/bot access and
 risks the account being flagged or banned, especially at bulk volume).
 
+If you'd rather use your existing ChatGPT Plus/Free login instead of an
+API key, see `scripts/chatgpt_web/` — same folder-of-images-in,
+new-chat-per-image behavior, via Playwright browser automation against
+chatgpt.com. That path carries the ToS/account-risk trade-off described
+above; its README spells out the details.
+
 ## Setup
 
 ```bash

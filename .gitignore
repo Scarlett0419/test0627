@@ -7,3 +7,8 @@ images/*
 !images/.gitkeep
 outputs/*
 !outputs/.gitkeep
+
+# Node deps / Playwright browsers, and the ChatGPT web login session
+# (chatgpt-profile/ contains live cookies -- never commit it)
+node_modules/
+scripts/chatgpt_web/chatgpt-profile/
