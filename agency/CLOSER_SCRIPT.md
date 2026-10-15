@@ -144,9 +144,9 @@ Pick the tier that fits what they told you — recommend one, don't read a menu:
 
 | Tier | Price | Fits |
 |---|---|---|
-| **The Foundation** | $1,800–$2,200 | 5 pages · solo providers, no-website businesses, beauty/wellness solos |
-| **The Full Presence** | $2,400–$2,800 | 7–8 pages + booking, gallery, testimonials · gyms, contractors, multi-service |
-| **Care Plan** (add-on) | $150–$250/mo, cancel anytime | Hosting, security, backups, 1 hr/month of updates |
+| **The Foundation** | $2,000 | 5 pages · solo providers, no-website businesses, beauty/wellness solos |
+| **The Full Presence** | $2,600 | 7–8 pages + booking, gallery, testimonials · gyms, contractors, multi-service |
+| **Care Plan** (add-on) | $197/mo, cancel anytime | Hosting, security, backups, 1 hr/month of updates |
 
 > "For what you described, I'd recommend [tier] — that's [price]. That's paid up front when you sign, and we start right away. After launch, most clients add the Care Plan so they never have to think about the site again."
 
@@ -165,7 +165,7 @@ Pick the tier that fits what they told you — recommend one, don't read a menu:
 *(Listen)*
 
 If budget is the issue:
-> "We can start with The Foundation — five core pages at $1,800–$2,200 — and add booking and a gallery later when it makes sense. Same 14-day launch, same guarantee. Would that work better?"
+> "We can start with The Foundation — five core pages at $2,000 — and add booking and a gallery later when it makes sense. Same 14-day launch, same guarantee. Would that work better?"
 
 If value is the issue:
 > "Fair. Let me ask you this: you mentioned [implication answer — e.g., 'losing clients to competitors with better-looking sites']. What does one new client from your website represent in revenue to you?"

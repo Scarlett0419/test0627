@@ -57,9 +57,9 @@
 **Tier fit** (see `OFFER.md`)
 | Sub-type | Tier |
 |---|---|
-| Solo lash/brow, solo LMT, single-chair barber | **Foundation** ($1,800–$2,200) |
+| Solo lash/brow, solo LMT, single-chair barber | **Foundation** ($2,000) |
 | Multi-chair barbershop, full salon, nail salon with a big menu | **Foundation**, or **Full Presence** if there's a roster plus gallery plus per-stylist booking |
-| Day spa, multi-therapist massage, salon + spa | **Full Presence** ($2,400–$2,800): packages, gift cards, several service pages |
+| Day spa, multi-therapist massage, salon + spa | **Full Presence** ($2,600): packages, gift cards, several service pages |
 
 ---
 
@@ -183,7 +183,7 @@
 
 ## 8. Upsells and Care Plan angles
 
-- **Care Plan ($150–$250/mo):** menu and price updates, seasonal promos, new team member cards, holiday hours, gift-card promos, refreshing the gallery from their IG. "Text us the change, it's live, and you never log in."
+- **Care Plan ($197/mo):** menu and price updates, seasonal promos, new team member cards, holiday hours, gift-card promos, refreshing the gallery from their IG. "Text us the change, it's live, and you never log in."
 - **Google Business Profile tune-up** (from the Local SEO item): categories, services, photos, booking link.
 - **Gift card / e-gift setup** through their existing POS (Square etc.).
 - **"Join the Team / Chair Available" page** for booth-rent recruiting.

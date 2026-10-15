@@ -265,7 +265,7 @@ Tick all of these before asking for launch approval.
 
 ## 8. Care Plan conversion
 
-### What's included monthly ($150–$250/mo, month-to-month, starts at launch)
+### What's included monthly ($197/mo, month-to-month, starts at launch)
 - Hosting management
 - Security updates and monitoring
 - Regular backups

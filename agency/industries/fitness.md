@@ -182,7 +182,7 @@
 
 ## 8. Upsells and Care Plan angles
 
-- **Care Plan ($150–$250/mo):** schedule/program updates, holiday hours, seasonal challenge pages ("6-Week New Year Challenge"), coach roster changes, event and belt-test announcements, fresh photos. "Change your schedule, text us, done."
+- **Care Plan ($197/mo):** schedule/program updates, holiday hours, seasonal challenge pages ("6-Week New Year Challenge"), coach roster changes, event and belt-test announcements, fresh photos. "Change your schedule, text us, done."
 - **Seasonal landing pages:** New Year challenge, summer shred, back-to-school kids' enrollment. These fit naturally within Care Plan hours or as small add-ons.
 - **Kids' program page and parent FAQ** (martial arts). A clear Full Presence justification.
 - **Google Business Profile tune-up** with trial link, class categories and photos.

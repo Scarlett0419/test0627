@@ -172,7 +172,8 @@ Keep it under 25 seconds. Sound calm, not salesy.
 1. **Never oversell.** Your only job is to get the call booked.
 2. **Always reference something specific** about their website or business.
 3. **Drop the demo hook early** — it's your biggest differentiator.
-4. **Send the calendar link immediately** after they verbally agree — text only with their OK, otherwise email.5. **Don't explain pricing.** If they ask, say "that's a great question for the call — it depends on what you actually need."
+4. **Send the calendar link immediately** after they verbally agree — text only with their OK, otherwise email.
+5. **Price questions: honest, never evasive.** First ask: "Fair question, it depends on what you need" plus one fit question. Second ask: "Most of our builds land around two thousand, one-time, and the demo itself is free." Never quote an exact price, a discount or a payment plan. See `agency/training/03-price-question.md`.
 6. **Don't badmouth their current site.** Be curious and helpful, not critical.
 7. **Log every touchpoint in CRM the same day.**
 8. **Anyone who says "don't call me" goes on the internal do-not-call list the same day.** No exceptions.

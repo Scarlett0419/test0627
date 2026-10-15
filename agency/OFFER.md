@@ -98,7 +98,7 @@ For prospects with only Google/Yelp/Facebook, don't pitch a "redesign" — pitch
 | **"Love It or We Fix It" Revision Policy** | If the design direction misses the mark entirely, Vanguard resets and rebuilds the visual direction — not just tweaks | Confidence / risk reversal |
 | | | |
 | **TOTAL STATED VALUE** *(internal estimate — validate)* | | **$4,700** |
-| **Project Investment** | | **$1,800–$2,800** *(see pricing below)* |
+| **Project Investment** | | **$2,000–$2,600** *(see pricing below)* |
 
 > *Note: Exact price depends on scope (page count, complexity, integrations). Competitor price ranges are also internal estimates to validate. Range positions Vanguard well above Wix/Fiverr ($200–$500) and clearly below enterprise agencies ($8,000–$20,000).*
 
@@ -108,12 +108,12 @@ For prospects with only Google/Yelp/Facebook, don't pitch a "redesign" — pitch
 
 ### Primary: Project-Based (One-Time Fee)
 
-**Base Package — "The Foundation":** $1,800–$2,200
+**Base Package — "The Foundation":** $2,000
 - 5-page custom site
 - All stack components above
 - Best for: solo providers and no-website businesses — barbers, nail techs, groomers, cleaners, tailors, small trades crews
 
-**Growth Package — "The Full Presence":** $2,400–$2,800
+**Growth Package — "The Full Presence":** $2,600
 - 7–8 pages + booking integrations, gallery, testimonials section
 - Best for: gyms/studios, salons/spas, larger trades and auto shops, restaurants, multi-service businesses
 
@@ -127,7 +127,7 @@ For prospects with only Google/Yelp/Facebook, don't pitch a "redesign" — pitch
 
 ### Optional Add-On: Monthly Care Plan (Retainer)
 
-**Care Plan — $150–$250/month** (month-to-month, cancel anytime)
+**Care Plan — $197/month** (month-to-month, cancel anytime)
 
 Includes:
 - Hosting management
@@ -148,7 +148,7 @@ Includes:
 **Why this works:**
 - Effort-based (tied to a process Vanguard controls)
 - 14 days is genuinely achievable for a one-person shop — it's not a lie
-- The penalty (one free Care Plan month, ~$150–$250) is low cost to deliver, high confidence signal to the buyer
+- The penalty (one free Care Plan month, ~$197) is low cost to deliver, high confidence signal to the buyer
 - It reframes the risk: the prospect worries the project will drag on forever. This guarantee kills that objection.
 
 ### Secondary Guarantee: **"Love It or We Fix It" Design Policy**
@@ -195,7 +195,7 @@ Here's what's included: we do a full custom website — copy, design, mobile opt
 
 We back it with a simple guarantee: if it's not live in 14 days, your first month of ongoing support is free. And if you see the first design and it's not right, we reset — no charge.
 
-The total value of everything in this system is around $4,700 *[internal estimate — owner to confirm before using]*. Your investment is [Foundation $1,800–$2,200 / Full Presence $2,400–$2,800 — quote the one you recommended]. It's paid in full up front, and once you're live, the Care Plan keeps it maintained month to month.
+The total value of everything in this system is around $4,700 *[internal estimate — owner to confirm before using]*. Your investment is [Foundation $2,000 / Full Presence $2,600 — quote the one you recommended]. It's paid in full up front, and once you're live, the Care Plan keeps it maintained month to month.
 
 The only question is: is now the right time to fix this — or are you okay with the site you have — or no site at all — representing you to every new prospect who looks you up?"
 

@@ -8,12 +8,12 @@
 
 | Tier | Range | What it is |
 |------|-------|-----------|
-| **Foundation** | $1,800–$2,200 | 5-page custom site |
-| **Full Presence** | $2,400–$2,800 | 7–8 pages + booking, gallery, testimonials |
+| **Foundation** | $2,000 | 5-page custom site |
+| **Full Presence** | $2,600 | 7–8 pages + booking, gallery, testimonials |
 
-Paid 100% upfront at signing. Optional Care Plan $150–$250/mo from launch (month-to-month).
+Paid 100% upfront at signing. Optional Care Plan $197/mo from launch (month-to-month).
 
-> **Never quote price on a call.** If asked: *"That depends on what you need — that's for the call with the owner. He'll walk you through it and give you an exact number."*
+> **Price questions: honest, never evasive.** First ask: *"Fair question. It depends on what you need"* + one fit question. Second ask: *"Most of our builds land around two thousand, one-time, and the demo itself is free."* Never an exact quote, discount or payment plan. Full method: `agency/training/03-price-question.md`.
 
 ## Guarantees in plain words
 - **14-Day Launch:** Site is live within 14 days of the kick-off call, as long as the client gets feedback back on time. If we miss it, their first Care Plan month is free.
@@ -23,7 +23,7 @@ Paid 100% upfront at signing. Optional Care Plan $150–$250/mo from launch (mon
 
 | ✅ Can say | ❌ Can't say |
 |-----------|-------------|
-| You'll talk directly with the owner who builds it | Any price, discount, or payment plan |
+| You'll talk directly with the owner who builds it | An exact quote, a discount, or a payment plan (the approved ballpark is fine) |
 | We handle the copy, design, mobile, and basic local SEO | "You'll get X more customers / rank #1 on Google" |
 | Live in 14 days from kick-off (if feedback is on time) | Live in 14 days from *today* / from the call |
 | They can see a demo/examples on the call | Specific features or custom integrations are included |
