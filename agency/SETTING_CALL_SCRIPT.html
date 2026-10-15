@@ -1,0 +1,447 @@
+<title>Vanguard Setting Call</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+/* Same system as the setter playbook and training: oversized grotesk + serif-italic word, glass-prism hero, hairline-ruled sections */
+:root{
+  --bg:#06070a;--ink:#f4f5f2;--muted:#9a9ea3;--line:rgba(244,245,242,.16);--glass:rgba(244,245,242,.045);--glint:#c9d98a;--warn:#e8a87c;
+  --sans:"Instrument Sans","Helvetica Neue",Arial,sans-serif;--serif:"Instrument Serif","Times New Roman",Georgia,serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--bg);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;margin:0;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:clamp(16px,4vw,48px)}
+.cap{font-size:12px;letter-spacing:.06em;text-transform:uppercase;line-height:1.35}
+.muted{color:var(--muted)}
+em{font-family:var(--serif);font-style:italic;font-weight:400}
+a{color:var(--ink)}
+:focus-visible{outline:1px solid var(--glint);outline-offset:3px}
+strong{font-weight:600}
+
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.prism{position:absolute;inset:0;pointer-events:none}
+.ring{position:absolute;width:min(1000px,120vw);aspect-ratio:1;border-radius:50%;left:-30%;top:-20%;border:1px solid rgba(244,245,242,.26);box-shadow:inset 0 0 80px rgba(201,217,138,.06)}
+.slab{position:absolute;border:1px solid rgba(244,245,242,.22);border-radius:6px;background:linear-gradient(135deg,rgba(255,255,255,.07),rgba(255,255,255,.01) 40%,rgba(201,217,138,.05) 70%,rgba(140,170,255,.05));box-shadow:inset 1px 1px 0 rgba(255,255,255,.18)}
+.s1{width:46vw;max-width:620px;aspect-ratio:1.5;right:-6%;bottom:-10%;transform:rotate(14deg)}
+.s2{width:26vw;max-width:340px;aspect-ratio:1;right:22%;top:8%;transform:rotate(-8deg);opacity:.6}
+.hero-inner{position:relative;padding-block:clamp(48px,8vh,96px) 56px;display:grid;gap:12px}
+.brand{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.h1{font-weight:400;font-size:clamp(60px,14vw,200px);line-height:.86;letter-spacing:-.05em;margin:0}
+.h1 .l2{display:block;text-align:right}
+.h1 .l3{display:flex;align-items:center;gap:clamp(12px,3vw,40px)}
+.h1 .l3 i{flex:0 1 240px;height:2px;background:var(--ink)}
+.intro{max-width:44ch;margin-top:16px}
+.toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:28px}
+.toc a{background:var(--bg);padding:18px 20px;text-decoration:none;display:grid;gap:4px}
+.toc a:hover{background:var(--glass)}
+.toc .n{font-family:var(--serif);font-style:italic;font-size:26px;color:var(--muted);line-height:1}
+
+section{border-bottom:1px solid var(--line)}
+.mod-head{padding-block:clamp(56px,9vw,112px) 32px;display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(24px,5vw,72px);align-items:end}
+@media (max-width:860px){.mod-head{grid-template-columns:minmax(0,1fr)}}
+h2{font-weight:400;font-size:clamp(44px,7vw,104px);line-height:.92;letter-spacing:-.045em;margin:0}
+h3{font-weight:500;font-size:clamp(22px,2.4vw,30px);letter-spacing:-.02em;margin:0;line-height:1.15}
+h4{font-weight:600;font-size:16px;margin:0 0 4px}
+p{margin:0;max-width:64ch}
+.lead{font-size:clamp(19px,2vw,26px);line-height:1.35;letter-spacing:-.012em;max-width:36ch}
+.block{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(24px,5vw,72px);padding-block:36px;border-top:1px solid var(--line)}
+@media (max-width:860px){.block{grid-template-columns:minmax(0,1fr);gap:16px}}
+.block > div{min-width:0;display:grid;gap:18px;align-content:start}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+@media (max-width:560px){.grid{grid-template-columns:minmax(0,1fr)}}
+.cell{background:var(--bg);padding:20px;display:grid;gap:6px;align-content:start}
+.cell .cap{color:var(--glint)}
+.script{border-left:1px solid var(--glint);padding:4px 0 4px 20px;font-family:var(--serif);font-size:clamp(20px,2vw,26px);line-height:1.3;max-width:44ch}
+.script small{display:block;font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:8px;line-height:1.5}
+.scripts{display:grid;gap:22px}
+.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.rows li{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:20px;padding:16px 0;border-bottom:1px solid var(--line)}
+.rows li .q{color:var(--muted)}
+.rows li .a{font-family:var(--serif);font-size:19px;line-height:1.35}
+@media (max-width:640px){.rows li{grid-template-columns:minmax(0,1fr);gap:4px}}
+.times li .a{font-family:var(--sans);font-size:16px}
+.no{border:1px solid rgba(232,168,124,.35);background:rgba(232,168,124,.06);padding:18px 20px;display:grid;gap:8px}
+.no .cap{color:var(--warn)}
+.no ul,.chk{margin:0;padding-left:18px;display:grid;gap:4px}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;border-top:1px solid var(--line)}
+.steps li{counter-increment:s;display:grid;grid-template-columns:56px minmax(0,1fr);gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--serif);font-style:italic;font-size:26px;color:var(--muted);line-height:1.2}
+.stat{display:flex;flex-wrap:wrap;gap:12px 32px}
+.stat div{display:grid}
+.stat b{font-weight:400;font-size:clamp(40px,5vw,64px);letter-spacing:-.04em;line-height:1;font-variant-numeric:tabular-nums}
+.src{font-size:13px;color:var(--muted)}
+.src a{color:var(--muted)}
+
+
+footer{padding-block:56px 72px;display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}
+.end{font-size:clamp(48px,9vw,120px);letter-spacing:-.05em;line-height:.9;font-weight:400;margin:0}
+.rows .a small{display:block;font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:6px;line-height:1.5}
+.scripts h4{margin-top:12px}
+.steps .script{margin-top:6px}
+.toc{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:860px){.toc{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:420px){.toc{grid-template-columns:minmax(0,1fr)}}
+</style>
+
+<header class="hero">
+  <div class="prism" aria-hidden="true"><div class="ring"></div><div class="slab s1"></div><div class="slab s2"></div></div>
+  <div class="wrap hero-inner">
+    <div class="brand cap"><span>Vanguard Studios</span><span class="muted">Setting call SOP · For setters</span></div>
+    <h1 class="h1">Setting<span class="l2">Call</span><span class="l3"><i aria-hidden="true"></i><em>Script</em></span></h1>
+    <p class="intro cap">The whole call, start to finish: who you're calling, what to say, what to ask, how to book it live, and how to hand it to the closer so they show up.</p>
+    <nav class="toc" aria-label="Sections">
+      <a href="#purpose"><span class="n">01</span><span>Purpose &amp; the golden rule</span></a>
+      <a href="#setting"><span class="n">02</span><span>What you're setting them onto</span></a>
+      <a href="#who"><span class="n">03</span><span>Who you're calling</span></a>
+      <a href="#before"><span class="n">04</span><span>Before you dial</span></a>
+      <a href="#call"><span class="n">05</span><span>The live call, step by step</span></a>
+      <a href="#noanswer"><span class="n">06</span><span>If they don't answer</span></a>
+      <a href="#donot"><span class="n">07</span><span>What setters do not do</span></a>
+      <a href="#handoff"><span class="n">08</span><span>The hand-off note</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ 01 PURPOSE ============ -->
+<section id="purpose"><div class="wrap">
+  <div class="mod-head">
+    <div class="cap muted">(01) Purpose</div>
+    <h2>One job. <em>Book it live.</em></h2>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">Your one job</span><h3>A confirmed call with the closer, booked while you're on the phone</h3></div>
+    <div>
+      <p class="lead">Not "I'll send you a link." Not "call me back." A real time, in their calendar, with an invite they've already seen, before you hang up.</p>
+      <p class="muted">Everything on this call serves that: the opener earns 30 seconds, discovery earns the right to ask, and the ask is a specific time. You don't sell the website. You don't walk the demo. You set the call and hand over everything the closer needs to run it well.</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">How long</span><h3>This is not a 30-second call</h3></div>
+    <div>
+      <p>A good setting call runs <strong>5 to 12 minutes</strong>. The owners who book and show are the ones who talked about their business with you first. Rushing to the ask is the number one reason calls die.</p>
+      <ul class="rows times">
+        <li><span class="q">0:00 – 0:30</span><span class="a">Open &amp; pattern interrupt</span></li>
+        <li><span class="q">0:30 – 6:00</span><span class="a">Discovery: business, online presence, investment, 1–10</span></li>
+        <li><span class="q">6:00 – 7:00</span><span class="a">Reason for the call: the fit call</span></li>
+        <li><span class="q">As needed</span><span class="a">Handle the objection live</span></li>
+        <li><span class="q">7:00 – 10:00</span><span class="a">Set it, lock it, confirm the invite</span></li>
+        <li><span class="q">After hang-up</span><span class="a">Slack hand-off and GHL notes, within 5 minutes</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">The golden rule</span><h3>Treat every owner who picks up as a real client</h3></div>
+    <div>
+      <p class="lead">Don't decide for them that they can't afford it, won't care, or aren't serious. Your tone decides theirs.</p>
+      <div class="grid">
+        <div class="cell"><span class="cap">Do</span><p>Talk to them like a business owner you respect. Curious, calm, a little informal. You already did work for them. Act like it.</p></div>
+        <div class="cell"><span class="cap">Don't</span><p>Pre-qualify them out in your head because the shop looks small or the owner sounds rushed. Some of the best clients sounded the busiest.</p></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 02 WHAT YOU'RE SETTING ============ -->
+<section id="setting"><div class="wrap">
+  <div class="mod-head">
+    <div class="cap muted">(02) The appointment</div>
+    <h2>What you're <em>setting</em> them onto</h2>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">The call</span><h3>Demo walkthrough &amp; fit call</h3></div>
+    <div>
+      <div class="grid">
+        <div class="cell"><span class="cap">Length</span><p>15–30 minutes, on Zoom or phone, booked through Calendly.</p></div>
+        <div class="cell"><span class="cap">With</span><p>The closer: the person who actually builds the site. Not a salesperson reading a script.</p></div>
+        <div class="cell"><span class="cap">What happens</span><p>They see the demo built for their business, on screen. The closer fixes anything that's off and answers every question.</p></div>
+        <div class="cell"><span class="cap">The point</span><p>Decide together whether Vanguard is the right fit. If it is, the site goes live within 14 days of kick-off.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">How to describe it</span><h3>Say it the same way every time</h3></div>
+    <div class="scripts">
+      <p class="script">"It's a quick call with [Closer], who builds these. They'll walk you through the site we made for [Business Name], tweak anything that's off, and you can both see if it makes sense to go live with it. If it's not for you, no problem at all."<small>"Fit" is the frame. They're not agreeing to buy. They're agreeing to look and decide.</small></p>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 03 WHO ============ -->
+<section id="who"><div class="wrap">
+  <div class="mod-head">
+    <div class="cap muted">(03) Segments</div>
+    <h2>Who you're <em>calling</em></h2>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">Check the GHL stage first</span><h3>Four kinds of lead, four openers</h3></div>
+    <div>
+      <div class="grid">
+        <div class="cell"><span class="cap">A · No website</span><p>Only a Google listing or Facebook page. Your strongest lead: the demo is the first site they've ever seen for their business.</p></div>
+        <div class="cell"><span class="cap">B · Weak website</span><p>A site exists but it's slow, broken on mobile, outdated, or has no way to book. Lead with the specific gap, never an insult.</p></div>
+        <div class="cell"><span class="cap">C · Callback</span><p>They asked you to call back, or replied to an email. They know who you are. Skip the interrupt, go straight to "picking up where we left off."</p></div>
+        <div class="cell"><span class="cap">D · No-show</span><p>Booked, didn't show. Call within 15 minutes of the missed slot. No guilt, just rebook.</p></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 04 BEFORE YOU DIAL ============ -->
+<section id="before"><div class="wrap">
+  <div class="mod-head">
+    <div class="cap muted">(04) Prep · 60 seconds per lead</div>
+    <h2>Before you <em>dial</em></h2>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">Every lead, every time</span><h3>If any box is empty, don't dial yet</h3></div>
+    <div>
+      <ol class="steps">
+        <li><div><h4>Compliance check</h4><p class="muted">Number scrubbed against the National Do Not Call Registry and our internal do-not-call list. It's between 8am and 9pm in <em>their</em> time zone.</p></div></li>
+        <li><div><h4>Demo is live</h4><p class="muted">Open the demo link and check it on your phone. If it's broken or still has a [TBD], don't call. Tell the owner on Slack.</p></div></li>
+        <li><div><h4>Names</h4><p class="muted">Business name, owner's first name if we have it, and how to say both. If there's no owner name, plan to ask for "whoever handles the marketing."</p></div></li>
+        <li><div><h4>One true, specific detail</h4><p class="muted">Their rating and review count, a service they're known for, the gap on their site. Something real you can say in the first 30 seconds.</p></div></li>
+        <li><div><h4>Calendly open</h4><p class="muted">The closer's calendar open in a tab, with two slots in the next 48 hours already picked out.</p></div></li>
+        <li><div><h4>Right time of day</h4><p class="muted">Don't call a salon at 11am on a Saturday or a restaurant at 6pm. Check the industry playbook for when the owner actually picks up.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 05 THE LIVE CALL ============ -->
+<section id="call"><div class="wrap">
+  <div class="mod-head">
+    <div class="cap muted">(05) The live call</div>
+    <h2>Seven steps, <em>in order</em></h2>
+  </div>
+
+  <!-- Step 1 -->
+  <div class="block">
+    <div><span class="cap muted">Step 1 · Open &amp; pattern interrupt</span><h3>Name, honesty, the demo, then a question</h3></div>
+    <div class="scripts">
+      <p>Every cold call sounds the same in the first five seconds. Break the pattern by being honest that it's a cold call, then give them a reason to stay: something already built for them.</p>
+      <p class="script">"Hey, is this [First Name]? … [First Name], it's [Your Name] from Vanguard. I'll be honest, this is a cold call. Can I take 30 seconds to tell you why I'm calling, and you tell me if it's worth more?"<small>Wait for the yes. Almost everyone says "go ahead." Then use the segment opener below.</small></p>
+      <div class="grid">
+        <div class="cell"><span class="cap">A · No website</span><p class="muted">"I was looking up [niche] in [city] and found [Business Name]: [4.8 stars, 120 reviews], which is great. But there's no website, just the [Google listing]. So we actually went ahead and built you one, a demo using your services and info. I'm calling to see if you'd want to see it."</p></div>
+        <div class="cell"><span class="cap">B · Weak website</span><p class="muted">"I was on your site and noticed [there's no way to book online / it's hard to use on a phone]. We built a demo of what an updated version could look like, using your services. I wanted to see if you'd want a look."</p></div>
+        <div class="cell"><span class="cap">C · Callback</span><p class="muted">"Hey [First Name], it's [Your Name] from Vanguard. You told me to try you [today / this week] about the site we built for [Business Name]. Is now still OK?"</p></div>
+        <div class="cell"><span class="cap">D · No-show</span><p class="muted">"Hey [First Name], it's [Your Name] from Vanguard. We had you down with [Closer] at [time] to walk through your site. Totally get it, things come up. Want to grab a new time? I've got [slot] or [slot]."</p></div>
+      </div>
+      <p class="src">If you get the front desk, use Training Module 01. Be honest about who you are; never pretend to be a customer or someone they know.</p>
+    </div>
+  </div>
+
+  <!-- Step 2 -->
+  <div class="block">
+    <div><span class="cap muted">Step 2 · Discovery, go deep</span><h3>Get them talking about their business. Ask, then shut up.</h3></div>
+    <div class="scripts">
+      <p>Discovery is where calls are won. The owner should talk more than you. Ask one question, let them finish, and ask a follow-up on what they just said. Write down their exact words; the closer will use them.</p>
+
+      <h4>A · The business &amp; where they want it to go</h4>
+      <ul class="rows">
+        <li><span class="q">Where customers come from</span><span class="a">"How do most new customers find you right now?"</span></li>
+        <li><span class="q">What they want more of</span><span class="a">"If you could fill your calendar with one kind of job, what would it be?"</span></li>
+        <li><span class="q">Capacity</span><span class="a">"If ten more of those came in next month, could you handle them?"</span></li>
+        <li><span class="q">Go deeper</span><span class="a">"Why that one?" · "What would that change for you?"</span></li>
+      </ul>
+
+      <h4>B · Their online presence right now</h4>
+      <ul class="rows">
+        <li><span class="q">The search test</span><span class="a">"When someone Googles [Business Name], what do they find?"</span></li>
+        <li><span class="q">History</span><span class="a">"Have you ever had a website, or tried to build one? What happened?"</span></li>
+        <li><span class="q">Who handles it</span><span class="a">"Who looks after that stuff now, you or someone else?"</span></li>
+        <li><span class="q">Lost business</span><span class="a">"Ever had someone say they couldn't find you, or went to a competitor who had a site?"</span></li>
+      </ul>
+
+      <h4>C · Investment fit &amp; who decides</h4>
+      <ul class="rows">
+        <li><span class="q">Past spend</span><span class="a">"Have you put money into marketing before: ads, a site, flyers, anything? How did it go?"</span></li>
+        <li><span class="q">The honest ballpark</span><span class="a">"So nothing on the call surprises you: the demo is free, and if you go ahead, most of our builds land around two thousand, one-time. Is that something the business could do if it brought in more customers?"</span></li>
+        <li><span class="q">Decision-maker</span><span class="a">"Is it just you who decides on something like this, or is there a partner who'd want to be on the call?"</span></li>
+      </ul>
+      <p class="src">The ballpark is the only number you ever say. No exact quotes, discounts or payment plans; the closer handles those. If they ask for an exact price, use Training Module 03.</p>
+
+      <h4>D · Intent, the 1–10</h4>
+      <p class="script">"On a scale of 1 to 10, how important is it to get a proper website up for [Business Name] this year?"<small>Whatever they say, follow with:</small></p>
+      <p class="script">"What's keeping it from a 9 or a 10?"<small>That answer is the real objection. Write it down word for word; it's the most useful thing you'll give the closer.</small></p>
+      <ul class="rows times">
+        <li><span class="q">8 – 10</span><span class="a">Book it. Go straight to Step 3.</span></li>
+        <li><span class="q">5 – 7</span><span class="a">Book it. Note what's holding them back, so the closer starts there.</span></li>
+        <li><span class="q">1 – 4</span><span class="a">Ask "What would need to change for it to matter?" If they still want to see the demo, book it. If not, thank them and set a follow-up date in GHL.</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Step 3 -->
+  <div class="block">
+    <div><span class="cap muted">Step 3 · Reason for the call</span><h3>Connect what they told you to the fit call</h3></div>
+    <div class="scripts">
+      <p>Use their words from discovery. Then position the call as the obvious next step, not a favour they're doing you.</p>
+      <p class="script">"OK, so you want more [their words: e.g. 'bridal bookings'], and right now people Googling you only find [the Facebook page]. That's exactly what the demo was built around. Here's why I called: the next step is 20 minutes with [Closer], who built it. They'll show it to you on screen, change whatever's off, and you'll both know whether it's a fit. Fair?"<small>"Fair?" is a soft yes. Once they say it, move straight to setting the time.</small></p>
+    </div>
+  </div>
+
+  <!-- Step 4 -->
+  <div class="block">
+    <div><span class="cap muted">Step 4 · Handle the objection live</span><h3>Acknowledge, answer briefly, point back to the call</h3></div>
+    <div class="scripts">
+      <p>Most objections are questions the fit call exists to answer. Don't try to win the argument on the phone. Use "the ledge" ("Totally fair") and bring it back to the call.</p>
+      <ul class="rows">
+        <li><span class="q">"How much is it?"</span><span class="a">"Fair question. It depends on what you need, which is what the call figures out. Most of our builds land around two thousand, one-time, and the demo itself is free."</span></li>
+        <li><span class="q">"We already have a website."</span><span class="a">"Yeah, I saw it. That's why I called: [specific gap]. The demo fixes that. Worth 20 minutes to see if it's better?"</span></li>
+        <li><span class="q">"Just email it to me."</span><span class="a">"I can. Honestly though, it lands better when [Closer] walks you through it and changes things live. Can we do [slot]? I'll email you the confirmation right now."</span></li>
+        <li><span class="q">"I need to talk to my partner."</span><span class="a">"Makes total sense. Let's get them on the call too, so you both see it at once. What time works for both of you?"</span></li>
+        <li><span class="q">"I'm too busy right now."</span><span class="a">"Totally get it, that's usually a good sign. When does it slow down? Even early next week, before you open?"</span></li>
+        <li><span class="q">"What's the catch?"</span><span class="a">"No catch. We build demos so owners can see it instead of imagining it. If you like it, the call is where you hear how it works. If you don't, you lose 20 minutes."</span></li>
+        <li><span class="q">"How'd you get my number?"</span><span class="a">"It's listed publicly on your Google profile. That's how we found [Business Name]. Is this still the best number?"</span></li>
+        <li><span class="q">"Not interested."</span><span class="a">"Totally fair. Can I ask, is it the timing or the website itself?" <small>If it's a firm no, thank them and stop. If they say "don't call me," add them to the do-not-call list today.</small></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Step 5 -->
+  <div class="block">
+    <div><span class="cap muted">Step 5 · Set the call</span><h3>Assume it, two slots, lock the details, book it live</h3></div>
+    <div class="scripts">
+      <ol class="steps">
+        <li><div><h4>Assume it</h4><p class="script">"Let's get you in with [Closer]."<small>Not "would you be interested in…". You're scheduling, not asking permission.</small></p></div></li>
+        <li><div><h4>Offer two specific slots</h4><p class="script">"I've got Tuesday at 11 or Wednesday at 3, your time. Which works better?"<small>Two options, both in the next 48 hours. Never "when are you free?"</small></p></div></li>
+        <li><div><h4>Lock the details</h4><p class="script">"What's the best email for the invite? … And is [number] the best number for [Closer] to reach you?"<small>Read the email back letter by letter.</small></p></div></li>
+        <li><div><h4>Book it live in Calendly</h4><p class="muted">While they're still on the line. Put their exact words from discovery in the booking notes.</p></div></li>
+        <li><div><h4>Confirm they got it</h4><p class="script">"I just sent it. Can you check your email? It should say 'Vanguard' and [day, time]."<small>Wait until they say they see it. If it's not there, check spam together or fix the email.</small></p></div></li>
+        <li><div><h4>Ask for texts, the right way</h4><p class="script">"Is this a cell I can text a reminder to?"<small>Only a clear yes counts. Log "SMS consent: yes, [date/time], verbal" in GHL. No yes means email only.</small></p></div></li>
+        <li><div><h4>Get the commitment</h4><p class="script">"[Closer] blocks that time just for you. If anything comes up, you'll let me know so we can move it, yeah?"<small>A spoken yes here is what turns a booking into a show.</small></p></div></li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Step 6 -->
+  <div class="block">
+    <div><span class="cap muted">Step 6 · Introduce the closer</span><h3>Set up the Slack hand-off and frame it on the call</h3></div>
+    <div class="scripts">
+      <p>The booking posts to <strong>#bookings</strong> on Slack automatically from GHL. Before the call ends, tell the owner what happens next, so the closer's first message isn't from a stranger.</p>
+      <p class="script">"You'll get a quick note from [Closer] today with the demo link, so you can have a look beforehand if you want. Then on [day] they'll walk you through it."<small>Promise only what will happen. If you're not sure the closer will message today, say "before the call."</small></p>
+      <div class="grid">
+        <div class="cell"><span class="cap">In Slack</span><p>Reply in the thread under the booking alert with the hand-off note (section 08). Tag the closer.</p></div>
+        <div class="cell"><span class="cap">Hot lead?</span><p>If they're an 8–10 or asked for something specific, message the closer directly as well.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Step 7 -->
+  <div class="block">
+    <div><span class="cap muted">Step 7 · Lock the show &amp; hand off</span><h3>The last 30 seconds, then 5 minutes of notes</h3></div>
+    <div class="scripts">
+      <p class="script">"Can you pop it in your calendar now, while we're on? … Perfect. Anything you want [Closer] to look at before the call?"<small>Their answer goes straight into the hand-off note.</small></p>
+      <ol class="steps">
+        <li><div><h4>Move the opportunity in GHL</h4><p class="muted">Stage to <strong>Booked</strong>, yourself as <strong>Setter Assigned</strong>. No Setter Assigned means no commission.</p></div></li>
+        <li><div><h4>Write the hand-off note</h4><p class="muted">In GHL notes and the Slack thread, within 5 minutes of hanging up, while you still remember their words.</p></div></li>
+        <li><div><h4>Day-before check</h4><p class="muted">If they agreed to texts, the reminder goes out automatically. If not, the email reminder does. Don't send anything extra by text.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 06 NO ANSWER ============ -->
+<section id="noanswer"><div class="wrap">
+  <div class="mod-head">
+    <div class="cap muted">(06) No answer</div>
+    <h2>If they don't <em>pick up</em></h2>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">Cadence</span><h3>Different times of day, up to six attempts over two weeks</h3></div>
+    <div>
+      <ul class="rows times">
+        <li><span class="q">Attempt 1 · Day 1</span><span class="a">Call. Leave the 25-second voicemail. Send the "Demo site for [Business Name]" email the same day.</span></li>
+        <li><span class="q">Attempt 2 · Day 2</span><span class="a">Call at a different time: if you tried mid-morning, try just before they open or around closing.</span></li>
+        <li><span class="q">Attempt 3 · Day 4</span><span class="a">Call. No voicemail. Send the day 3–5 follow-up email.</span></li>
+        <li><span class="q">Attempt 4 · Day 6</span><span class="a">Call at lunch or early afternoon.</span></li>
+        <li><span class="q">Attempt 5 · Day 8</span><span class="a">Call. Send the final "Closing the loop" email.</span></li>
+        <li><span class="q">Attempt 6 · Day 12</span><span class="a">Last call, with a short voicemail. Then move the lead to <strong>Nurture</strong> in GHL.</span></li>
+      </ul>
+      <div class="no">
+        <span class="cap">Channel rules</span>
+        <ul>
+          <li>Phone, voicemail and email only. A Facebook or Instagram DM is allowed using the templates in the Setter Script.</li>
+          <li><strong>No texts</strong> to anyone who hasn't said yes to texts on a call.</li>
+          <li>Only call between 8am and 9pm in their time zone.</li>
+          <li>Anyone who says "stop calling" goes on the do-not-call list the same day. No further attempts.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 07 DO NOT ============ -->
+<section id="donot"><div class="wrap">
+  <div class="mod-head">
+    <div class="cap muted">(07) Lines you don't cross</div>
+    <h2>What setters do <em>not</em> do</h2>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">Non-negotiable</span><h3>Break one of these and the deal pays no commission</h3></div>
+    <div>
+      <div class="no">
+        <span class="cap">Never</span>
+        <ul>
+          <li>Quote an exact price, a discount or a payment plan. The two-thousand ballpark is the only number you say.</li>
+          <li>Walk them through the demo or sell the website. That's the closer's job.</li>
+          <li>Promise results: rankings, a number of customers, revenue.</li>
+          <li>Invent stats, testimonials or client names. Only use what's in the Setter Playbook.</li>
+          <li>Pretend to be a customer, a friend or someone they've worked with, to get past the front desk.</li>
+          <li>Text anyone who hasn't said yes to texts, or call anyone on a do-not-call list.</li>
+          <li>Ask for passwords, logins or payment details.</li>
+          <li>Talk down their current site or a competitor.</li>
+          <li>Book a call with someone who can't make the decision, without inviting the person who can.</li>
+          <li>Leave a call booked without a confirmed email, a confirmed time and a hand-off note.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 08 HAND-OFF NOTE ============ -->
+<section id="handoff"><div class="wrap">
+  <div class="mod-head">
+    <div class="cap muted">(08) Template</div>
+    <h2>The hand-off <em>note</em></h2>
+  </div>
+
+  <div class="block">
+    <div><span class="cap muted">Paste into GHL &amp; the Slack thread</span><h3>Everything the closer needs, in one place</h3></div>
+    <div>
+      <ul class="rows">
+        <li><span class="q">Business · owner · niche · city</span><span class="a">[Business Name] · [First Name] · [niche] · [city, state]</span></li>
+        <li><span class="q">Call booked</span><span class="a">[Day, date, time + their time zone] · invite confirmed: yes / no</span></li>
+        <li><span class="q">Segment</span><span class="a">A no site · B weak site · C callback · D no-show rebook</span></li>
+        <li><span class="q">Situation</span><span class="a">Where customers come from now, what they want more of, past site history</span></li>
+        <li><span class="q">Their words</span><span class="a">The one line that matters most, quoted exactly</span></li>
+        <li><span class="q">Investment read</span><span class="a">Reaction to the two-thousand ballpark · past marketing spend</span></li>
+        <li><span class="q">Intent</span><span class="a">[1–10] · what's keeping it from a 9 or 10</span></li>
+        <li><span class="q">Main objection</span><span class="a">What they pushed back on, and how they responded</span></li>
+        <li><span class="q">Decision-makers</span><span class="a">Just them / partner invited / partner not on call</span></li>
+        <li><span class="q">SMS consent</span><span class="a">Yes, [date/time], verbal · or no (email only)</span></li>
+        <li><span class="q">Demo link</span><span class="a">[URL] · anything they want changed</span></li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+</main>
+
+<footer class="wrap">
+  <p class="end">Book it <em>live.</em></p>
+  <p class="cap muted">Vanguard Studios · Setting Call SOP · Questions → message the owner on Slack</p>
+</footer>
