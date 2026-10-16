@@ -55,11 +55,13 @@
 
 ### "Just send me an email."
 
-> "I can do that. I'll be honest with you though — what I'd send you is a link to the demo, and it's way better to walk through it together so I can answer questions in real time. What does your schedule look like this week? Even just 15 minutes."
+> "Sure, I'll send it right now. It makes most sense with [Closer] walking you through it and changing things live, so let's also put 15 minutes in. Does [slot] or [slot] work better?"
 
-*(If they insist:)*
+*(Send it by email, or by text only if they said yes to texts. If they still won't book:)*
 
-> "No problem. What's the best email? I'll send it over — and I'll include a link to get on my calendar if you want to talk after you've seen it."
+> "No problem. When will you have had a look, tonight? I'll give you a call tomorrow at [time] to hear what you think."
+
+**Demo link policy:** show the demo on the booked call by default. If the owner asks for it, send it and still ask for a time. Never claim it can't be sent ("it's only on my laptop"). Log "link sent before call: yes/no" in GHL so we can compare show and close rates.
 
 ---
 
@@ -177,3 +179,5 @@ Keep it under 25 seconds. Sound calm, not salesy.
 6. **Don't badmouth their current site.** Be curious and helpful, not critical.
 7. **Log every touchpoint in CRM the same day.**
 8. **Anyone who says "don't call me" goes on the internal do-not-call list the same day.** No exceptions.
+9. **The demo is "free to look at", never a "free website".** Don't say "you can keep it": going live is a paid build.
+10. **No pretexts.** No made-up referrals, no posing as a customer or student, no "your listing says you're closed" unless it really does, no "I'm not selling anything".
