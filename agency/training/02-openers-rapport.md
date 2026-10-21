@@ -429,7 +429,7 @@ Who is this?        → "[Me] with Vanguard — we built a demo site for [Busine
 How'd you get #?    → "It's listed publicly on [Google]. I was looking up [niche] in [city]."
 Bad time?           → "No problem — 20 minutes or after 5?" (then call back EXACTLY then)
 Just send info      → "Happy to — it's honestly better to walk through together. 15 min?"
-Price?              → "Depends on what you need." 2nd ask: "Most builds land around two thousand, one-time. Demo's free." (Module 03)
+Price?              → "Depends on what you need." 2nd ask: "Most builds land around a thousand, one-time. Demo's free." (Module 03)
 Don't call me       → Apologize, end call, add to do-not-call list TODAY.
 
 NEVER

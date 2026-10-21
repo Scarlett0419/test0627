@@ -20,7 +20,7 @@ Replace anything in [brackets] before you schedule a prompt.
 **Status:** Ready to schedule — needs your time zone
 
 ```text
-You are my lead scout for Vanguard, a web studio that builds websites for US local businesses (about $2,000 one-time, live within 14 days of kick-off, free demo first).
+You are my lead scout for Vanguard, a web studio that builds websites for US local businesses (about $1,000 one-time, live within 14 days of kick-off, free demo first).
 
 1. Using the Outlook (Mailbox) connector, make ONE search_emails call: from "f5bot", since yesterday's date, limit 25. The mailbox is on a free plan of 5 calls per day, so use at most 3 more calls in total (read_email only when a preview has no post link). Never send, move or delete email.
 2. From the alerts, collect every Reddit post or comment URL.
@@ -38,7 +38,7 @@ Do not post anything to Reddit.
 **Status:** Paste into Claude in Chrome and set to repeat daily
 
 ```text
-Open https://www.linkedin.com/messaging/ in a new tab. I run Vanguard, a web studio that builds websites for US local businesses (about $2,000 one-time, live within 14 days of kick-off, free demo first).
+Open https://www.linkedin.com/messaging/ in a new tab. I run Vanguard, a web studio that builds websites for US local businesses (about $1,000 one-time, live within 14 days of kick-off, free demo first).
 
 1. Open every conversation that is unread, or where the other person wrote last in the past 7 days.
 2. For each one, classify the reply:
@@ -49,7 +49,7 @@ Interested · Price question · Send info · Wants demo · Not now · Has a webs
 5. Output a table: name, company, reply type, their last message (one line), my drafted reply, next stage, follow-up date.
 
 Reply Playbook:
-- Price question → "Fair question. It depends on what you need, but most of our builds land around $2,000, one-time, and the demo is free. Want me to put one together so you can see what you'd get?"
+- Price question → "Fair question. It depends on what you need, but most of our builds land around $1,000, one-time, and the demo is free. Want me to put one together so you can see what you'd get?"
 - Send info → share two portfolio links and offer a free demo for their business.
 - Wants demo → ask for business name + any page; promise the demo within 48 hours, then book a 15-min walkthrough: [Calendly link].
 - Not now → ask when to check back; set the follow-up date.
@@ -57,7 +57,7 @@ Reply Playbook:
 - Referral → thank them and ask for an intro.
 - Not interested / Opt-out → one polite line, then mark Do-Not-Contact.
 
-Rules: never send, post, comment, connect, accept or decline anything without my approval in this chat. Never invent facts about a prospect or about Vanguard. Prices: only the ballpark "most of our builds land around $2,000, one-time; the demo is free". Anyone who says stop / not interested / remove me goes on the Do-Not-Contact list and gets no further outreach.
+Rules: never send, post, comment, connect, accept or decline anything without my approval in this chat. Never invent facts about a prospect or about Vanguard. Prices: only the ballpark "most of our builds land around $1,000, one-time; the demo is free". Anyone who says stop / not interested / remove me goes on the Do-Not-Contact list and gets no further outreach.
 ```
 
 ## A3 — LinkedIn prospect finder
@@ -77,7 +77,7 @@ Search People with: titles Owner / Founder / Co-owner; company size 1–10; loca
 Skip anyone I'm already connected with or have a pending invite to.
 For each person: name, title, business, city, profile link, whether their business has a website (check the company page or a quick Google search), and one personalised first message to send after they accept (under 60 words, mentions one real detail, offers a free demo for owners or a referral swap for partners).
 
-Output: two tables (A and B), ready for me to action. Rules: never send, post, comment, connect, accept or decline anything without my approval in this chat. Never invent facts about a prospect or about Vanguard. Prices: only the ballpark "most of our builds land around $2,000, one-time; the demo is free". Anyone who says stop / not interested / remove me goes on the Do-Not-Contact list and gets no further outreach.
+Output: two tables (A and B), ready for me to action. Rules: never send, post, comment, connect, accept or decline anything without my approval in this chat. Never invent facts about a prospect or about Vanguard. Prices: only the ballpark "most of our builds land around $1,000, one-time; the demo is free". Anyone who says stop / not interested / remove me goes on the Do-Not-Contact list and gets no further outreach.
 ```
 
 ## A4 — Facebook groups & Messenger sweep
@@ -87,7 +87,7 @@ Output: two tables (A and B), ready for me to action. Rules: never send, post, c
 **Status:** Paste into Claude in Chrome and set to repeat daily
 
 ```text
-Do my Facebook sweep for Vanguard (websites for US local businesses, about $2,000 one-time, free demo first). Do not post, comment, react, add friends or message anyone.
+Do my Facebook sweep for Vanguard (websites for US local businesses, about $1,000 one-time, free demo first). Do not post, comment, react, add friends or message anyone.
 
 1. Messenger: open https://www.facebook.com/messages/ including Message Requests. For each unread thread or one where they wrote last, classify the reply:
 Reply types (pick one per conversation):
@@ -97,7 +97,7 @@ and draft my response (under 80 words, uses the Reply Playbook in my spreadsheet
 3. For each post where someone needs a website or asks for a recommendation: group, author, link, what they need, a drafted public comment (helpful, says who I am, offers a free demo) and a drafted follow-up DM. Only draft a DM where they asked publicly or invited DMs.
 4. List up to 10 other posts by local business owners where a genuinely helpful comment would fit (questions about getting more customers, Google reviews, booking, marketing), with a drafted comment that gives value and does not pitch.
 
-Output three tables: Messenger replies, Website requests, Value comments. Rules: never send, post, comment, connect, accept or decline anything without my approval in this chat. Never invent facts about a prospect or about Vanguard. Prices: only the ballpark "most of our builds land around $2,000, one-time; the demo is free". Anyone who says stop / not interested / remove me goes on the Do-Not-Contact list and gets no further outreach.
+Output three tables: Messenger replies, Website requests, Value comments. Rules: never send, post, comment, connect, accept or decline anything without my approval in this chat. Never invent facts about a prospect or about Vanguard. Prices: only the ballpark "most of our builds land around $1,000, one-time; the demo is free". Anyone who says stop / not interested / remove me goes on the Do-Not-Contact list and gets no further outreach.
 ```
 
 ## A5 — Cold email replies sweep
@@ -116,7 +116,7 @@ Interested · Price question · Send info · Wants demo · Not now · Has a webs
 3. Opt-outs ("stop", "remove me", "unsubscribe", angry replies): do not draft a reply; list them so I can add them to the suppression list today.
 4. Auto-replies: note the return date as the next follow-up date.
 5. Output a table: sender, business, reply type, one-line summary, drafted reply, next stage, follow-up date. Also report today's numbers if the tool shows them: sent, opens if tracked, replies, bounces.
-Rules: never send, post, comment, connect, accept or decline anything without my approval in this chat. Never invent facts about a prospect or about Vanguard. Prices: only the ballpark "most of our builds land around $2,000, one-time; the demo is free". Anyone who says stop / not interested / remove me goes on the Do-Not-Contact list and gets no further outreach.
+Rules: never send, post, comment, connect, accept or decline anything without my approval in this chat. Never invent facts about a prospect or about Vanguard. Prices: only the ballpark "most of our builds land around $1,000, one-time; the demo is free". Anyone who says stop / not interested / remove me goes on the Do-Not-Contact list and gets no further outreach.
 ```
 
 ## A6 — Weekly review

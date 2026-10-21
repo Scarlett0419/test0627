@@ -8,12 +8,12 @@
 
 | Tier | Range | What it is |
 |------|-------|-----------|
-| **Foundation** | $2,000 | 5-page custom site |
-| **Full Presence** | $2,600 | 7–8 pages + booking, gallery, testimonials |
+| **Foundation** | $997 | 5-page custom site |
+| **Full Presence** | $1,497 | 7–8 pages + booking, gallery, testimonials |
 
 Paid 100% upfront at signing. Optional Care Plan $197/mo from launch (month-to-month).
 
-> **Price questions: honest, never evasive.** First ask: *"Fair question. It depends on what you need"* + one fit question. Second ask: *"Most of our builds land around two thousand, one-time, and the demo itself is free."* Never an exact quote, discount or payment plan. Full method: `agency/training/03-price-question.md`.
+> **Price questions: honest, never evasive.** First ask: *"Fair question. It depends on what you need"* + one fit question. Second ask: *"Most of our builds land around a thousand, one-time, and the demo itself is free."* Never an exact quote, discount or payment plan. Full method: `agency/training/03-price-question.md`.
 
 ## Guarantees in plain words
 - **14-Day Launch:** Site is live within 14 days of the kick-off call, as long as the client gets feedback back on time. If we miss it, their first Care Plan month is free.

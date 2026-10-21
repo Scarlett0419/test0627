@@ -23,8 +23,8 @@ It starts on the date the Client signs (the "**Start Date**").
 
 | Package | Includes | Price (one-time, USD) |
 |---|---|---|
-| ☐ **The Foundation** | A custom website of up to **5 pages** | **$2,000** |
-| ☐ **The Full Presence** | A custom website of up to **8 pages**, plus online booking or inquiry integration, gallery and testimonials section | **$2,600** |
+| ☐ **The Foundation** | A custom website of up to **5 pages** | **$997** |
+| ☐ **The Full Presence** | A custom website of up to **8 pages**, plus online booking or inquiry integration, gallery and testimonials section | **$1,497** |
 
 1.2 **Every package includes:**
 - custom design, built mobile-first, with a clear call-to-action on every page;
@@ -178,8 +178,8 @@ We build a professional website designed to earn trust and turn visitors into in
 ## Part B — Set it up in GoHighLevel (15 minutes)
 
 1. **Connect Stripe first:** Payments → Integrations → Stripe → Connect. Then **Payments → Products → + Add product**:
-   - *The Foundation*: one-time, $2,000
-   - *The Full Presence*: one-time, $2,600
+   - *The Foundation*: one-time, $997
+   - *The Full Presence*: one-time, $1,497
    - *Care Plan*: recurring, monthly, $197
 2. **Payments → Documents & Contracts → Templates → + New → Blank.** Name it "Website Build Agreement".
 3. Add a **Text** block and paste Part A (from "WEBSITE BUILD AGREEMENT" down to section 13). Use the **Custom values / merge fields** picker to re-insert `{{contact.company_name}}`, `{{contact.first_name}}`, `{{contact.last_name}}` and `{{contact.email}}` so they match your account's field names.

@@ -31,4 +31,4 @@ Setters cold call local businesses whose website is weak or missing, open with "
 
 ## Third-party skills
 
-Everything except this skill was downloaded from GitHub and vetted; see `.claude/skills/SOURCES.md` for repos, commits and licenses. Some examples in them are SaaS- or enterprise-flavoured — adapt to local-business deal sizes ($1.8K–$2.8K projects).
+Everything except this skill was downloaded from GitHub and vetted; see `.claude/skills/SOURCES.md` for repos, commits and licenses. Some examples in them are SaaS- or enterprise-flavoured — adapt to local-business deal sizes ($997–$1,497 projects).

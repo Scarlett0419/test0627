@@ -8,7 +8,7 @@
 
 ## The rule in one paragraph
 
-Be honest and never dodge. When a cold prospect asks the price, **acknowledge** the question, explain that **it depends on what they need** and that you want to check you can actually help, and ask one quick fit question. If they ask again, **give the honest ballpark**: *"Most of our builds land around two thousand, one-time, and the demo itself is free."* Then **bridge** back to seeing the demo and booking the call. You never make up a price, invent a discount, create fake urgency, or negotiate. Pricing details, terms and the exact number belong to the closer.
+Be honest and never dodge. When a cold prospect asks the price, **acknowledge** the question, explain that **it depends on what they need** and that you want to check you can actually help, and ask one quick fit question. If they ask again, **give the honest ballpark**: *"Most of our builds land around a thousand, one-time, and the demo itself is free."* Then **bridge** back to seeing the demo and booking the call. You never make up a price, invent a discount, create fake urgency, or negotiate. Pricing details, terms and the exact number belong to the closer.
 
 > **Never make a prospect ask a third time.** If they had to ask twice, they get the number.
 
@@ -18,9 +18,9 @@ Be honest and never dodge. When a cold prospect asks the price, **acknowledge** 
 
 | What | Number | What you can say |
 |---|---|---|
-| **Foundation** | $2,000 one-time | 5-page custom site |
-| **Full Presence** | $2,600 one-time | 7–8 pages + booking and gallery |
-| **Typical project** | about $2,000 | "Most of our builds land around two thousand, one-time." |
+| **Foundation** | $997 one-time | 5-page custom site |
+| **Full Presence** | $1,497 one-time | 7–8 pages + booking and gallery |
+| **Typical project** | about $1,000 | "Most of our builds land around a thousand, one-time." |
 | **Care Plan** (optional) | $197/month, month-to-month | "There's an optional care plan, about two hundred a month, for hosting and updates. Optional, cancel anytime." |
 | **Payment** | Paid upfront when they sign | "It's paid upfront when you sign, then we start." |
 | **Timeline** | Live 14 days **from the kick-off call**, if they send feedback on time | Never say "14 days from today." |
@@ -67,7 +67,7 @@ Not every trainer agrees with giving a number early. Steli Efti (Close) argues a
 |---|---|---|
 | **1. Acknowledge** | Treat it as a fair question. Don't sound surprised or rattled. | "Fair question, and I'll give you a straight answer." |
 | **2. It depends + fit** | Say *why* it depends (in one sentence), then ask **one** fit question. | "It depends on what you need. A simple 5-page site is different from one with online booking. Quick one: are people mostly calling you right now, or booking online?" |
-| **3. Ballpark (second ask)** | Say the number plainly. One-time. Demo is free. **Then stop talking.** | "Most of our builds land around two thousand, one-time, and the demo itself is free." *(pause)* |
+| **3. Ballpark (second ask)** | Say the number plainly. One-time. Demo is free. **Then stop talking.** | "Most of our builds land around a thousand, one-time, and the demo itself is free." *(pause)* |
 | **→ Bridge** | Back to the demo and the call. Offer two times. | "The exact number depends on what you need, and that's what [Closer] works out with you when he shows you the demo. 15 minutes. Is Tuesday or Thursday better?" |
 
 **Why the pause matters:** Braun recommends giving the range and then going quiet so the prospect can react. If they react with shock, he suggests calmly naming what they seem to feel, a "label," which is a technique from Chris Voss's *Never Split the Difference* (e.g. *"Sounds like the value isn't there for you"*). Silence after a number shows you're comfortable with it. Rushing to fill the silence ("but it's totally worth it, and…") sounds like you're not.
@@ -77,7 +77,7 @@ Not every trainer agrees with giving a number early. Steli Efti (Close) argues a
 > **Prospect:** "Okay, but what's this cost?"
 > **Setter:** "Fair question, and I'll give you a straight answer. It depends on what you need. A basic site is one thing; one with online booking and a gallery of your cuts is another. Quick question so I'm not guessing: right now, do people mostly call you or walk in?"
 > **Prospect:** "Walk-ins, mostly. Just give me a number."
-> **Setter:** "Sure. Most of our builds land around two thousand, one-time, not monthly. And the demo we built you is free."
+> **Setter:** "Sure. Most of our builds land around a thousand, one-time, not monthly. And the demo we built you is free."
 > *(pause)*
 > **Prospect:** "Hm. Okay."
 > **Setter:** "The exact number depends on whether you'd want booking on there, and that's what [Closer] works out with you when he walks you through the demo. It's 15 minutes. Does tomorrow afternoon or Thursday morning work better?"
@@ -88,37 +88,37 @@ Each one gives you a first answer (steps 1–2), a second-ask answer (step 3), a
 
 **Variation A: the standard**
 - First ask: *"Fair question. Honestly, it depends on what you need. A 5-page site is a different build from one with booking and a gallery. Before I throw a number at you, can I ask one quick thing so I'm not wasting your time? Are you taking on new customers right now?"*
-- Second ask: *"Sure. Most of our builds land around two thousand, one-time, and the demo itself is free."*
+- Second ask: *"Sure. Most of our builds land around a thousand, one-time, and the demo itself is free."*
 - Bridge: *"[Closer] gives you the exact number once he knows what you need. He'll show you the demo on a 15-minute call. Is today or tomorrow better?"*
 
 **Variation B: your warm-audience line, adapted for cold**
 - First ask: *"Good question. With most people I give the number right away, but I'd want to know if we can actually help you first, because if we can't, the price doesn't matter. Can I ask, how are most of your new customers finding you right now?"*
-- Second ask: *"Totally fair. Most builds land around two thousand, one-time. The demo's free either way."*
+- Second ask: *"Totally fair. Most builds land around a thousand, one-time. The demo's free either way."*
 - Bridge: *"If what we built looks like it'd help, [Closer] will give you the exact number on the call. If not, you just say no. Fair?"*
 
 **Variation C: short and blunt (for the impatient owner)**
 - First ask: *"Straight answer: depends on pages and whether you want booking. Can I ask one question first?"*
-- If they say "no, just tell me": treat that as the second ask. *"No problem. Around two thousand, one-time. The demo's free."*
+- If they say "no, just tell me": treat that as the second ask. *"No problem. Around a thousand, one-time. The demo's free."*
 - Bridge: *"Fifteen minutes to see it. Worth a look?"*
 
 **Variation D: trades (roofing, fencing, HVAC, landscaping)**
 - First ask: *"Fair. It depends on what you need. Some guys just want a clean site with a quote form, others want a full project gallery and service-area pages. How do most of your jobs come in now, referrals or Google?"*
-- Second ask: *"Most of our builds land around two thousand, one-time. And the demo is already built and free to look at."*
+- Second ask: *"Most of our builds land around a thousand, one-time. And the demo is already built and free to look at."*
 - Bridge: *"[Closer] will price it exactly once he knows whether you want the gallery and service-area pages. Can you do 15 minutes Thursday, or is next week better?"*
 
 **Variation E: salon, barber, spa, gym (booking-heavy)**
 - First ask: *"Good question. It mostly depends on whether you want online booking built in or just a clean site with your services and prices. Are clients booking online right now, or calling and texting you?"*
-- Second ask: *"Most of our builds land around two thousand, one-time. Sites with booking and a gallery are a bit more, around twenty-six hundred. The demo is free."*
+- Second ask: *"Most of our builds land around a thousand, one-time. Sites with booking and a gallery are a bit more, around fifteen hundred. The demo is free."*
 - Bridge: *"[Closer] figures out which one makes sense for you when he walks you through the demo. Fifteen minutes. Does tomorrow work?"*
 
 **Variation F: they ask before you've even pitched**
 - First ask: *"I'll tell you. Can I just take 20 seconds to say what it is first, so the number makes sense? We already built a demo website for [Business Name] using your real services and info. It's free to look at. What a full build costs depends on what you'd want on it."*
-- Second ask: *"Most of our builds land around two thousand, one-time, and the demo's free."*
+- Second ask: *"Most of our builds land around a thousand, one-time, and the demo's free."*
 - Bridge: *"Worst case you see a free demo and say no thanks. Want me to grab you a time with [Closer]?"*
 
 **Variation G: they sound worried, not annoyed**
 - First ask: *"Totally reasonable to ask. Sounds like maybe you've been quoted something crazy before?"* *(let them answer)* *"Yeah, that happens a lot. Ours depends on what you need, but I'll give you a real number. Can I ask one thing first: is it just you running the business, or do you have a team?"*
-- Second ask: *"Most of our builds land around two thousand, one-time. Not monthly, not thousands a year. And the demo is free."*
+- Second ask: *"Most of our builds land around a thousand, one-time. Not monthly, not thousands a year. And the demo is free."*
 - Bridge: *"So you can see exactly what you'd be getting before you spend anything. Want to look at it with [Closer] this week?"*
 
 ### Other price questions you'll hear
@@ -126,10 +126,10 @@ Each one gives you a first answer (steps 1–2), a second-ask answer (step 3), a
 | They ask | You say |
 |---|---|
 | "Is it monthly?" | *"No, the build is one-time. There's an optional care plan for hosting and updates, about two hundred a month, month-to-month, but it's optional."* |
-| "What's the most it could be?" | *"The bigger builds with booking and a gallery are around twenty-six hundred. [Closer] gives you the exact number for yours."* |
+| "What's the most it could be?" | *"The bigger builds with booking and a gallery are around fifteen hundred. [Closer] gives you the exact number for yours."* |
 | "Do you do payment plans?" | *"Payment is upfront when you sign. Anything about terms is [Closer]'s call. I can't promise anything there and I don't want to guess."* |
 | "Can you do it cheaper?" | *"I can't change prices. That's not my call, and I wouldn't make something up. What I can do is get you 15 minutes with [Closer] to see the demo and get an exact number."* |
-| "Why so vague?" (after step 2) | *"Fair, I'll be specific. Most builds land around two thousand, one-time."* (They just asked twice. Give the number.) |
+| "Why so vague?" (after step 2) | *"Fair, I'll be specific. Most builds land around a thousand, one-time."* (They just asked twice. Give the number.) |
 | "But exactly?" | *"I can't give you an exact number without knowing what you need, and I won't guess. Two thousand is where most land, twenty-six hundred for the bigger ones. [Closer] gives you the exact figure on the call."* |
 
 ---
@@ -181,7 +181,7 @@ The "if both cost the same" question comes from Hormozi's teaching ("If ours was
 
 **What's going on:** Often it's a polite way to get off the phone. Sometimes they really want it in writing. Either way, give them the honest answer right now. Hiding it behind an email is a dodge.
 
-> *"Sure, and I'll save you waiting for an email: most of our builds land around two thousand, one-time, and the demo's free. I'll email you the demo link now. What's the best address?"*
+> *"Sure, and I'll save you waiting for an email: most of our builds land around a thousand, one-time, and the demo's free. I'll email you the demo link now. What's the best address?"*
 > *(get the email)*
 > *"The exact price depends on what you'd want on the site, and that's what [Closer] works out on the call. I could send you a bunch of info, but in 15 minutes he can just answer your questions directly. Want me to put a time in while I've got you?"*
 
@@ -193,7 +193,7 @@ That last line adapts a tip from Cognism's cold-calling guide, credited to Frida
 
 **What's going on:** They're testing whether you'll be straight with them. Tell them the truth, including the "catch."
 
-> *"Yes, it's really free. No card, no contract, nothing to sign. The honest catch is that we build these hoping you'll like it enough to have us make it your real site. If you do, that's a paid project, usually around two thousand, one-time. If you don't, you've lost 15 minutes and you've seen what your business could look like online. That's it."*
+> *"Yes, it's really free. No card, no contract, nothing to sign. The honest catch is that we build these hoping you'll like it enough to have us make it your real site. If you do, that's a paid project, usually around a thousand, one-time. If you don't, you've lost 15 minutes and you've seen what your business could look like online. That's it."*
 
 **If they ask "So I can just keep the demo?"**
 > *"The demo is a preview we built to show you. Turning it into your live site, on your own domain and with your real content, is the paid build. [Closer] can walk you through exactly what that includes."*
@@ -211,7 +211,7 @@ You're not running discovery. That's the closer's job. You're checking a few thi
 | *"How are most new customers finding you right now?"* | Shows where a site fits: referrals Google you, Facebook reach, Google profile. | Word of mouth / Google / Facebook only | None. Every answer gives the closer something to work with. Write it down. |
 | *"When someone Googles [Business Name], what do they find?"* | Gets them to notice the gap themselves. | "Just my Google listing," "an old site," "I don't know" | — |
 | *"Have you had a website before, or tried to build one?"* | Surfaces past burns (freelancer vanished, DIY gave up). | "Tried Wix, never finished," "guy disappeared" | — (note it for the closer) |
-| *"If the site was right, is something around two thousand in the range you'd consider?"* (ask after the ballpark) | A Sandler-style budget check: talk about money early to confirm fit, not to negotiate. | "Yeah, if it's good" / "maybe" | "No way, I'd spend $300 max." Don't book. Offer to email the demo. |
+| *"If the site was right, is something around a thousand in the range you'd consider?"* (ask after the ballpark) | A Sandler-style budget check: talk about money early to confirm fit, not to negotiate. | "Yeah, if it's good" / "maybe" | "No way, I'd spend $300 max." Don't book. Offer to email the demo. |
 | *"If you like what you see, is now a good time for a project, or is it more of a next-year thing?"* | Timing. | "Now," "before busy season" | "Selling the business," "closing up." Don't book. |
 
 ### Set the expectations for the booked call (Sandler "up-front contract")
@@ -235,9 +235,9 @@ Sandler trainers recommend agreeing at the start on a meeting's purpose, time, a
 
 | Don't say | Why it's a problem | Say instead |
 |---|---|---|
-| "I don't know the price." | It's not true. You do know. They'll find out on the call. | "It depends on what you need. Most builds land around two thousand." |
-| Any number other than the approved ballpark ("a few hundred bucks," "like fifteen hundred") | Made-up numbers set a false anchor and the closer has to walk them back. That kills trust. | "Most of our builds land around two thousand, one-time." |
-| "It's cheap" / "it's basically nothing" / "it's a steal" | $2,000 isn't nothing to a small business owner. It sounds dismissive and sets up a shock later. | "It's not a small number, which is why we show you the demo first." |
+| "I don't know the price." | It's not true. You do know. They'll find out on the call. | "It depends on what you need. Most builds land around a thousand." |
+| Any number other than the approved ballpark ("a few hundred bucks," "like five hundred") | Made-up numbers set a false anchor and the closer has to walk them back. That kills trust. | "Most of our builds land around a thousand, one-time." |
+| "It's cheap" / "it's basically nothing" / "it's a steal" | $1,000 isn't nothing to a small business owner. It sounds dismissive and sets up a shock later. | "It's not a small number, which is why we show you the demo first." |
 | "I can get you a discount" / "He'll probably do a deal" / "There's a special this month" | Setters don't negotiate, and there is no discount to promise. A promise you can't keep loses the deal and damages the closer's position. | "I can't set prices. That's [Closer]'s call." |
 | "Price goes up next week" / "Only two spots left" | Fake urgency. Never say it unless management has told you it's true, in writing. | (Say nothing about urgency.) |
 | "You'll get 10 more customers a month" / "You'll rank #1 on Google" | Outcome promises we can't control (see the one-pager "Can't say" list). | "It's built so people who find you can call or book in one tap." |
@@ -263,7 +263,7 @@ Pair up. One person plays the owner, one the setter. Swap after each round. The 
 - [ ] Acknowledged the question without sounding rattled
 - [ ] Explained *why* it depends in one sentence
 - [ ] Asked an actual fit question (not just "we want to make sure you're a fit")
-- [ ] Gave the exact approved ballpark on the second ask: "around two thousand, one-time," "demo is free"
+- [ ] Gave the exact approved ballpark on the second ask: "around a thousand, one-time," "demo is free"
 - [ ] Paused after the number
 - [ ] Bridged to the demo and offered two times
 - [ ] No made-up numbers, discounts, urgency, or outcome promises
@@ -293,22 +293,22 @@ Pair up. One person plays the owner, one the setter. Swap after each round. The 
 
 **2. It depends + fit:** *"It depends on what you need. A 5-page site is different from one with booking and a gallery. Quick one so I'm not guessing: [fit question]?"*
 
-**3. Ballpark (second ask):** *"Most of our builds land around two thousand, one-time, and the demo itself is free."* **Then pause.**
+**3. Ballpark (second ask):** *"Most of our builds land around a thousand, one-time, and the demo itself is free."* **Then pause.**
 
 **→ Bridge:** *"The exact number depends on what you need, and that's what [Closer] works out when he shows you the demo. 15 minutes. Is [day] or [day] better?"*
 
 | If they say… | You say… |
 |---|---|
 | "Monthly?" | "Build is one-time. Optional care plan, about two hundred a month, cancel anytime." |
-| "Most it could be?" | "Bigger builds with booking and a gallery are around twenty-six hundred." |
+| "Most it could be?" | "Bigger builds with booking and a gallery are around fifteen hundred." |
 | "Too expensive." | "Yeah, it's not a small number. What were you expecting?" → "Worst case, you see a free demo and say no." |
 | "Wix is $20 a month." | "You can, and for some that's right. The difference is who does the work. If both cost the same, build it yourself or have it done?" |
 | "My nephew does websites." | "That's great. Is he building it now, or is it a 'one day' thing?" |
-| "Just email me the price." | "Most builds land around two thousand, one-time. I'll email the demo now. What's the address?" → "15 minutes with [Closer] answers more than an email." |
+| "Just email me the price." | "Most builds land around a thousand, one-time. I'll email the demo now. What's the address?" → "15 minutes with [Closer] answers more than an email." |
 | "What's the catch?" | "Free, no card, no contract. The catch: we hope you like it enough to hire us. If not, you lost 15 minutes." |
 | "Discount / payment plan?" | "I can't set prices or terms. That's [Closer]'s call, and I won't guess." |
 
-**Fit questions (pick 2–3):** Owner? · Taking new customers? · How do customers find you now? · What shows up when someone Googles you? · After the ballpark: "Is around two thousand in the range you'd consider if it was right?"
+**Fit questions (pick 2–3):** Owner? · Taking new customers? · How do customers find you now? · What shows up when someone Googles you? · After the ballpark: "Is around a thousand in the range you'd consider if it was right?"
 
 **Book with an up-front contract:** *"15–30 minutes with [Closer]. He shows you the demo, asks a few questions, gives you an exact price. If it's not for you, just say so. Fair?"*
 

@@ -102,9 +102,9 @@ Run it the same way every time so you can compare candidates fairly. Camera on, 
 
 > "Vanguard builds websites for local US businesses: salons, gyms, trades, auto shops. Our setters cold call businesses that don't have a website or have a weak one. Before anyone calls, we've already built that business a demo site. The setter's one job is to book a 15–30 minute call between the owner and me. I run that call and I build the site.
 >
-> "The pay is commission only. You earn 8% of every website project that closes from a call you booked, and once you hit 8 closed deals in a month, every deal that month pays 10%. Our average project is about $2,000, so that's $160 a deal, or $200 at 10%. You're paid after the client's payment clears, every two weeks. If a client is refunded within 60 days, that commission comes back off the next payout.
+> "The pay is commission only. You earn $100 for every website project that closes from a call you booked, and once you hit 8 closed deals in a month, every deal that month pays $125. Our builds start at $997. You're paid after the client's payment clears, every two weeks. If a client is refunded within 60 days, that commission comes back off the next payout.
 >
-> "I want to be honest about what that means: there's no base pay and no pay per booked call. Your first month will usually be lower while you learn, and your earnings depend on calls that close. At full target a setter makes around $2,700 a month, but that is the target, not a promise.
+> "I want to be honest about what that means: there's no base pay and no pay per booked call. Your first month will usually be lower while you learn, and your earnings depend on calls that close. At full target a setter makes around $1,700 a month, but that is the target, not a promise.
 >
 > "You'd work as an independent contractor, at least 4 hours a day during US business hours."
 
@@ -150,7 +150,7 @@ The two honesty questions (scam / don't call me) matter more than experience. A 
 Answer straight. Common ones:
 - *"When do I get paid?"* Every two weeks, for payments that cleared in that period, by [Wise / PayPal / bank].
 - *"Where do leads come from?"* We provide them, already researched, DNC-scrubbed and with a demo built.
-- *"Is there a base?"* No. Commission only, 8–10%.
+- *"Is there a base?"* No. Commission only, $100–$125 per closed deal.
 - *"Can I work from my phone?"* Calls are made through GHL on a laptop with a headset.
 
 ### 24:00 – 25:00 · Close
@@ -185,7 +185,7 @@ Fill this in **straight after** each interview, before the next one.
 >
 > Hi [Name], I'd like to offer you the appointment setter role at Vanguard.
 >
-> Quick recap: commission only, 8% of every project that closes from a call you book, 10% on all deals in any month you close 8+. Paid every two weeks after the client's payment clears; 60-day clawback on refunds. Independent contractor, at least 4 hours a day in US business hours.
+> Quick recap: commission only, $100 for every project that closes from a call you book, $125 on all deals in any month you close 8+. Paid every two weeks after the client's payment clears; 60-day clawback on refunds. Independent contractor, at least 4 hours a day in US business hours.
 >
 > If you're in, I'll send the contractor agreement today, and your start date is [date]. Can you confirm by [day]?
 >

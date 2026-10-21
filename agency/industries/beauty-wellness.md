@@ -57,9 +57,9 @@
 **Tier fit** (see `OFFER.md`)
 | Sub-type | Tier |
 |---|---|
-| Solo lash/brow, solo LMT, single-chair barber | **Foundation** ($2,000) |
+| Solo lash/brow, solo LMT, single-chair barber | **Foundation** ($997) |
 | Multi-chair barbershop, full salon, nail salon with a big menu | **Foundation**, or **Full Presence** if there's a roster plus gallery plus per-stylist booking |
-| Day spa, multi-therapist massage, salon + spa | **Full Presence** ($2,600): packages, gift cards, several service pages |
+| Day spa, multi-therapist massage, salon + spa | **Full Presence** ($1,497): packages, gift cards, several service pages |
 
 ---
 
