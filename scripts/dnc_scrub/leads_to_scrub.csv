@@ -1,0 +1,652 @@
+business_name,niche,city,state,phone_e164,area_code,toll_free,source_file
+Hackney Fitness,MMA / kickboxing gym,Alexandria,LA,+13187046393,318,False,leads_no_website_US.csv
+Royce Brooks Garage,auto repair,Abilene,TX,+13256734916,325,False,leads_no_website_US.csv
+Fain's Automotive,auto repair,Abilene,TX,+13256915007,325,False,leads_no_website_US.csv
+South Shore Barber Shop,barbershop,Decatur,IL,+12174229507,217,False,leads_no_website_US.csv
+Walt Moss Barber Shop,barbershop,Kokomo,IN,+17654599752,765,False,leads_no_website_US.csv
+Brockington Cutz & Stylez,barbershop,Florence,SC,+18434074855,843,False,leads_no_website_US.csv
+1040 Fhitness LLC,boutique fitness studio,Lawton,OK,+15809194858,580,False,leads_no_website_US.csv
+Nurture & Grow Childcare Center,daycare,Paducah,KY,+12704155477,270,False,leads_no_website_US.csv
+Three Amigos Fence (Tres Amigos Fence),fencing,Lubbock,TX,+18065445651,806,False,leads_no_website_US.csv
+Faith Fitness Cardio Studio,fitness studio,Lawton,OK,+15805851288,580,False,leads_no_website_US.csv
+Eye Candi Fitness,group fitness / personal training,Lawton,OK,+15806995039,580,False,leads_no_website_US.csv
+Global Fitness Center,gym / jiu jitsu,Alexandria,LA,+13184488644,318,False,leads_no_website_US.csv
+Royal Clippers,hair & nail salon,Carthage,MO,+14173589575,417,False,leads_no_website_US.csv
+Karol's Beauty Salon,hair salon,Lufkin,TX,+19366320800,936,False,leads_no_website_US.csv
+The Muscle Factory Co-Ed Gym & Fitness Center,independent gym,Johnson City,TN,+14239297471,423,False,leads_no_website_US.csv
+Fit for Life,independent health club,Lawton,OK,+15805959510,580,False,leads_no_website_US.csv
+The Polish Box Nail Salon,nail salon,Kokomo,IN,+17654551771,765,False,leads_no_website_US.csv
+Ann's Pretty Nails & Feet,nail salon,Florence,SC,+18436678981,843,False,leads_no_website_US.csv
+Covenant Brothers Painting,painting,Dothan,AL,+13347927078,334,False,leads_no_website_US.csv
+Susan's Dog Grooming,pet grooming,Dothan,AL,+13347928737,334,False,leads_no_website_US.csv
+Pawfection Pet Salon,pet grooming,Dothan,AL,+13347979550,334,False,leads_no_website_US.csv
+South Mississippi Crawfish Company,restaurant/caterer,Hattiesburg,MS,+16019065026,601,False,leads_no_website_US.csv
+Granado Roofing,roofing,Abilene,TX,+13256728910,325,False,leads_no_website_US.csv
+Cromeenes Construction & Roofing,roofing/general contractor,Killen (Florence area),AL,+12567107966,256,False,leads_no_website_US.csv
+Alterations by Sylvia,tailor/alterations,Tyler,TX,+19035818585,903,False,leads_no_website_US.csv
+Peterson 24HR Towing and Roadside Service,towing,Florence,SC,+18432602261,843,False,leads_no_website_US.csv
+Southern Plains CrossFit,CrossFit box,Lawton,OK,+15806998656,580,False,leads_no_website_US.csv
+Oak Strong Physical Fitness,CrossFit/strength gym,Muskogee,OK,+19189132999,918,False,leads_no_website_US.csv
+Superior Barbershop and Beauty Salon,barbershop,Dothan,AL,+13344461629,334,False,leads_no_website_US.csv
+Tommy's Barbershop,barbershop,Joplin,MO,+14174340780,417,False,leads_no_website_US.csv
+Lushaun's Barber & Beauty,barbershop/salon,Florence,SC,+18434076990,843,False,leads_no_website_US.csv
+Hubcity Concrete,concrete,Lubbock,TX,+18068533090,806,False,leads_no_website_US.csv
+B & R Fence,fencing,Joplin,MO,+14177817585,417,False,leads_no_website_US.csv
+D&M Iron Works,fencing/ornamental iron,Neosho,MO,+14175920251,417,False,leads_no_website_US.csv
+Cutz by Vicki,hair salon,Decatur,IL,+12174287939,217,False,leads_no_website_US.csv
+Krome Salon,hair salon,Muncie,IN,+17652844391,765,False,leads_no_website_US.csv
+Lemon Tree Unisex Haircutters,hair salon,Lufkin,TX,+19366324000,936,False,leads_no_website_US.csv
+Queens Fitness Center,independent gym,Victoria,TX,+13617035599,361,False,leads_no_website_US.csv
+Sandy Janitorial Service,janitorial/cleaning,Kokomo,IN,+17654525094,765,False,leads_no_website_US.csv
+A 2 Z Landscaping,landscaping,Muncie,IN,+17652868136,765,False,leads_no_website_US.csv
+A Fair Advantage & Navarro's,martial arts / self-defense,Abilene,TX,+13256659882,325,False,leads_no_website_US.csv
+Mitchell Painting,painting,Dothan,AL,+13347944322,334,False,leads_no_website_US.csv
+Petite Poodle Salon,pet grooming/boarding,Dothan,AL,+13347939772,334,False,leads_no_website_US.csv
+Photos for You by Tammy Kater,photographer,Stonington,IL,+12173253630,217,False,leads_no_website_US.csv
+R & J Plumbing,plumbing,Cookeville,TN,+19316464605,931,False,leads_no_website_US.csv
+Greasy Beaver Plumbing Service,plumbing,Cookeville,TN,+19314325364,931,False,leads_no_website_US.csv
+Rockfit Strength-Conditioning,strength & conditioning gym,Odessa,TX,+14322888670,432,False,leads_no_website_US.csv
+Baker's Towing Service LLC,towing,Joplin,MO,+14177819343,417,False,leads_no_website_US.csv
+Wagner Air Conditioning,HVAC,Dothan,AL,+13346788894,334,False,leads_no_website_US_batch2.csv
+Braswell Lawn Care,lawn care,Dothan,AL,+13347969860,334,False,leads_no_website_US_batch2.csv
+Woodco Lawn and Lanscaping,landscaping,Dothan,AL,+13347145940,334,False,leads_no_website_US_batch2.csv
+"Tri-State Grass Doctor & Small Tree Service, Etc",lawn care / tree service,Dothan,AL,+13344058537,334,False,leads_no_website_US_batch2.csv
+Tri-State Fence & Iron Works,fence / iron works,Dothan,AL,+13346780230,334,False,leads_no_website_US_batch2.csv
+Fenced-In,fence contractor,Dothan,AL,+13349831042,334,False,leads_no_website_US_batch2.csv
+Harolds Transmission,transmission,Dothan,AL,+13347946598,334,False,leads_no_website_US_batch2.csv
+Conners Body Shop,body shop,Dothan,AL,+13347925942,334,False,leads_no_website_US_batch2.csv
+Hickman Moving & Storage,moving company,Dothan,AL,+13347931170,334,False,leads_no_website_US_batch2.csv
+Joy's Flowers,florist,Gadsden,AL,+12565469209,256,False,leads_no_website_US_batch2.csv
+Happy Dog Grooming Salon,Pet groomer,Jacksonville,AL,+12564538590,256,False,leads_no_website_US_batch2.csv
+Rakko Concrete,concrete contractor,Jonesboro,AR,+18709314446,870,False,leads_no_website_US_batch2.csv
+Build Your Own Body,personal training,Flagstaff,AZ,+19286998159,928,False,leads_no_website_US_batch2.csv
+Cliff's Garage,Auto Repair & Service,Yuma,AZ,+19283432127,928,False,leads_no_website_US_batch2.csv
+Arte Da Luta LLC Traditional Brazilian Jiu Jitsu,BJJ academy,Grand Junction,CO,+19707122511,970,False,leads_no_website_US_batch2.csv
+Hard Knocks Boxing Team,boxing gym,Greeley,CO,+19706631315,970,False,leads_no_website_US_batch2.csv
+Rodriguez Auto Repair,Auto Repair & Service,Greeley,CO,+19703460345,970,False,leads_no_website_US_batch2.csv
+Eagles Nest Tae Kwon Do,martial arts school,Platteville,CO,+19703029460,970,False,leads_no_website_US_batch2.csv
+Unlimited Potential Tutoring,tutoring,Albany,GA,+12294835300,229,False,leads_no_website_US_batch2.csv
+Phyxx Salon,hair salon,Columbus,GA,+17062566883,706,False,leads_no_website_US_batch2.csv
+Kanvas Kutz,barbershop,Columbus,GA,+17066101750,706,False,leads_no_website_US_batch2.csv
+Southern Green Lawns,lawn care,Macon,GA,+14787752971,478,False,leads_no_website_US_batch2.csv
+"JBM Lawn Service, LLC",lawn care,Valdosta,GA,+19123197245,912,False,leads_no_website_US_batch2.csv
+The English Garden,florist,Valdosta,GA,+12296303704,229,False,leads_no_website_US_batch2.csv
+Carter Sign Company,print/sign shop,Valdosta,GA,+12295486499,229,False,leads_no_website_US_batch2.csv
+Unitend Boxing Club,boxing gym,Council Bluffs,IA,+14027141313,402,False,leads_no_website_US_batch2.csv
+U Fitness,gym,Dubuque,IA,+15632313037,563,False,leads_no_website_US_batch2.csv
+Spirit Tao Martial Arts & Tai,martial arts / tai chi,Boise,ID,+12083533337,208,False,leads_no_website_US_batch2.csv
+Dossett Plumbing Inc,plumber,Decatur,IL,+12176190049,217,False,leads_no_website_US_batch2.csv
+Integrity of Personal Training,personal training studio,Machesney Park,IL,+18155052897,815,False,leads_no_website_US_batch2.csv
+Foxxy Dog Spa & Daycare,Dog daycare/groomer,Metamora,IL,+13098499012,309,False,leads_no_website_US_batch2.csv
+Midwest S.W.A.T. Academy,martial arts / self-defense,Mt Zion,IL,+12178641045,217,False,leads_no_website_US_batch2.csv
+Unique Physique,gym / personal training,Mt Zion,IL,+12172013570,217,False,leads_no_website_US_batch2.csv
+Cookie Cutters Pet Grooming,Pet groomer,Mt Zion,IL,+12178646033,217,False,leads_no_website_US_batch2.csv
+Doggie Stylez,Pet groomer,Peoria,IL,+13092652517,309,False,leads_no_website_US_batch2.csv
+Paws N' Claws,Pet groomer,Peoria,IL,+13096970122,309,False,leads_no_website_US_batch2.csv
+Vision Fitness,personal training,Urbana,IL,+12176071744,217,False,leads_no_website_US_batch2.csv
+Good Fellas Barber Shop,barbershop,Evansville,IN,+18124240255,812,False,leads_no_website_US_batch2.csv
+Creative Nail Spa,nail salon,Evansville,IN,+18124026780,812,False,leads_no_website_US_batch2.csv
+Abbott's Body Shop,body shop,Muncie,IN,+17652893575,765,False,leads_no_website_US_batch2.csv
+Kulla's K-9 Center Inc,Dog trainer,Peru,IN,+17659859815,765,False,leads_no_website_US_batch2.csv
+Vigo Paint Correction and Detailing,auto detailing,Terre Haute,IN,+18122640142,812,False,leads_no_website_US_batch2.csv
+Davis Concrete Construction,concrete contractor,Salina,KS,+17858225582,785,False,leads_no_website_US_batch2.csv
+Carlson Concrete,concrete contractor,Salina,KS,+17858232154,785,False,leads_no_website_US_batch2.csv
+Kenny's Auto Body & Used Cars Inc,body shop,Salina,KS,+17858252146,785,False,leads_no_website_US_batch2.csv
+Bowling Green Pressure Washing Services,pressure washing,Bowling Green,KY,+12706979191,270,False,leads_no_website_US_batch2.csv
+Fiers Heating & Air,HVAC,Paducah,KY,+12704447336,270,False,leads_no_website_US_batch2.csv
+Furkidz Pet Hotel Spa & Daycamp,Dog boarding/daycare,Paducah,KY,+12705543872,270,False,leads_no_website_US_batch2.csv
+Mickey Dauzat the Roof Man,roofer,Alexandria,LA,+13183083289,318,False,leads_no_website_US_batch2.csv
+First Class Movers,moving company,Lake Charles,LA,+13373777444,337,False,leads_no_website_US_batch2.csv
+Gilmore's Lawn Service,lawn care,Monroe,LA,+13183314380,318,False,leads_no_website_US_batch2.csv
+Bark Avenue,Pet groomer/boarding,Pineville,LA,+13186231438,318,False,leads_no_website_US_batch2.csv
+West End Barber Shop,barber,Hagerstown,MD,+13017976010,301,False,leads_no_website_US_batch2.csv
+Andy The Tailor,tailor/alterations,Bangor,ME,+12079426543,207,False,leads_no_website_US_batch2.csv
+Hair Affair Barershop,barber,Bangor,ME,+12074785813,207,False,leads_no_website_US_batch2.csv
+Mo' Fitness,personal training,Columbia,MO,+17853044892,785,False,leads_no_website_US_batch2.csv
+Westside Collision Tire & Auto,body shop,Joplin,MO,+14176237272,417,False,leads_no_website_US_batch2.csv
+Gideon's Tire & Auto,tire shop,Joplin,MO,+14176268464,417,False,leads_no_website_US_batch2.csv
+Eagle Lawn Care,lawn care,Neosho,MO,+14175923142,417,False,leads_no_website_US_batch2.csv
+Parkcrest Boarding Kennel,Dog boarding,Springfield,MO,+14178811956,417,False,leads_no_website_US_batch2.csv
+Pet Shuttle & Spa,Dog boarding/groomer,Springfield,MO,+14178624456,417,False,leads_no_website_US_batch2.csv
+Karate for Kids,martial arts school,Warrensburg,MO,+16604295425,660,False,leads_no_website_US_batch2.csv
+Serendipity By Valerie,hair salon,Columbus,MS,+16622451050,662,False,leads_no_website_US_batch2.csv
+Razors Edge Hair Salon,hair salon,Hattiesburg,MS,+16012641717,601,False,leads_no_website_US_batch2.csv
+Cliff's Auto & Towing,towing,Hattiesburg,MS,+16012706602,601,False,leads_no_website_US_batch2.csv
+Side 3 Stone,masonry / stone,Meridian,MS,+16012825896,601,False,leads_no_website_US_batch2.csv
+Carla's Fun Jump Events,event rentals,Petal,MS,+16015824386,601,False,leads_no_website_US_batch2.csv
+Purvis Auto Collision,body shop,Purvis,MS,+16017440000,601,False,leads_no_website_US_batch2.csv
+Mavonis Xtreme Styles,hair salon,Tupelo,MS,+16623464999,662,False,leads_no_website_US_batch2.csv
+Posh Nail Salon and Spa,nail salon,Tupelo,MS,+16624324291,662,False,leads_no_website_US_batch2.csv
+Boogie's Turkey BBQ,BBQ/restaurant,Elm City,NC,+12522363141,252,False,leads_no_website_US_batch2.csv
+Cooper's Pro Washers Pressure Washing,pressure washing,Fayetteville,NC,+19105069969,910,False,leads_no_website_US_batch2.csv
+A+ Towing & Recovery,towing,Mount Olive,NC,+19196589955,919,False,leads_no_website_US_batch2.csv
+Shemat Construction,concrete contractor,Kearney,NE,+13082936682,308,False,leads_no_website_US_batch2.csv
+Foschi Auto Tune,auto repair,Vineland,NJ,+18567942323,856,False,leads_no_website_US_batch2.csv
+Mike's Upholstery,Upholsterers,Elko,NV,+17757385310,775,False,leads_no_website_US_batch2.csv
+Sittin' Pretty Pet Grooming,pet grooming,Chaumont,NY,+13156493066,315,False,leads_no_website_US_batch2.csv
+Toni's Alterations & Tailor Shop,tailor/alterations,New Hartford,NY,+13157379328,315,False,leads_no_website_US_batch2.csv
+Scotty's Jump N Fun Party Rentals,event rentals,Rome,NY,+13153385555,315,False,leads_no_website_US_batch2.csv
+Clipper Barber Shop,barber,Watertown,NY,+13157822910,315,False,leads_no_website_US_batch2.csv
+Jacomet's Martial Arts,martial arts school,Bluffton,OH,+15672048142,567,False,leads_no_website_US_batch2.csv
+J R Concrete & Construction,concrete contractor,Cridersville,OH,+14192361055,419,False,leads_no_website_US_batch2.csv
+Henderson Concrete Construction,concrete / paving,Lima,OH,+14192351387,419,False,leads_no_website_US_batch2.csv
+Thompson Professional Auto Cleaning,auto detailing,Lima,OH,+14192222974,419,False,leads_no_website_US_batch2.csv
+DSM Boxing,boxing gym,Springfield,OH,+19375053575,937,False,leads_no_website_US_batch2.csv
+Gary's Roofing,roofer,Ardmore,OK,+15802267385,580,False,leads_no_website_US_batch2.csv
+Thompson Lawn Care,lawn care,Enid,OK,+15802342999,580,False,leads_no_website_US_batch2.csv
+LeBrun Welding,welding / fence,Enid,OK,+15805400278,580,False,leads_no_website_US_batch2.csv
+Roberts Body Shop,body shop,Enid,OK,+15802345492,580,False,leads_no_website_US_batch2.csv
+Elite Collision,body shop,Enid,OK,+15802335483,580,False,leads_no_website_US_batch2.csv
+Direct Towing,towing,Enid,OK,+15802373278,580,False,leads_no_website_US_batch2.csv
+Flowers By Brigitte,florist,Lawton,OK,+15803558416,580,False,leads_no_website_US_batch2.csv
+Tara's Tiny Tots,daycare,Lawton,OK,+15802802213,580,False,leads_no_website_US_batch2.csv
+Town & Country Pup LLC,Pet groomer,Muskogee,OK,+19183513478,918,False,leads_no_website_US_batch2.csv
+Jade Salon,hair salon,Norman,OK,+14052190957,405,False,leads_no_website_US_batch2.csv
+Platinum Salon,hair salon,Stillwater,OK,+14053721546,405,False,leads_no_website_US_batch2.csv
+Russell's Florist & Greenhouse,florist,Jersey Shore,PA,+15703981371,570,False,leads_no_website_US_batch2.csv
+Pampered Pet Grooming,Pet groomer,Anderson,SC,+18642255981,864,False,leads_no_website_US_batch2.csv
+The K-9 Klipper,Pet groomer,Anderson,SC,+18649341082,864,False,leads_no_website_US_batch2.csv
+Pat's Towing & Body Shop,towing / body shop,Lugoff,SC,+18036362419,803,False,leads_no_website_US_batch2.csv
+Mow&Go Lawn service,lawn care,Sumter,SC,+18034641398,803,False,leads_no_website_US_batch2.csv
+Eagle One Tow and Transport,towing,Sumter area,SC,+18037492727,803,False,leads_no_website_US_batch2.csv
+HIGH CALIBER LAWN CARE,lawn care,Cookeville,TN,+19312394961,931,False,leads_no_website_US_batch2.csv
+Miss Belindas Learning Center,home daycare,Kingsport,TN,+14232398436,423,False,leads_no_website_US_batch2.csv
+Frank Sims Carpet Cleaning & Services,carpet cleaning,Abilene,TX,+13256774040,325,False,leads_no_website_US_batch2.csv
+Downtown Salon,hair salon,Amarillo,TX,+18063676380,806,False,leads_no_website_US_batch2.csv
+Roots Barber Studio,barbershop,Bryan,TX,+19794029646,979,False,leads_no_website_US_batch2.csv
+Leah's Hair Studio,hair salon,Corpus Christi,TX,+13619800006,361,False,leads_no_website_US_batch2.csv
+Tim Badders Painting,painter,Nacogdoches,TX,+19365641089,936,False,leads_no_website_US_batch2.csv
+Absolute Auto Glass,auto glass,Odessa,TX,+14323349846,432,False,leads_no_website_US_batch2.csv
+Hayes Automotive,auto repair,Tyler,TX,+19035933911,903,False,leads_no_website_US_batch2.csv
+Specialty Auto Body,body shop,Tyler,TX,+19035654980,903,False,leads_no_website_US_batch2.csv
+Southside Grooming by Teresa,Pet groomer,Tyler,TX,+19032669162,903,False,leads_no_website_US_batch2.csv
+Enve Beauty Bar,lash/beauty bar,Waco,TX,+12542354000,254,False,leads_no_website_US_batch2.csv
+Aaron's Iron Works,iron works / welding,Waco,TX,+12548292710,254,False,leads_no_website_US_batch2.csv
+Marsa Salon,hair salon,Wichita Falls,TX,+19407666411,940,False,leads_no_website_US_batch2.csv
+All Bright Carpet & Upholstery Cleaning,carpet cleaning,Wichita Falls,TX,+19406921835,940,False,leads_no_website_US_batch2.csv
+Neel Pressure Washing,pressure washing,Woodway,TX,+12544218606,254,False,leads_no_website_US_batch2.csv
+Lights Out Boxing & Fitness,boxing gym,Clearfield,UT,+13852386864,385,False,leads_no_website_US_batch2.csv
+Synergy Martial Arts,martial arts school,Honeyville,UT,+14352253645,435,False,leads_no_website_US_batch2.csv
+Auto Bahn Performance & Repair,Auto Repair & Service,Logan,UT,+14357526868,435,False,leads_no_website_US_batch2.csv
+Chicks Auto Repair,Auto Repair & Service,Walla Walla,WA,+15095254041,509,False,leads_no_website_US_batch2.csv
+Inspire Fitness Training,personal training,Oconto,WI,+19206042424,920,False,leads_no_website_US_batch2.csv
+Lylia's Poodle Boutique,Pet groomer,Anniston,AL,+12562367399,256,False,leads_no_website_US_batch2.csv
+Luxury Nail & Spa,nail salon,Auburn,AL,+13348219693,334,False,leads_no_website_US_batch2.csv
+Color My Nails,nail salon,Dothan,AL,+13344461165,334,False,leads_no_website_US_batch2.csv
+Panache Hair Studio,hair salon,Dothan,AL,+13346995505,334,False,leads_no_website_US_batch2.csv
+Nail Essence,nail salon,Dothan,AL,+13346995540,334,False,leads_no_website_US_batch2.csv
+Smith Heating and Cooling,HVAC,Dothan,AL,+13347928002,334,False,leads_no_website_US_batch2.csv
+Blocker Heating & Air,HVAC,Dothan,AL,+13344790191,334,False,leads_no_website_US_batch2.csv
+Daniel's Heating & Cooling,HVAC,Dothan,AL,+13347920272,334,False,leads_no_website_US_batch2.csv
+Affordable Lawn Care Solutions,lawn care,Dothan,AL,+13344394423,334,False,leads_no_website_US_batch2.csv
+Southern Style Fence and Lawn Care,lawn care,Dothan,AL,+13342034456,334,False,leads_no_website_US_batch2.csv
+Davis Body Shop,body shop,Dothan,AL,+13347921593,334,False,leads_no_website_US_batch2.csv
+Gibson Auto & Transmission Service,transmission,Dothan,AL,+13347926044,334,False,leads_no_website_US_batch2.csv
+Tony's Service Center,auto repair,Dothan,AL,+13347949542,334,False,leads_no_website_US_batch2.csv
+Noblitt Auto Center,auto repair,Dothan,AL,+13347920236,334,False,leads_no_website_US_batch2.csv
+Ronnie's Paint & Body,body shop,Dothan,AL,+13346711788,334,False,leads_no_website_US_batch2.csv
+Zebri Cleaning,janitorial,Dothan,AL,+13347920891,334,False,leads_no_website_US_batch2.csv
+JJD Cleaning Services,janitorial,Dothan,AL,+13345470737,334,False,leads_no_website_US_batch2.csv
+Sign Pro,print/sign shop,Dothan,AL,+13347947222,334,False,leads_no_website_US_batch2.csv
+Quality Signs & Window Tinting,print/sign shop,Dothan,AL,+13346717616,334,False,leads_no_website_US_batch2.csv
+The Salon,hair salon,Florence,AL,+12567676446,256,False,leads_no_website_US_batch2.csv
+TNT Diesel & Automotive,auto repair,Florence,AL,+12563492575,256,False,leads_no_website_US_batch2.csv
+1st IMPRESSIONS Cleaning Service,janitorial,Florence,AL,+12567669500,256,False,leads_no_website_US_batch2.csv
+Taking Care Of Business Cleaning Service,janitorial,Florence,AL,+12567622852,256,False,leads_no_website_US_batch2.csv
+Larry's Janitorial Service,janitorial,Florence,AL,+12567101989,256,False,leads_no_website_US_batch2.csv
+Glenda Floyds Cleaning Service,janitorial,Florence,AL,+12567101847,256,False,leads_no_website_US_batch2.csv
+Natural Illusions,hair salon,Gadsden,AL,+12564676020,256,False,leads_no_website_US_batch2.csv
+Printup Beauty Salon,nail salon,Gadsden,AL,+12565477424,256,False,leads_no_website_US_batch2.csv
+The Athletic Club,gym/fitness,Gadsden,AL,+12563128456,256,False,leads_no_website_US_batch2.csv
+Planet Doggiewood,Dog daycare/trainer,Gadsden,AL,+12564420411,256,False,leads_no_website_US_batch2.csv
+Srt Graphics,print/sign shop,Gadsden,AL,+12564674914,256,False,leads_no_website_US_batch2.csv
+Corner Barber Shop,barbershop,Muscle Shoals,AL,+12563818800,256,False,leads_no_website_US_batch2.csv
+D & D Detail Shop,auto detailing,Ohatchee,AL,+12562395543,256,False,leads_no_website_US_batch2.csv
+Lee Spa Nails,nail salon,Opelika,AL,+13346107101,334,False,leads_no_website_US_batch2.csv
+Big Spring Barber Shop,barbershop,Sheffield,AL,+12564151046,256,False,leads_no_website_US_batch2.csv
+La Fence & More,fence contractor,Slocomb,AL,+13347187546,334,False,leads_no_website_US_batch2.csv
+Johns & Kirksey Inc,roofer,Tuscaloosa,AL,+12057592830,205,False,leads_no_website_US_batch2.csv
+Deason Roofing & Sheet Metal Contractors,roofer,Tuscaloosa,AL,+12053493370,205,False,leads_no_website_US_batch2.csv
+Black Warrior Roofing Inc,roofer,Tuscaloosa,AL,+12053456634,205,False,leads_no_website_US_batch2.csv
+Personal Training Plus,gym/fitness,Jonesboro,AR,+18709311544,870,False,leads_no_website_US_batch2.csv
+J & J Concrete,concrete contractor,Jonesboro,AR,+18708059148,870,False,leads_no_website_US_batch2.csv
+TBM Cleaning Service,house cleaning,Jonesboro,AR,+18702750405,870,False,leads_no_website_US_batch2.csv
+Missed a Spot,janitorial,Jonesboro,AR,+18706272230,870,False,leads_no_website_US_batch2.csv
+C&G Janitorial,janitorial,Jonesboro,AR,+18703365606,870,False,leads_no_website_US_batch2.csv
+Clb Office Cleaning,janitorial,Jonesboro,AR,+18709195649,870,False,leads_no_website_US_batch2.csv
+Absolute Cleaning Services,janitorial,Paragould,AR,+18705655398,870,False,leads_no_website_US_batch2.csv
+Lee's Car Center,auto repair,Pine Bluff,AR,+18705369722,870,False,leads_no_website_US_batch2.csv
+Al's Auto Repair,auto repair,Pine Bluff,AR,+18705419229,870,False,leads_no_website_US_batch2.csv
+Armor Tire & Automotive Services,tire shop,Pine Bluff,AR,+18705410744,870,False,leads_no_website_US_batch2.csv
+Monk Automotive Service,auto repair,Pine Bluff,AR,+18708791810,870,False,leads_no_website_US_batch2.csv
+Matthew Auto & Wreaker Repair,auto repair,White Hall,AR,+18708791158,870,False,leads_no_website_US_batch2.csv
+Golden Valley Barber Shop,Barbers,Golden Valley,AZ,+19285655680,928,False,leads_no_website_US_batch2.csv
+"Woods mobile mechanic & welder fabricator, LLC",Auto Repair & Service,Kingman,AZ,+19285309663,928,False,leads_no_website_US_batch2.csv
+Barber Den AZ,Barbers,Kingman,AZ,+19287532221,928,False,leads_no_website_US_batch2.csv
+El Paisa Auto Mechanic,Auto Repair & Service,Yuma,AZ,+19287835279,928,False,leads_no_website_US_batch2.csv
+Top of the Line Auto Body,Auto Repair & Service,Yuma,AZ,+19283441330,928,False,leads_no_website_US_batch2.csv
+R & A Master Upholstery,Upholsterers,Yuma,AZ,+19287824705,928,False,leads_no_website_US_batch2.csv
+The Gents Barbershop,Barbers,Yuma,AZ,+19282769845,928,False,leads_no_website_US_batch2.csv
+RoadTech Automotive,Auto Repair & Service,El Centro,CA,+17603360806,760,False,leads_no_website_US_batch2.csv
+S C Auto Service,Auto Repair & Service,El Centro,CA,+17603536665,760,False,leads_no_website_US_batch2.csv
+Mole's Garage Auto Paint & Repair,Auto Repair & Service,El Centro,CA,+17602354966,760,False,leads_no_website_US_batch2.csv
+Bellissima Beauty & Nail Salon,Barbers,El Centro,CA,+17609963423,760,False,leads_no_website_US_batch2.csv
+Koelewyn Repair Service,Auto Repair & Service,Hanford,CA,+15595826923,559,False,leads_no_website_US_batch2.csv
+L & L High Performance Power,Upholsterers,Redding,CA,+15302476927,530,False,leads_no_website_US_batch2.csv
+Dans North Valley Trim Shop & Embroidery,Upholsterers,Redding,CA,+15302436828,530,False,leads_no_website_US_batch2.csv
+Crystal Clean Carpets & Upholstery,Upholsterers,Redding,CA,+15302437585,530,False,leads_no_website_US_batch2.csv
+The Groom Room Barber Shop,Barbers,Redding,CA,+15303197162,530,False,leads_no_website_US_batch2.csv
+Contract Interiors by Ed Benedict,Upholsterers,Fort Collins,CO,+19702215339,970,False,leads_no_website_US_batch2.csv
+The Bar Ber Shop,Barbers,Greeley,CO,+19703532347,970,False,leads_no_website_US_batch2.csv
+A + Mobile Auto Service,Auto Repair & Service,Pueblo,CO,+17194067473,719,False,leads_no_website_US_batch2.csv
+Regency Barber,Barbers,Pueblo,CO,+17195610830,719,False,leads_no_website_US_batch2.csv
+Wags to Whiskers,pet grooming,Winsted,CT,+18603797386,860,False,leads_no_website_US_batch2.csv
+Kerrymac Fitness,gym/fitness,Ocala,FL,+13527896561,352,False,leads_no_website_US_batch2.csv
+Lord's Gym,gym/fitness,Ocala,FL,+13526297757,352,False,leads_no_website_US_batch2.csv
+Sichini Training,gym/fitness,Ocala,FL,+13523682749,352,False,leads_no_website_US_batch2.csv
+M T A Fitness Inc,gym/fitness,Ocala,FL,+13522378336,352,False,leads_no_website_US_batch2.csv
+Eucharist Construction Inc,general contractor,Ocala,FL,+13525720181,352,False,leads_no_website_US_batch2.csv
+Brian Ehlers Construction,general contractor,Ocala,FL,+13528614333,352,False,leads_no_website_US_batch2.csv
+T L Carlson Construction,general contractor,Ocala,FL,+13524651239,352,False,leads_no_website_US_batch2.csv
+J & J Design Builders,general contractor,Ocala,FL,+13528737575,352,False,leads_no_website_US_batch2.csv
+IMS Fitness,gym/fitness,Panama City,FL,+18504811472,850,False,leads_no_website_US_batch2.csv
+Pilates & More,pilates studio,Panama City,FL,+18502152129,850,False,leads_no_website_US_batch2.csv
+Sweat Shak,gym/fitness,Panama City,FL,+18503662348,850,False,leads_no_website_US_batch2.csv
+The Barber Shop,barbershop,Albany,GA,+12294362828,229,False,leads_no_website_US_batch2.csv
+Tribal Fitness,gym/fitness,Albany,GA,+12292913405,229,False,leads_no_website_US_batch2.csv
+Destiny Fitness of Cordele,gym/fitness,Albany,GA,+12295133052,229,False,leads_no_website_US_batch2.csv
+In the Zone,barbershop,Columbus,GA,+17063229001,706,False,leads_no_website_US_batch2.csv
+Micky's Hair Salon,barbershop,Columbus,GA,+17065659104,706,False,leads_no_website_US_batch2.csv
+House of Styles,lash studio,Columbus,GA,+17066601102,706,False,leads_no_website_US_batch2.csv
+Reynolds Barbershop,barbershop,Columbus,GA,+17069848583,706,False,leads_no_website_US_batch2.csv
+Southern Curb Appeal,pressure washing,Columbus,GA,+17065704123,706,False,leads_no_website_US_batch2.csv
+Happy Paws,Pet groomer,La Fayette,GA,+17067641055,706,False,leads_no_website_US_batch2.csv
+Sky Nail,nail salon,Macon,GA,+14782384566,478,False,leads_no_website_US_batch2.csv
+Smith's Barber,barbershop,Macon,GA,+14783305773,478,False,leads_no_website_US_batch2.csv
+Lee Nails,nail salon,Macon,GA,+14784749999,478,False,leads_no_website_US_batch2.csv
+Dry Georgia,roofer,Macon,GA,+14787421234,478,False,leads_no_website_US_batch2.csv
+BMR Roofing Contractors,roofer,Macon,GA,+14783610204,478,False,leads_no_website_US_batch2.csv
+SIMSCO Pro Cut Lawn Care & Property Preservation,lawn care,Macon,GA,+14789798524,478,False,leads_no_website_US_batch2.csv
+Barker Shop,Pet groomer,Rock Spring,GA,+17063758074,706,False,leads_no_website_US_batch2.csv
+Mr Bill's Painting,painter,Valdosta,GA,+12295635931,229,False,leads_no_website_US_batch2.csv
+Quality Home Repairs & Painting,painter,Valdosta,GA,+12297940066,229,False,leads_no_website_US_batch2.csv
+Superior Painting,painter,Valdosta,GA,+12292926007,229,False,leads_no_website_US_batch2.csv
+Elsberry Painting & Pressure,painter,Valdosta,GA,+12295481112,229,False,leads_no_website_US_batch2.csv
+Dependable Painting Contrs,painter,Valdosta,GA,+12292927580,229,False,leads_no_website_US_batch2.csv
+Taqueria El Hidalguense,caterer/restaurant,Valdosta,GA,+12294697469,229,False,leads_no_website_US_batch2.csv
+Bird Sign Inc,print/sign shop,Dubuque,IA,+15635833976,563,False,leads_no_website_US_batch2.csv
+Adorable Jordy's Dog Grooming,Pet groomer,Peosta,IA,+15635828534,563,False,leads_no_website_US_batch2.csv
+First Choice Upholstery llc,Upholsterers,Idaho Falls,ID,+12084209858,208,False,leads_no_website_US_batch2.csv
+Fitness Synergy,personal training studio,Champaign,IL,+12173183220,217,False,leads_no_website_US_batch2.csv
+Deer Creek Pet Resort,Dog boarding,Danville,IL,+12177598226,217,False,leads_no_website_US_batch2.csv
+Chapman & Son Plumbing,plumber,Decatur,IL,+12174237112,217,False,leads_no_website_US_batch2.csv
+Decatur Used Cars,used car lot,Decatur,IL,+12174291361,217,False,leads_no_website_US_batch2.csv
+Angels Daycare,daycare,Decatur,IL,+12173306832,217,False,leads_no_website_US_batch2.csv
+Carol Garmon Day Care,home daycare,Decatur,IL,+12174248645,217,False,leads_no_website_US_batch2.csv
+Frosted By Mollie Bakery,bakery,Metropolis,IL,+16183091315,618,False,leads_no_website_US_batch2.csv
+Nail Design Salon,nail salon,Anderson,IN,+17656830332,765,False,leads_no_website_US_batch2.csv
+J J's Hair On The Square,spa,Anderson,IN,+17656494089,765,False,leads_no_website_US_batch2.csv
+Brown Tire Shop,tire shop,Anderson,IN,+17654004181,765,False,leads_no_website_US_batch2.csv
+Transfer Movers Co,moving company,Anderson,IN,+17652265415,765,False,leads_no_website_US_batch2.csv
+Posy Shop,florist,Anderson,IN,+17656437487,765,False,leads_no_website_US_batch2.csv
+Delaplane & Son Inc Neon & Sign Service,print/sign shop,Camden,IN,+15748593431,574,False,leads_no_website_US_batch2.csv
+one world barbering salon,barbershop,Evansville,IN,+18125507338,812,False,leads_no_website_US_batch2.csv
+The Parlour,barbershop,Evansville,IN,+18124920060,812,False,leads_no_website_US_batch2.csv
+Fatou African Hair Braiding,hair salon,Evansville,IN,+18124990906,812,False,leads_no_website_US_batch2.csv
+Hair Today Salon & Barber,hair salon,Evansville,IN,+18124012144,812,False,leads_no_website_US_batch2.csv
+Bebe Nails & Spa,nail salon,Evansville,IN,+18128688000,812,False,leads_no_website_US_batch2.csv
+Balance Therapeutics Inc.,massage,Evansville,IN,+18125688077,812,False,leads_no_website_US_batch2.csv
+Ben's Barbershop,barbershop,Fort Wayne,IN,+12607555469,260,False,leads_no_website_US_batch2.csv
+Paris Design Associates,hair salon,Fort Wayne,IN,+12604362104,260,False,leads_no_website_US_batch2.csv
+Southwest Electrolysis and Spa,spa,Fort Wayne,IN,+12603875040,260,False,leads_no_website_US_batch2.csv
+Ethreal Spa,spa,Fort Wayne,IN,+12602095944,260,False,leads_no_website_US_batch2.csv
+Smoove Cutz,barbershop,Kokomo,IN,+17654503948,765,False,leads_no_website_US_batch2.csv
+PayLess Plumbing,plumber,Kokomo,IN,+17654575065,765,False,leads_no_website_US_batch2.csv
+A & B Plumbing,plumber,Kokomo,IN,+17654535191,765,False,leads_no_website_US_batch2.csv
+Kokomo Mechanical,plumber/HVAC,Kokomo,IN,+17652360391,765,False,leads_no_website_US_batch2.csv
+Hair Affair The,barbershop,Muncie,IN,+17652892021,765,False,leads_no_website_US_batch2.csv
+Tranquil Life Massage,massage,Muncie,IN,+17657483740,765,False,leads_no_website_US_batch2.csv
+C & N Radiator & Air Conditioning Service,auto repair,Muncie,IN,+17652884969,765,False,leads_no_website_US_batch2.csv
+Cars Muncie,used car lot,Muncie,IN,+17657479533,765,False,leads_no_website_US_batch2.csv
+South Side Motors,used car lot / auto,Muncie,IN,+17652845180,765,False,leads_no_website_US_batch2.csv
+Northwest Towing & Recovery,towing,Muncie,IN,+17652884456,765,False,leads_no_website_US_batch2.csv
+Cleanmax,janitorial,Muncie,IN,+17652133000,765,False,leads_no_website_US_batch2.csv
+Advanced Carpet Care,carpet cleaning,Muncie,IN,+17657590156,765,False,leads_no_website_US_batch2.csv
+Pit Master BlueBird & Sons BBQ,BBQ/restaurant,Muncie,IN,+17657135741,765,False,leads_no_website_US_batch2.csv
+Pitts B B Q,BBQ/restaurant,Muncie,IN,+17655874441,765,False,leads_no_website_US_batch2.csv
+Casa Del Sol,caterer/restaurant,Muncie,IN,+17652167801,765,False,leads_no_website_US_batch2.csv
+Finyl  Vinyl Signs,print/sign shop,Muncie,IN,+17652137144,765,False,leads_no_website_US_batch2.csv
+A Tender Touch Home Day Care,home daycare,Muncie,IN,+17652825253,765,False,leads_no_website_US_batch2.csv
+Ogbu Day Care,daycare,Muncie,IN,+17652820411,765,False,leads_no_website_US_batch2.csv
+Spurrier's Cleaning Service,janitorial,Poland,IN,+17653186991,765,False,leads_no_website_US_batch2.csv
+Angela's Pet Spa,Pet groomer,Riley,IN,+18126918146,812,False,leads_no_website_US_batch2.csv
+A You'nique Image Salon,spa,South Bend,IN,+15742322228,574,False,leads_no_website_US_batch2.csv
+Alchemy Hair Studio,barbershop,Terre Haute,IN,+18122986615,812,False,leads_no_website_US_batch2.csv
+Starting Lineup,barbershop,Terre Haute,IN,+18122388693,812,False,leads_no_website_US_batch2.csv
+Tyler's Hair Shop,barbershop,Terre Haute,IN,+18122345538,812,False,leads_no_website_US_batch2.csv
+Macys Hair & Nail Salon,hair salon,Terre Haute,IN,+18122358757,812,False,leads_no_website_US_batch2.csv
+Le Nails,nail salon,Terre Haute,IN,+18122988008,812,False,leads_no_website_US_batch2.csv
+Express Car Sales,used car lot,Terre Haute,IN,+18122343603,812,False,leads_no_website_US_batch2.csv
+Furry Friends,Pet groomer,Terre Haute,IN,+18122325091,812,False,leads_no_website_US_batch2.csv
+Tim L Taylor Cleaning & Maint,janitorial,Terre Haute,IN,+18128981224,812,False,leads_no_website_US_batch2.csv
+Purge Junk Removal,junk removal,Terre Haute,IN,+17653767733,765,False,leads_no_website_US_batch2.csv
+Crystal Maid Service,house cleaning,Universal,IN,+17658322924,765,False,leads_no_website_US_batch2.csv
+Diana's Spa Room,spa,West Lafayette,IN,+17652501386,765,False,leads_no_website_US_batch2.csv
+Lawn Master LLC,landscaping,Minneapolis,KS,+17858200593,785,False,leads_no_website_US_batch2.csv
+Frick B J & Co,concrete contractor,Salina,KS,+17858236328,785,False,leads_no_website_US_batch2.csv
+T Nt Concrete Work,concrete contractor,Salina,KS,+17858258623,785,False,leads_no_website_US_batch2.csv
+Foxy Nail,nail salon,Lexington,KY,+18595439276,859,False,leads_no_website_US_batch2.csv
+Yard Cards,print/sign shop,Owensboro,KY,+12709260004,270,False,leads_no_website_US_batch2.csv
+Broken Branch Tree Service,tree service,Owensboro area,KY,+12702815781,270,False,leads_no_website_US_batch2.csv
+Home Heating American,HVAC,Paducah,KY,+12704430550,270,False,leads_no_website_US_batch2.csv
+Penn & Son Sheet MTL Heating & AC,HVAC,Paducah,KY,+12704429798,270,False,leads_no_website_US_batch2.csv
+A-1 Heating and Air,HVAC,Paducah,KY,+12708047309,270,False,leads_no_website_US_batch2.csv
+Baby Bears Grooming,Pet groomer,Paducah,KY,+12705645545,270,False,leads_no_website_US_batch2.csv
+Occasions Unlimited,caterer/restaurant,Paducah,KY,+12704425548,270,False,leads_no_website_US_batch2.csv
+Alpha Pet Boarding & Grooming,Dog boarding/daycare,Scottsville,KY,+12706184100,270,False,leads_no_website_US_batch2.csv
+Deco Painting & Drywall Contractors,painter,Alexandria,LA,+13185616414,318,False,leads_no_website_US_batch2.csv
+Pro Painting,painter,Alexandria,LA,+13184192812,318,False,leads_no_website_US_batch2.csv
+Allstar Painting & Drywall,painter,Alexandria,LA,+13187298447,318,False,leads_no_website_US_batch2.csv
+Four Seasons Painting,painter,Alexandria,LA,+13184465201,318,False,leads_no_website_US_batch2.csv
+Fuqua Painting,painter,Alexandria,LA,+13182016547,318,False,leads_no_website_US_batch2.csv
+Latinos Painting Company,painter,Ball,LA,+13184167067,318,False,leads_no_website_US_batch2.csv
+Townley George Painting Contractor,painter,Elmer,LA,+13187932164,318,False,leads_no_website_US_batch2.csv
+Jeffrey Construction,roofer,Houma,LA,+19854465917,985,False,leads_no_website_US_batch2.csv
+Carter's General Repairs LLC,painter,Houma,LA,+19853818417,985,False,leads_no_website_US_batch2.csv
+RH Painting Contracting,painter,Houma,LA,+19858526494,985,False,leads_no_website_US_batch2.csv
+Swingfit,gym/fitness,Lake Charles,LA,+13375646984,337,False,leads_no_website_US_batch2.csv
+Keith`s Janitorial Service,janitorial,Lake Charles,LA,+13374891604,337,False,leads_no_website_US_batch2.csv
+House O' Soul,BBQ/restaurant,Lake Charles,LA,+13374757603,337,False,leads_no_website_US_batch2.csv
+Sign World,print/sign shop,Lake Charles,LA,+13375289390,337,False,leads_no_website_US_batch2.csv
+J & J Painting and Drywall,painter,Monroe,LA,+13189140887,318,False,leads_no_website_US_batch2.csv
+Absolute Painting & Renovations,painter,Monroe,LA,+13186929086,318,False,leads_no_website_US_batch2.csv
+Baird's Painters Inc,painter,Monroe,LA,+13183485183,318,False,leads_no_website_US_batch2.csv
+K & S lawncare and landscaping,landscaping,Monroe,LA,+13183311669,318,False,leads_no_website_US_batch2.csv
+"Foundation Janitorial Services, LLC",janitorial,Monroe,LA,+13187322245,318,False,leads_no_website_US_batch2.csv
+JCE Paint Company,painter,Pineville,LA,+13184842958,318,False,leads_no_website_US_batch2.csv
+Dauzat painting,painter,Pineville,LA,+13187929333,318,False,leads_no_website_US_batch2.csv
+Shannon's Barks & Bubbles Pet Salon,Pet groomer,Pineville,LA,+13185411697,318,False,leads_no_website_US_batch2.csv
+Brandi's Clip and Dip,Pet groomer,West Monroe,LA,+13185379019,318,False,leads_no_website_US_batch2.csv
+T K Productions,DJ,West Monroe,LA,+13183972847,318,False,leads_no_website_US_batch2.csv
+Shirt Shack Screen Printing,print/sign shop,West Monroe,LA,+13183961771,318,False,leads_no_website_US_batch2.csv
+Bar B Que Pit Stop,BBQ/restaurant,Westlake,LA,+13374337818,337,False,leads_no_website_US_batch2.csv
+Roy's Auto Service Automotive Repair Shop,auto repair,Cumberland,MD,+13017771479,301,False,leads_no_website_US_batch2.csv
+MAID for Greatness,cleaning,Frostburg,MD,+12403624058,240,False,leads_no_website_US_batch2.csv
+Signature Hair Salon Inc,barber,Hagerstown,MD,+13017900933,301,False,leads_no_website_US_batch2.csv
+Kiki Hair Braiding & Spa,beauty salon,Hagerstown,MD,+12407016676,240,False,leads_no_website_US_batch2.csv
+Smith cleaning services,cleaning,Hagerstown,MD,+13014556029,301,False,leads_no_website_US_batch2.csv
+Lam Liu Lai,tailor/alterations,Bangor,ME,+12079905467,207,False,leads_no_website_US_batch2.csv
+The Neighborhood Garage,auto repair,Bangor,ME,+12079900169,207,False,leads_no_website_US_batch2.csv
+The Perfect Settings,beauty salon,Bangor,ME,+12072620400,207,False,leads_no_website_US_batch2.csv
+Mindful Style,barber,Brewer,ME,+12075731362,207,False,leads_no_website_US_batch2.csv
+The Animal Pal,Pet groomer,Auburn,MI,+19896624052,989,False,leads_no_website_US_batch2.csv
+Diamond Sound System,DJ,Cape Girardeau,MO,+15732000608,573,False,leads_no_website_US_batch2.csv
+A Clean Sweep LLC,janitorial,Carthage,MO,+14173884904,417,False,leads_no_website_US_batch2.csv
+Harry's Electric Service,electrician,Joplin,MO,+14177939426,417,False,leads_no_website_US_batch2.csv
+All Current Electric,electrician,Joplin,MO,+14174993472,417,False,leads_no_website_US_batch2.csv
+Shere's handyman & lawn,lawn care,Joplin,MO,+14173858899,417,False,leads_no_website_US_batch2.csv
+All Star Auto Center,auto repair,Joplin,MO,+14177823325,417,False,leads_no_website_US_batch2.csv
+Demerest Dents,body shop,Joplin,MO,+14177265250,417,False,leads_no_website_US_batch2.csv
+Briteway Building Maintenance,janitorial,Joplin,MO,+14176496452,417,False,leads_no_website_US_batch2.csv
+Event Cleaning Solutions,janitorial,Joplin,MO,+14173964214,417,False,leads_no_website_US_batch2.csv
+Wiestside BBQ,BBQ/restaurant,Joplin,MO,+14175533110,417,False,leads_no_website_US_batch2.csv
+Pan y KaFe,bakery,Joplin,MO,+14176220390,417,False,leads_no_website_US_batch2.csv
+The Clawfoot Tub Pet Grooming Salon,Pet groomer,Savannah,MO,+18167524841,816,False,leads_no_website_US_batch2.csv
+Big Ed's Janitorial,house cleaning,Bruce,MS,+16625678309,662,False,leads_no_website_US_batch2.csv
+Oak Grove Nails Spa,nail salon,Hattiesburg,MS,+17693907835,769,False,leads_no_website_US_batch2.csv
+Thrive Fitness,gym/fitness,Hattiesburg,MS,+16013290772,601,False,leads_no_website_US_batch2.csv
+Fsfit,gym/fitness,Hattiesburg,MS,+16012551883,601,False,leads_no_website_US_batch2.csv
+Stuart Septic,septic,Hattiesburg,MS,+16018181080,601,False,leads_no_website_US_batch2.csv
+JB Fence and Decks LLC,fence / decks,Hattiesburg,MS,+16018185555,601,False,leads_no_website_US_batch2.csv
+Hicks Auto Repair Shop,auto repair,Hattiesburg,MS,+16015839989,601,False,leads_no_website_US_batch2.csv
+Magnolia Auto Body Repair,body shop,Hattiesburg,MS,+16015797147,601,False,leads_no_website_US_batch2.csv
+MS Maid Services,house cleaning,Hattiesburg,MS,+16015229533,601,False,leads_no_website_US_batch2.csv
+North Lake Maintenance Service,janitorial,Hattiesburg,MS,+16012683814,601,False,leads_no_website_US_batch2.csv
+DC Office Cleaning,janitorial,Hattiesburg,MS,+16014486594,601,False,leads_no_website_US_batch2.csv
+Sandee Shine Cleaning Service,janitorial,Hattiesburg,MS,+16013106346,601,False,leads_no_website_US_batch2.csv
+Keasther's Barbeque,BBQ/restaurant,Hattiesburg,MS,+16013364825,601,False,leads_no_website_US_batch2.csv
+Holy Smoke,BBQ/restaurant,Hattiesburg,MS,+17693907183,769,False,leads_no_website_US_batch2.csv
+Chesterfields Restaurant,BBQ/restaurant,Hattiesburg,MS,+16013367134,601,False,leads_no_website_US_batch2.csv
+The Pound Cakery,bakery,Hattiesburg,MS,+16016580887,601,False,leads_no_website_US_batch2.csv
+Flowers N Things Florist,florist,Hattiesburg,MS,+16015993117,601,False,leads_no_website_US_batch2.csv
+Therah's Child Care,daycare,Hattiesburg,MS,+16015549929,601,False,leads_no_website_US_batch2.csv
+Little Hands Learning Academy,childcare center,Hattiesburg,MS,+16013365256,601,False,leads_no_website_US_batch2.csv
+Bulldog University Learning Center Inc,childcare center,Hattiesburg,MS,+16015828125,601,False,leads_no_website_US_batch2.csv
+Nail Therapy,nail salon,Meridian,MS,+16012865785,601,False,leads_no_website_US_batch2.csv
+Trendsetters,barbershop,Meridian,MS,+16014824787,601,False,leads_no_website_US_batch2.csv
+Lucky Nails,nail salon,Meridian,MS,+16014831270,601,False,leads_no_website_US_batch2.csv
+Salon Thirty Nine,nail salon,Meridian,MS,+16014836661,601,False,leads_no_website_US_batch2.csv
+Riley Fitness Center,gym/fitness,Meridian,MS,+16014843498,601,False,leads_no_website_US_batch2.csv
+MMA and Personal Training Academy,martial arts,Meridian,MS,+16012075188,601,False,leads_no_website_US_batch2.csv
+Black Eagle Martial Arts,martial arts,Meridian,MS,+16016932318,601,False,leads_no_website_US_batch2.csv
+Sinclair Auto Sales & Super Lube,used car lot,Meridian,MS,+16014834699,601,False,leads_no_website_US_batch2.csv
+B & B Automotive,used car lot / auto,Meridian,MS,+16012863092,601,False,leads_no_website_US_batch2.csv
+Bows & Toes Pet Grooming By Tonya,Pet groomer,Meridian,MS,+16014837788,601,False,leads_no_website_US_batch2.csv
+Mashall's Florist,florist,Meridian,MS,+16014834538,601,False,leads_no_website_US_batch2.csv
+Quick Prints,photographer,Meridian,MS,+16014853278,601,False,leads_no_website_US_batch2.csv
+Cutting Edge,lawn care,Petal,MS,+16013105097,601,False,leads_no_website_US_batch2.csv
+All About Tree Service,tree service,Petal,MS,+16015503024,601,False,leads_no_website_US_batch2.csv
+Bed & Biscuit Boarding Kennel,Dog boarding,Tupelo,MS,+16628428707,662,False,leads_no_website_US_batch2.csv
+Buckley's Janitorial,janitorial,Tupelo,MS,+16622222233,662,False,leads_no_website_US_batch2.csv
+Mr Kreative LLC,janitorial,Tupelo,MS,+16622672924,662,False,leads_no_website_US_batch2.csv
+Man Cave,Barbers,Great Falls,MT,+14064522283,406,False,leads_no_website_US_batch2.csv
+Blazing Lotus Healing House,spa/massage,Asheville,NC,+18282527827,828,False,leads_no_website_US_batch2.csv
+Majco Softwash,pressure washing,Fayetteville,NC,+19105024900,910,False,leads_no_website_US_batch2.csv
+Clean Shot Pressure Washing,pressure washing,Fayetteville,NC,+19107793416,910,False,leads_no_website_US_batch2.csv
+James Gorham The Hair,barbershop,Greenville,NC,+12523202446,252,False,leads_no_website_US_batch2.csv
+Hair Design,barbershop,Greenville,NC,+12527569180,252,False,leads_no_website_US_batch2.csv
+Glamour Nails & Spa,nail salon,Greenville,NC,+12526896445,252,False,leads_no_website_US_batch2.csv
+Classic Cut's N Styles,hair salon,Hickory,NC,+18288559328,828,False,leads_no_website_US_batch2.csv
+Blume Beauty Bar,hair salon,Hickory,NC,+18285786513,828,False,leads_no_website_US_batch2.csv
+Ranier Family Roofing,roofer,Hickory,NC,+18283270127,828,False,leads_no_website_US_batch2.csv
+BRAJAR Roofing Solutions,roofer,Hickory,NC,+18286108953,828,False,leads_no_website_US_batch2.csv
+Asset Roofing,roofer,Hickory,NC,+18282913246,828,False,leads_no_website_US_batch2.csv
+Mac Lawncare LLC,lawn care,Nashville,NC,+12522633200,252,False,leads_no_website_US_batch2.csv
+Paws Inn,Pet groomer/boarding,Rocky Mount,NC,+12524437576,252,False,leads_no_website_US_batch2.csv
+As You Wish Bakery,bakery,Rocky Mount,NC,+12523147132,252,False,leads_no_website_US_batch2.csv
+J&J's Kitchen,caterer/restaurant,Rocky Mount,NC,+12524466301,252,False,leads_no_website_US_batch2.csv
+San Jose Tacos and Tequila,caterer/restaurant,Rocky Mount,NC,+12522109514,252,False,leads_no_website_US_batch2.csv
+The Purple Petal,tailor/alterations,Rocky Mount,NC,+12522126887,252,False,leads_no_website_US_batch2.csv
+Hanover Men's Cuts,barbershop,Wilmington,NC,+19106167727,910,False,leads_no_website_US_batch2.csv
+Ogden Barber Shop,barbershop,Wilmington,NC,+19103956802,910,False,leads_no_website_US_batch2.csv
+Bliss Nails Salon,nail salon,Wilmington,NC,+19104318329,910,False,leads_no_website_US_batch2.csv
+TJ and Company Salon & Spa,spa/massage,Wilmington,NC,+19105206306,910,False,leads_no_website_US_batch2.csv
+TruImage Natural Hair & Beauty Salon,spa/massage,Winterville,NC,+12523642904,252,False,leads_no_website_US_batch2.csv
+O'meara Concrete Shop,concrete contractor,Kearney,NE,+13082372487,308,False,leads_no_website_US_batch2.csv
+Feel The Steel Barbershop,barber,Jaffrey,NH,+16035935099,603,False,leads_no_website_US_batch2.csv
+Givey's Barber Shop,barber,Jaffrey,NH,+16035327775,603,False,leads_no_website_US_batch2.csv
+Posh Pet Grooming Salon,pet grooming,Millville,NJ,+18568254522,856,False,leads_no_website_US_batch2.csv
+Its Hair With Flair,barber,Vineland,NJ,+18562059100,856,False,leads_no_website_US_batch2.csv
+Clark's Auto World,auto repair,Vineland,NJ,+18562974102,856,False,leads_no_website_US_batch2.csv
+All Critters Sitting Service,pet grooming,Vineland,NJ,+18563132172,856,False,leads_no_website_US_batch2.csv
+7 Stars Cleaning,cleaning,Williamstown,NJ,+12676901131,267,False,leads_no_website_US_batch2.csv
+Rodz Automotive Service,Auto Repair & Service,Clovis,NM,+15757639712,575,False,leads_no_website_US_batch2.csv
+Cobb Auto & Alignment,Auto Repair & Service,Roswell,NM,+15756240728,575,False,leads_no_website_US_batch2.csv
+Unique Custom Upholstery,Upholsterers,Carson City,NV,+17758838885,775,False,leads_no_website_US_batch2.csv
+S & S Alignment,auto repair,Elmira,NY,+16077323184,607,False,leads_no_website_US_batch2.csv
+Above and Beyond Cleaning,cleaning,Elmira,NY,+16072070719,607,False,leads_no_website_US_batch2.csv
+Party Time,event rentals,Horseheads,NY,+16077393222,607,False,leads_no_website_US_batch2.csv
+Shear Images Tanning Studio,beauty salon,Watertown,NY,+13157863055,315,False,leads_no_website_US_batch2.csv
+Christopher's Hair & Nails,hair salon,Akron,OH,+13308673603,330,False,leads_no_website_US_batch2.csv
+Nails By Joan,nail salon,Bluffton,OH,+14193580001,419,False,leads_no_website_US_batch2.csv
+Debbie's Hair Salon,hair salon,Canton,OH,+13304846422,330,False,leads_no_website_US_batch2.csv
+Fast Trax Signs & Embroidery,print/sign shop,Columbus Grove,OH,+14196595249,419,False,leads_no_website_US_batch2.csv
+American Sign & Banner Co,print/sign shop,Crestline,OH,+14196833806,419,False,leads_no_website_US_batch2.csv
+Professional Hair Designers,hair salon,Dayton,OH,+19378989618,937,False,leads_no_website_US_batch2.csv
+Elegant Nails Salon,nail salon,Dayton,OH,+19374369946,937,False,leads_no_website_US_batch2.csv
+Karmel's Day Spa and Salon,spa,Dayton,OH,+19372755500,937,False,leads_no_website_US_batch2.csv
+The Cut Above,hair salon,Lima,OH,+14199910393,419,False,leads_no_website_US_batch2.csv
+Bob's Building & Concrete,concrete contractor,Lima,OH,+14196040084,419,False,leads_no_website_US_batch2.csv
+Paddy Macs,BBQ/restaurant,Lima,OH,+14192220271,419,False,leads_no_website_US_batch2.csv
+Elmview Pizza & Pub,caterer/restaurant,Lima,OH,+14199914821,419,False,leads_no_website_US_batch2.csv
+T-Shirts & Szuch,print/sign shop,Lima,OH,+14193313809,419,False,leads_no_website_US_batch2.csv
+Premier Digital Dynamics,print/sign shop,Mansfield,OH,+14197098268,419,False,leads_no_website_US_batch2.csv
+Pampered Paws Pet Grooming,Pet groomer,New Concord,OH,+17407046977,740,False,leads_no_website_US_batch2.csv
+Chang Mi Spa,spa,Toledo,OH,+14195318665,419,False,leads_no_website_US_batch2.csv
+Lisa's Manicure & Pedicure Spa,spa,Toledo,OH,+14195170092,419,False,leads_no_website_US_batch2.csv
+Melon Therapy Inc,massage,Toledo,OH,+14192149269,419,False,leads_no_website_US_batch2.csv
+LuLu's 113,BBQ/restaurant,Wapakoneta,OH,+14197385813,419,False,leads_no_website_US_batch2.csv
+Blade Barber Styling,barbershop,Youngstown,OH,+13307586222,330,False,leads_no_website_US_batch2.csv
+Sei Bella Salon,hair salon,Youngstown,OH,+13307588268,330,False,leads_no_website_US_batch2.csv
+Pierre’s Hairstyling Salon,nail salon,Youngstown,OH,+13307268626,330,False,leads_no_website_US_batch2.csv
+Profiles Hair Salon,spa,Youngstown,OH,+13307581048,330,False,leads_no_website_US_batch2.csv
+Facial Care By Joyce,spa,Youngstown,OH,+13307261753,330,False,leads_no_website_US_batch2.csv
+Scott's Massotherapy,massage,Youngstown,OH,+13307574502,330,False,leads_no_website_US_batch2.csv
+Family Hair Care,hair salon,Blackwell,OK,+15802622939,580,False,leads_no_website_US_batch2.csv
+Bebeco,painter,Enid,OK,+15802370294,580,False,leads_no_website_US_batch2.csv
+B & J House Painting,painter,Enid,OK,+15802331095,580,False,leads_no_website_US_batch2.csv
+Paint A Lifestyle Decorative Painting,painter,Enid,OK,+15809779988,580,False,leads_no_website_US_batch2.csv
+Home Repairs Plus,general contractor,Enid,OK,+15807477601,580,False,leads_no_website_US_batch2.csv
+Pony Construction,general contractor,Enid,OK,+15802970053,580,False,leads_no_website_US_batch2.csv
+Alvarado's Quality Service,lawn care,Enid,OK,+15805547277,580,False,leads_no_website_US_batch2.csv
+Grego Fence Co,fence contractor,Enid,OK,+15805418123,580,False,leads_no_website_US_batch2.csv
+Big Chiefs Moving,moving company,Enid,OK,+15805593091,580,False,leads_no_website_US_batch2.csv
+The Movers,moving company,Enid,OK,+15809777019,580,False,leads_no_website_US_batch2.csv
+Signs on A Dime,print/sign shop,Enid,OK,+15802373078,580,False,leads_no_website_US_batch2.csv
+Turkey Creek Smokin BBQ And Cajun,BBQ/restaurant,Lahoma,OK,+15804781937,580,False,leads_no_website_US_batch2.csv
+Whitehead Plumbing,plumber,Lawton,OK,+15803550895,580,False,leads_no_website_US_batch2.csv
+Lil Caterpillars,daycare,Lawton,OK,+15806993573,580,False,leads_no_website_US_batch2.csv
+Just For Kids Child Development Center,childcare center,Lawton,OK,+15802483883,580,False,leads_no_website_US_batch2.csv
+Beautiful Reflections,beauty salon,Newkirk,OK,+15803622223,580,False,leads_no_website_US_batch2.csv
+Shirley Trolinger Painting,painter,Shawnee,OK,+14052751011,405,False,leads_no_website_US_batch2.csv
+A Different Color,painter,Shawnee,OK,+14058222063,405,False,leads_no_website_US_batch2.csv
+Tom Caton Custom Painting,painter,Shawnee,OK,+14053903843,405,False,leads_no_website_US_batch2.csv
+Echo Property Upkeep,painter,Shawnee,OK,+14052743060,405,False,leads_no_website_US_batch2.csv
+James & Sons Paint,painter,Tecumseh,OK,+14055987367,405,False,leads_no_website_US_batch2.csv
+"Brown's Painting, Inc.",painter,Tecumseh,OK,+14058082451,405,False,leads_no_website_US_batch2.csv
+Prochaskas painting and Home repair,painter,Waukomis,OK,+15806031502,580,False,leads_no_website_US_batch2.csv
+Gordon Painting,painter,Wellston,OK,+14053562220,405,False,leads_no_website_US_batch2.csv
+Shaw Painting and Refurb,painter,Wellston,OK,+14052768498,405,False,leads_no_website_US_batch2.csv
+Texas Hotdogs Of Altoona,BBQ/restaurant,Altoona,PA,+18149426381,814,False,leads_no_website_US_batch2.csv
+Nicoletta's Family Restaurant,caterer/restaurant,Altoona,PA,+18149464463,814,False,leads_no_website_US_batch2.csv
+Icon Signs,print/sign shop,Duncansville,PA,+18146963831,814,False,leads_no_website_US_batch2.csv
+D'Tails Professional Dog & Cat Salon,Pet groomer,East Freedom,PA,+18146964729,814,False,leads_no_website_US_batch2.csv
+Sunset Tailoring & Alterations,tailor/alterations,Martinsburg,PA,+18142512023,814,False,leads_no_website_US_batch2.csv
+Pet Barn Inc,pet grooming,Orwigsburg,PA,+15703660331,570,False,leads_no_website_US_batch2.csv
+Cut and Curl Shop,barber,Portage,PA,+18147368100,814,False,leads_no_website_US_batch2.csv
+Loris Pups & Pooches Dog Grooming,pet grooming,Pottsville,PA,+15706224246,570,False,leads_no_website_US_batch2.csv
+Larry's Barber Shop,barber,Schuylkill Haven,PA,+15707392676,570,False,leads_no_website_US_batch2.csv
+Clean While You Are Away,cleaning,Waynesboro,PA,+17175049921,717,False,leads_no_website_US_batch2.csv
+Absolutely Animals,Pet groomer,Windber,PA,+18144679040,814,False,leads_no_website_US_batch2.csv
+Angel Nail And Spa,nail salon,Anderson,SC,+18643670650,864,False,leads_no_website_US_batch2.csv
+Lavender Skin Studio,spa/massage,Anderson,SC,+18642025312,864,False,leads_no_website_US_batch2.csv
+J&L Pressure Washing,pressure washing,Campobello,SC,+18642660567,864,False,leads_no_website_US_batch2.csv
+D & G Abbott's Pro Wash,pressure washing,Cowpens,SC,+18644633733,864,False,leads_no_website_US_batch2.csv
+Baker's Sugar Spa,spa/massage,Darlington,SC,+18439925515,843,False,leads_no_website_US_batch2.csv
+Joe's Grill,BBQ/restaurant,Darlington,SC,+18433939140,843,False,leads_no_website_US_batch2.csv
+Florence Massage,spa/massage,Florence,SC,+18436655383,843,False,leads_no_website_US_batch2.csv
+Joe's Handyman Service,handyman,Florence,SC,+18437730227,843,False,leads_no_website_US_batch2.csv
+Dodge Bros. Painting,painter,Florence,SC,+18432455812,843,False,leads_no_website_US_batch2.csv
+Cooper & Kissiah Home Improvements,handyman,Florence,SC,+18432505122,843,False,leads_no_website_US_batch2.csv
+Tazmania Electric,electrician,Florence,SC,+18436210088,843,False,leads_no_website_US_batch2.csv
+"Stone Electrical Construction, LLC",electrician,Florence,SC,+18434076492,843,False,leads_no_website_US_batch2.csv
+Pryor Electric,electrician,Florence,SC,+18433191578,843,False,leads_no_website_US_batch2.csv
+Sweet Cupcake Company,bakery,Florence,SC,+18434077071,843,False,leads_no_website_US_batch2.csv
+Tubbs Signs & Graphix,print/sign shop,Florence,SC,+18434075157,843,False,leads_no_website_US_batch2.csv
+Sign Sational of Florence Inc,print/sign shop,Florence,SC,+18436612192,843,False,leads_no_website_US_batch2.csv
+Brown's Group Day Care Home,home daycare,Florence,SC,+18436627876,843,False,leads_no_website_US_batch2.csv
+Kings Kids,daycare,Florence,SC,+18432505903,843,False,leads_no_website_US_batch2.csv
+Bright Smiles Family Daycare,home daycare,Florence,SC,+18432609917,843,False,leads_no_website_US_batch2.csv
+Little Learning Lamb,daycare,Florence,SC,+18549035779,854,False,leads_no_website_US_batch2.csv
+Tite Cuts,barbershop,Rock Hill,SC,+18033662887,803,False,leads_no_website_US_batch2.csv
+Nail First,nail salon,Rock Hill,SC,+18039806245,803,False,leads_no_website_US_batch2.csv
+Marlowe's Executive Hair,barbershop,Spartanburg,SC,+18645826247,864,False,leads_no_website_US_batch2.csv
+Clean Cutz,barbershop,Spartanburg,SC,+18643453124,864,False,leads_no_website_US_batch2.csv
+Platinum Designs Hair Studio Sumter,hair salon,Sumter,SC,+18038474776,803,False,leads_no_website_US_batch2.csv
+The G Spa,spa/massage,Sumter,SC,+18034068446,803,False,leads_no_website_US_batch2.csv
+Bowman Home & Lawn Services,lawn care,Baxter,TN,+19312537058,931,False,leads_no_website_US_batch2.csv
+Studio La Vie,hair salon,Chattanooga,TN,+14236345255,423,False,leads_no_website_US_batch2.csv
+Prodigy Salon-Boutique,hair salon,Clarksville,TN,+19312218980,931,False,leads_no_website_US_batch2.csv
+Emily Nails,nail salon,Clarksville,TN,+19319192442,931,False,leads_no_website_US_batch2.csv
+Family Traditions Cafe,bakery,Cookeville,TN,+19315264111,931,False,leads_no_website_US_batch2.csv
+Mitch Autry Service Center,auto repair,Henderson,TN,+17314351265,731,False,leads_no_website_US_batch2.csv
+Tight Cuts,barbershop,Jackson,TN,+17312679842,731,False,leads_no_website_US_batch2.csv
+Gemini's Cuts & Styles,barbershop,Jackson,TN,+17315542489,731,False,leads_no_website_US_batch2.csv
+Nail Studio,nail salon,Jackson,TN,+17316645642,731,False,leads_no_website_US_batch2.csv
+Five Star Nails & Spa,nail salon,Jackson,TN,+17312561955,731,False,leads_no_website_US_batch2.csv
+23 Sandstone Spa,spa/massage,Jackson,TN,+17313007724,731,False,leads_no_website_US_batch2.csv
+Bodyworks Massage & Spa,spa/massage,Jackson,TN,+17316648704,731,False,leads_no_website_US_batch2.csv
+Malesus Auto Repair,auto repair,Jackson,TN,+17313007588,731,False,leads_no_website_US_batch2.csv
+Goodvalue Tires And Service Inc,tire shop,Jackson,TN,+17314225533,731,False,leads_no_website_US_batch2.csv
+Yandell Awnings & Iron,print/sign shop,Jackson,TN,+17314218239,731,False,leads_no_website_US_batch2.csv
+Don's Septic Tank Service,septic,Johnson City,TN,+14232469715,423,False,leads_no_website_US_batch2.csv
+Kidz Korner Child Care Center,childcare center,Kingsport,TN,+14232888362,423,False,leads_no_website_US_batch2.csv
+Precious Memories Home Daycare,home daycare,Kingsport,TN,+14232464088,423,False,leads_no_website_US_batch2.csv
+Harvest Child Care Ministries,childcare center,Kingsport,TN,+14232883532,423,False,leads_no_website_US_batch2.csv
+Fosters Group Day Care Home,home daycare,Kingsport,TN,+14233237591,423,False,leads_no_website_US_batch2.csv
+Eden Spa,spa/massage,Murfreesboro,TN,+16159567915,615,False,leads_no_website_US_batch2.csv
+Aura Beauty Retreat,spa/massage,Murfreesboro,TN,+16156533050,615,False,leads_no_website_US_batch2.csv
+Castle Nails & Spa,nail salon,Abilene,TX,+13252684111,325,False,leads_no_website_US_batch2.csv
+B & S Wrecker Services,towing,Abilene,TX,+13257218162,325,False,leads_no_website_US_batch2.csv
+Spaw Pet Grooming & Boutique,Pet groomer,Abilene,TX,+13257046045,325,False,leads_no_website_US_batch2.csv
+Super Hero Cleaning,janitorial,Abilene,TX,+13256917248,325,False,leads_no_website_US_batch2.csv
+OP Nails,nail salon,Amarillo,TX,+18064671311,806,False,leads_no_website_US_batch2.csv
+Illusions Styling Salon,hair salon,Beaumont,TX,+14098999496,409,False,leads_no_website_US_batch2.csv
+Elegance Salon & Spa,nail/hair salon,Bryan,TX,+19792684383,979,False,leads_no_website_US_batch2.csv
+American Styles,barbershop,Corpus Christi,TX,+13618521196,361,False,leads_no_website_US_batch2.csv
+Diva Dolls braids&sew-in& more,braiding salon,Corpus Christi,TX,+13613343232,361,False,leads_no_website_US_batch2.csv
+Salon Palomo,hair salon,Corpus Christi,TX,+13618558841,361,False,leads_no_website_US_batch2.csv
+C J Beauty,beauty salon,Denton,TX,+19402181788,940,False,leads_no_website_US_batch2.csv
+S&S Pressure Washing,pressure washing,Flint,TX,+19037073482,903,False,leads_no_website_US_batch2.csv
+Fat-Boyz Pressure Washing Service,pressure washing,Gladewater,TX,+19039302253,903,False,leads_no_website_US_batch2.csv
+Oliver's Pressure Washing and Cleaning,pressure washing,Hawkins,TX,+19036300630,903,False,leads_no_website_US_batch2.csv
+Pat's Place,barbershop,Huntington,TX,+19364223848,936,False,leads_no_website_US_batch2.csv
+AAA U.S. Barbershop,barbershop,Killeen,TX,+12542133275,254,False,leads_no_website_US_batch2.csv
+Maribella's Unisex Salon,hair salon,Laredo,TX,+19565681638,956,False,leads_no_website_US_batch2.csv
+Extremely Magic,beauty salon,Longview,TX,+19037575523,903,False,leads_no_website_US_batch2.csv
+Fabulous Nails & Spa,nail salon,Longview,TX,+19034524599,903,False,leads_no_website_US_batch2.csv
+JB-Painting Service,painter,Longview,TX,+19035767581,903,False,leads_no_website_US_batch2.csv
+Decolores East Texas Painting,painter,Longview,TX,+19032348074,903,False,leads_no_website_US_batch2.csv
+Elite Painting & Performance,painter,Longview,TX,+19032157206,903,False,leads_no_website_US_batch2.csv
+Reyes Painting,painter,Longview,TX,+19032880619,903,False,leads_no_website_US_batch2.csv
+On-Site Professional Painting,painter,Longview,TX,+19034248188,903,False,leads_no_website_US_batch2.csv
+82nd Street Barber Shop,barbershop,Lubbock,TX,+18067959201,806,False,leads_no_website_US_batch2.csv
+Coco Nail Loung,nail salon,Lubbock,TX,+18067011664,806,False,leads_no_website_US_batch2.csv
+The Hair & Nail Gallery,hair/nail salon,Lufkin,TX,+19366373710,936,False,leads_no_website_US_batch2.csv
+Helen's Dog Grooming & Supplies,Pet groomer,Lufkin,TX,+19366322849,936,False,leads_no_website_US_batch2.csv
+Shepherds Gardening & Lawn Care LLC,lawn care,Lufkin area,TX,+19362011581,936,False,leads_no_website_US_batch2.csv
+Elite Nails & Spa,nail salon,McAllen,TX,+19566829500,956,False,leads_no_website_US_batch2.csv
+RAZORSHARP BARBERSHOP RGV,barbershop,McAllen,TX,+19568151055,956,False,leads_no_website_US_batch2.csv
+All Star Cuts,barbershop,Mission,TX,+19565802228,956,False,leads_no_website_US_batch2.csv
+Kevin's Painting Inc,painter,Nacogdoches,TX,+19364655033,936,False,leads_no_website_US_batch2.csv
+Your Home Today,painter,Nacogdoches,TX,+19363053516,936,False,leads_no_website_US_batch2.csv
+Affordable Painting & Flooring Contractors,painter,Nacogdoches,TX,+19365851159,936,False,leads_no_website_US_batch2.csv
+Beau Cheveux,hair salon,Nederland,TX,+14097216600,409,False,leads_no_website_US_batch2.csv
+Charm Beauty Salon,hair salon,Odessa,TX,+14323620917,432,False,leads_no_website_US_batch2.csv
+Not Just Another Nail Shop,nail salon,Odessa,TX,+14326145017,432,False,leads_no_website_US_batch2.csv
+The Palms Salon Spa,hair/nail salon,Odessa,TX,+14325807256,432,False,leads_no_website_US_batch2.csv
+Paws of Paris,Pet groomer,Odessa,TX,+14326534696,432,False,leads_no_website_US_batch2.csv
+West Texas Sign Company,print/sign shop,Odessa,TX,+14323620699,432,False,leads_no_website_US_batch2.csv
+Thompson Signs,print/sign shop,Odessa,TX,+14323680505,432,False,leads_no_website_US_batch2.csv
+D & L Beauty and Barber Shop,barbershop,Pharr,TX,+19564608373,956,False,leads_no_website_US_batch2.csv
+Sky Lash And Nails,lash/nail studio,Pottsboro,TX,+19037860101,903,False,leads_no_website_US_batch2.csv
+Head and Soul Salon,hair salon,Sherman,TX,+19038939499,903,False,leads_no_website_US_batch2.csv
+Lash & Nail Bar,lash/nail studio,Sherman,TX,+19038139999,903,False,leads_no_website_US_batch2.csv
+Trendsetters Hair Co,hair salon,Sherman,TX,+19038682263,903,False,leads_no_website_US_batch2.csv
+The Red Woof Inn,Pet groomer/boarding,Texarkana,TX,+19033348267,903,False,leads_no_website_US_batch2.csv
+My Nail Spa,nail salon,Tyler,TX,+19037875996,903,False,leads_no_website_US_batch2.csv
+Suni Nails Spa,nail salon,Tyler,TX,+19037878986,903,False,leads_no_website_US_batch2.csv
+SRP New Fitness,gym/fitness,Tyler,TX,+19033472855,903,False,leads_no_website_US_batch2.csv
+Tyler Pressure Washing,pressure washing,Tyler,TX,+19038303482,903,False,leads_no_website_US_batch2.csv
+Automotive & Moore,auto repair,Tyler,TX,+19035937767,903,False,leads_no_website_US_batch2.csv
+Splash N Dash,auto detailing,Tyler,TX,+19037878996,903,False,leads_no_website_US_batch2.csv
+Peace of Ice,bakery,Tyler,TX,+19723625280,972,False,leads_no_website_US_batch2.csv
+Specialty Kitchen & Bakery,bakery,Tyler,TX,+19039447944,903,False,leads_no_website_US_batch2.csv
+Bruno's Pizza,caterer/restaurant,Tyler,TX,+19035951676,903,False,leads_no_website_US_batch2.csv
+Jacobs Custom Welding & Repair,welding,Waco,TX,+12545482771,254,False,leads_no_website_US_batch2.csv
+Kid's Hair Safari,hair salon,Wichita Falls,TX,+19406926666,940,False,leads_no_website_US_batch2.csv
+Texas Quickstepper Cloggers,dance lessons,Wichita Falls,TX,+19406363048,940,False,leads_no_website_US_batch2.csv
+Flash Power Services,pressure washing,Woodway,TX,+12542183913,254,False,leads_no_website_US_batch2.csv
+Charles L Davis Contractor,masonry contractor,Danville,VA,+14346851671,434,False,leads_no_website_US_batch2.csv
+Susie's Auto Center,used car lot,Danville,VA,+14347991077,434,False,leads_no_website_US_batch2.csv
+German Master Works Service Department,auto repair,Staunton,VA,+15402131905,540,False,leads_no_website_US_batch2.csv
+Ambitious Hair Design,beauty salon,Staunton,VA,+15408850022,540,False,leads_no_website_US_batch2.csv
+Laura's Hair Frenzy,beauty salon,Rutland,VT,+18023423741,802,False,leads_no_website_US_batch2.csv
+Continental Hair People,beauty salon,Rutland,VT,+18027752483,802,False,leads_no_website_US_batch2.csv
+Capital Barber Shop,Barbers,Walla Walla,WA,+15095222887,509,False,leads_no_website_US_batch2.csv
+City Slickers Salon And Spa,Barbers,Walla Walla,WA,+15095292108,509,False,leads_no_website_US_batch2.csv
+FadedTimes Barbershop,Barbers,Yakima,WA,+15094248628,509,False,leads_no_website_US_batch2.csv
+Suds & Bubbles Pet Grooming Salon,Pet groomer,Wausau,WI,+17152989667,715,False,leads_no_website_US_batch2.csv
+Dawg-Gone Pet Salon,Pet groomer,Beckley,WV,+13042559009,304,False,leads_no_website_US_batch2.csv
+Mills Service,welding,Princeton,WV,+13049134908,304,False,leads_no_website_US_batch2.csv
+Hugs & Scrubs Dog Grooming,pet grooming,Ridgeley,WV,+13047388606,304,False,leads_no_website_US_batch2.csv
