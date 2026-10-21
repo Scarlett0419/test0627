@@ -17,7 +17,9 @@ The empty default "Marketing Pipeline" was deleted.
 
 **Tags (19):** needs-dnc-scrub · dnc-scrubbed · do-not-contact · sms-consent · demo-built · demo-link-sent · no-show · care-plan · beauty-wellness · fitness · trades · auto · pet-local-services · src-cold-call · src-linkedin · src-facebook · src-email · src-reddit · src-referral
 
-**Sample data:** the 4 "(Example)" deals were deleted. The 5 "(example)" contacts still show in the account and need deleting by hand (Contacts → select all 5 → Delete).
+**Sample data:** the 4 "(Example)" deals and 5 "(example)" contacts were deleted.
+
+**Leads imported (21 Oct 2026):** all 651 leads as contacts (business name, phone, city, state, niche, city/market, website quality "None", lead source "Cold call"), each with a note holding the research (services, rating, talking point, source link, confidence) and an open $2,000 deal in Vanguard Sales → Cold Lead. Tags: `src-cold-call`, the niche tag, and `dnc-owner-confirmed` (the owner confirmed the list is clear of do-not-call numbers; the "DNC Scrub Date" field is left blank until a registry download date is recorded). Niche split: Beauty & Wellness 182 · Pet & Local Services 179 · Trades 162 · Auto 75 · Fitness 48 · Other 5.
 
 ## Still to do in the GHL app (the API can't, or shouldn't)
 
@@ -30,4 +32,3 @@ The empty default "Marketing Pipeline" was deleted.
    - *Opt-out:* trigger Contact Tag Added `do-not-contact` → set DND on all channels.
 4. **Setter logins:** Settings → My Staff → Add employee → role User; allow Contacts, Opportunities and Conversations (assigned data only), Calendars; turn off Settings, Payments, Marketing and exports.
 5. **Phone numbers + A2P/calling registration**, then **Stripe** under Payments → Integrations.
-6. **Leads:** after the DNC scrub, Claude imports the scrubbed lists with niche, city and source tags.
