@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Policy Impact Dashboard</title>
+<style>
+  /* Brand tokens. Swap in the official University of Exeter values from the brand toolkit. */
+  :root {
+    --brand: #003c3c;        /* Exeter deep green */
+    --brand-2: #007d69;      /* Exeter green */
+    --accent: #00a9a5;       /* teal accent */
+    --accent-2: #f0b323;     /* highlight */
+    --bg: #f5f7f6;
+    --card: #ffffff;
+    --ink: #13201f;
+    --muted: #5b6b69;
+    --line: #dde4e2;
+    --cited: #007d69;
+    --named: #8fc9bf;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1716; --card: #142221; --ink: #e6eeec; --muted: #9db0ad; --line: #24393a;
+      --cited: #2fb7a0; --named: #3e6b65;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1716; --card: #142221; --ink: #e6eeec; --muted: #9db0ad; --line: #24393a;
+    --cited: #2fb7a0; --named: #3e6b65;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { background: var(--brand); color: #fff; padding: 14px 16px; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+  header .wrap { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding: 0; }
+  .logo { height: 40px; }
+  .wordmark { font-weight: 600; letter-spacing: .02em; font-size: 13px; opacity: .9; line-height: 1.2; }
+  header h1 { margin: 0; font-size: 20px; font-weight: 600; flex: 1; min-width: 220px; }
+  header .meta { font-size: 12px; opacity: .8; }
+  .banner { background: var(--accent-2); color: #2b2200; text-align: center; padding: 6px 16px; font-size: 13px; font-weight: 600; }
+  main { padding: 20px 0 48px; }
+  .controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
+  .controls label { font-size: 13px; color: var(--muted); }
+  select { font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+  .people { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; margin-bottom: 18px; }
+  .person { flex: 0 0 auto; display: flex; align-items: center; gap: 10px; padding: 8px 14px 8px 8px; border-radius: 40px;
+            border: 1px solid var(--line); background: var(--card); cursor: pointer; color: var(--ink); font: inherit; }
+  .person[aria-pressed="true"] { border-color: var(--brand-2); box-shadow: 0 0 0 2px var(--brand-2) inset; }
+  .avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--brand-2); color: #fff; display: grid; place-items: center;
+            font-weight: 700; font-size: 14px; overflow: hidden; flex: 0 0 auto; }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .person small { display: block; color: var(--muted); font-size: 12px; }
+  .profile { display: flex; gap: 16px; align-items: center; margin-bottom: 16px; }
+  .profile .avatar { width: 72px; height: 72px; font-size: 24px; }
+  .profile h2 { margin: 0; font-size: 22px; }
+  .profile p { margin: 2px 0 0; color: var(--muted); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .kpi, .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .kpi .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .kpi .value { font-size: 28px; font-weight: 700; color: var(--brand-2); margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .kpi .sub { font-size: 12px; color: var(--muted); }
+  .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 12px; }
+  .card h3 { margin: 0 0 10px; font-size: 15px; }
+  .card .hint { font-size: 12px; color: var(--muted); margin: -6px 0 10px; }
+  .span-12 { grid-column: span 12; } .span-8 { grid-column: span 8; } .span-7 { grid-column: span 7; }
+  .span-6 { grid-column: span 6; } .span-5 { grid-column: span 5; } .span-4 { grid-column: span 4; }
+  @media (max-width: 900px) { .span-8, .span-7, .span-6, .span-5, .span-4 { grid-column: span 12; } }
+  .chart { position: relative; height: 260px; }
+  .chart.tall { height: 340px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 7px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .table-scroll { overflow-x: auto; }
+  .tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--bg); border: 1px solid var(--line); margin: 1px 2px 1px 0; color: var(--muted); }
+  .tag.cited { background: var(--cited); color: #fff; border-color: transparent; }
+  .tag.named { background: var(--named); color: #06302b; border-color: transparent; }
+  a { color: var(--brand-2); }
+  tr.clickable { cursor: pointer; }
+  tr.clickable:hover td { background: var(--bg); }
+  .empty { color: var(--muted); padding: 24px; text-align: center; }
+  footer { color: var(--muted); font-size: 12px; text-align: center; padding: 16px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <!-- Drop the official logo at dashboard/assets/logo.svg; it hides itself if missing. -->
+    <img class="logo" src="assets/logo.svg" alt="University of Exeter Business School" onerror="this.remove()">
+    <div class="wordmark">University of Exeter<br>Business School</div>
+    <h1>Policy Impact Dashboard · <span id="scopeName">Sustainable Futures</span></h1>
+    <div class="meta" id="meta"></div>
+  </div>
+</header>
+<div class="banner" id="demoBanner" hidden>Sample data: layout preview only. Real figures will come from the Overton API.</div>
+
+<main class="wrap">
+  <div class="controls">
+    <label for="group">Scope</label>
+    <select id="group"></select>
+    <label for="range">Period</label>
+    <select id="range">
+      <option value="all">All years</option>
+      <option value="5">Last 5 years</option>
+      <option value="3">Last 3 years</option>
+      <option value="1">Last 12 months</option>
+    </select>
+    <label for="mtype">Mention type</label>
+    <select id="mtype">
+      <option value="all">Cited + named</option>
+      <option value="cited">Research cited</option>
+      <option value="named">Named in text</option>
+    </select>
+  </div>
+
+  <div class="people" id="people" role="group" aria-label="Choose a staff member"></div>
+
+  <div class="profile" id="profile"></div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid">
+    <div class="card span-7">
+      <h3>Timeline of mentions</h3>
+      <div class="chart"><canvas id="timeline"></canvas></div>
+    </div>
+    <div class="card span-5">
+      <h3>Source classification</h3>
+      <div class="chart"><canvas id="sourceTypes"></canvas></div>
+    </div>
+
+    <div class="card span-8">
+      <h3>Where our work is read and used</h3>
+      <p class="hint">Countries of the policy sources that cite or name us. IGO and EU sources are listed in the table alongside.</p>
+      <div class="chart tall"><canvas id="map"></canvas></div>
+    </div>
+    <div class="card span-4">
+      <h3>Top geographies</h3>
+      <div class="table-scroll"><table id="geoTable"></table></div>
+    </div>
+
+    <div class="card span-6">
+      <h3>Topic areas</h3>
+      <div class="chart"><canvas id="topics"></canvas></div>
+    </div>
+    <div class="card span-6">
+      <h3>Top policy outlets citing us</h3>
+      <div class="table-scroll"><table id="sourcesTable"></table></div>
+    </div>
+
+    <div class="card span-12" id="rollupCard">
+      <h3>Staff summary</h3>
+      <p class="hint">Click a row to open that person's dashboard.</p>
+      <div class="table-scroll"><table id="rollup"></table></div>
+    </div>
+
+    <div class="card span-12">
+      <h3>Most recent mentions</h3>
+      <div class="table-scroll"><table id="recent"></table></div>
+    </div>
+  </section>
+</main>
+<footer>Data: Overton policy documents database · Impact score = Σ (source weight × mention weight × recency); see PLAN.md</footer>
+
+<script src="data/dashboard_data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-chart-geo@4.3.1/build/index.umd.min.js"></script>
+<script>
+(() => {
+  const DATA = window.DASHBOARD_DATA || { staff: [], mentions: [] };
+  const SOURCE_WEIGHT = { "Government": 3, "Intergovernmental (IGO)": 3, "Think tank": 2, "NGO / civil society": 1.5, "Other": 1 };
+  const MENTION_WEIGHT = { cited: 1, named: 0.75 };
+  const NON_MAP = new Set(["International (IGO)", "European Union", "Unknown"]);
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const initials = n => n.split(/\s+/).map(w => w[0]).slice(0, 2).join("").toUpperCase();
+  const fmtDate = d => d ? new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : "—";
+  const countBy = (arr, f) => arr.reduce((m, x) => { [].concat(f(x)).forEach(k => m.set(k, (m.get(k) || 0) + 1)); return m; }, new Map());
+  const top = (m, n) => [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
+
+  const state = { person: null, group: "all", range: "all", mtype: "all" };
+  try { const s = JSON.parse(localStorage.getItem("policyDash") || "{}"); Object.assign(state, s); } catch (e) {}
+  const save = () => { try { localStorage.setItem("policyDash", JSON.stringify(state)); } catch (e) {} };
+
+  if (DATA.demo) $("demoBanner").hidden = false;
+  if (DATA.generated_at) $("meta").textContent = "Data updated " + fmtDate(DATA.generated_at.slice(0, 10));
+
+  // Scope: whole department, or a research group.
+  const groups = [...new Set(DATA.staff.map(s => s.group).filter(Boolean))];
+  const dept = DATA.staff[0]?.department || "Department";
+  $("group").innerHTML = `<option value="all">${esc(dept)} (all)</option>` + groups.map(g => `<option>${esc(g)}</option>`).join("");
+  if (![...$("group").options].some(o => o.value === state.group)) state.group = "all";
+  if (state.person && !DATA.staff.some(s => s.id === state.person)) state.person = null;
+
+  function recency(dateStr) {
+    const years = (Date.now() - new Date(dateStr)) / 3.156e10;
+    return years <= 3 ? 1 : years <= 6 ? 0.6 : 0.3;
+  }
+  const score = ms => Math.round(ms.reduce((t, m) => t + (SOURCE_WEIGHT[m.source_type] || 1) * (MENTION_WEIGHT[m.mention_type] || 1) * recency(m.published_on), 0));
+
+  function scopedStaff() { return DATA.staff.filter(s => state.group === "all" || s.group === state.group); }
+  function filtered(personId) {
+    const ids = new Set(personId ? [personId] : scopedStaff().map(s => s.id));
+    const cutoff = state.range === "all" ? null : new Date(Date.now() - (+state.range) * 3.156e10);
+    return DATA.mentions.filter(m => ids.has(m.staff_id)
+      && (state.mtype === "all" || m.mention_type === state.mtype)
+      && (!cutoff || new Date(m.published_on) >= cutoff));
+  }
+
+  function avatar(p) {
+    const img = p.headshot ? `<img src="${esc(p.headshot)}" alt="" onerror="this.remove()">` : "";
+    return `<span class="avatar" aria-hidden="true">${img || ""}<span>${esc(initials(p.name))}</span></span>`;
+  }
+
+  function renderPeople() {
+    const staff = scopedStaff();
+    const label = state.group === "all" ? dept : state.group;
+    $("scopeName").textContent = label;
+    $("people").innerHTML =
+      `<button class="person" data-id="" aria-pressed="${!state.person}"><span class="avatar">All</span><span>Everyone<small>${staff.length} staff</small></span></button>` +
+      staff.map(p => `<button class="person" data-id="${esc(p.id)}" aria-pressed="${state.person === p.id}">${avatar(p)}<span>${esc(p.name)}<small>${esc(p.group || "")}</small></span></button>`).join("");
+    $("people").querySelectorAll(".person").forEach(b => b.onclick = () => { state.person = b.dataset.id || null; render(); });
+    // Headshots sit on top of the initials; hide initials once an image loads.
+    $("people").querySelectorAll(".avatar img").forEach(i => i.onload = () => i.nextElementSibling?.remove());
+  }
+
+  function renderProfile(ms) {
+    const p = DATA.staff.find(s => s.id === state.person);
+    if (!p) {
+      $("profile").innerHTML = `<div><h2>${esc(state.group === "all" ? dept : state.group)}</h2><p>Combined policy reach of ${scopedStaff().length} staff members</p></div>`;
+      return;
+    }
+    const spellings = (p.name_variants || []).filter(v => v !== p.name);
+    $("profile").innerHTML = `${avatar(p)}<div><h2>${esc(p.name)}</h2><p>${esc(p.role || "")}${p.group ? " · " + esc(p.group) : ""}</p>
+      ${spellings.length ? `<p style="font-size:12px">Also matched as: ${spellings.map(esc).join(", ")}</p>` : ""}</div>`;
+    $("profile").querySelectorAll(".avatar img").forEach(i => i.onload = () => i.nextElementSibling?.remove());
+  }
+
+  function renderKpis(ms) {
+    const cited = ms.filter(m => m.mention_type === "cited").length;
+    const countries = new Set(ms.map(m => m.country).filter(c => !NON_MAP.has(c))).size;
+    const latest = [...ms].sort((a, b) => b.published_on.localeCompare(a.published_on))[0];
+    const policyShare = ms.length ? Math.round(100 * ms.filter(m => m.source_type === "Government" || m.source_type.startsWith("Intergov")).length / ms.length) : 0;
+    $("kpis").innerHTML = [
+      ["Total mentions", ms.length, `${cited} cited · ${ms.length - cited} named`],
+      ["Impact score", score(ms), "weighted by source and recency"],
+      ["Countries reached", countries, `${new Set(ms.map(m => m.region)).size} regions`],
+      ["Government / IGO share", policyShare + "%", "of mentions"],
+      ["Most recent", latest ? fmtDate(latest.published_on) : "—", latest ? esc(latest.source_title) : "no mentions"],
+    ].map(([l, v, s]) => `<div class="kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="sub">${s}</div></div>`).join("");
+  }
+
+  const charts = {};
+  function chart(id, cfg) { charts[id]?.destroy(); charts[id] = new Chart($(id), cfg); }
+  function baseOpts() {
+    Chart.defaults.color = css("--muted");
+    Chart.defaults.borderColor = css("--line");
+    Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
+    return { responsive: true, maintainAspectRatio: false };
+  }
+
+  function renderTimeline(ms) {
+    const years = ms.map(m => +m.published_on.slice(0, 4)).filter(Boolean);
+    const min = Math.min(...years, new Date().getFullYear()), max = new Date().getFullYear();
+    const labels = []; for (let y = min; y <= max; y++) labels.push(y);
+    const byType = t => labels.map(y => ms.filter(m => m.mention_type === t && +m.published_on.slice(0, 4) === y).length);
+    chart("timeline", { type: "bar", data: { labels, datasets: [
+        { label: "Research cited", data: byType("cited"), backgroundColor: css("--cited"), borderRadius: 3 },
+        { label: "Named in text", data: byType("named"), backgroundColor: css("--named"), borderRadius: 3 } ] },
+      options: { ...baseOpts(), scales: { x: { stacked: true, grid: { display: false } }, y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } } },
+        plugins: { legend: { position: "bottom" } } } });
+  }
+
+  function renderSourceTypes(ms) {
+    const order = ["Government", "Intergovernmental (IGO)", "Think tank", "NGO / civil society", "Other"];
+    const c = countBy(ms, m => m.source_type);
+    const labels = order.filter(k => c.get(k));
+    const colors = [css("--brand"), css("--brand-2"), css("--accent"), css("--accent-2"), "#9aa9a6"];
+    chart("sourceTypes", { type: "doughnut", data: { labels, datasets: [{ data: labels.map(l => c.get(l)), backgroundColor: labels.map(l => colors[order.indexOf(l)]), borderColor: css("--card"), borderWidth: 2 }] },
+      options: { ...baseOpts(), cutout: "62%", plugins: { legend: { position: "right" } } } });
+  }
+
+  function renderTopics(ms) {
+    const t = top(countBy(ms, m => m.topics), 10);
+    chart("topics", { type: "bar", data: { labels: t.map(x => x[0]), datasets: [{ label: "Mentions", data: t.map(x => x[1]), backgroundColor: css("--brand-2"), borderRadius: 3 }] },
+      options: { ...baseOpts(), indexAxis: "y", plugins: { legend: { display: false } }, scales: { x: { beginAtZero: true, ticks: { precision: 0 } }, y: { grid: { display: false } } } } });
+  }
+
+  let world = null;
+  async function renderMap(ms) {
+    const c = countBy(ms, m => m.country);
+    const rows = top(c, 12);
+    $("geoTable").innerHTML = `<tr><th>Country / body</th><th class="num">Mentions</th></tr>` +
+      (rows.length ? rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${v}</td></tr>`).join("") : `<tr><td colspan="2" class="empty">No mentions</td></tr>`);
+    if (!window.ChartGeo) return;
+    try {
+      world = world || await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json").then(r => r.json());
+    } catch (e) { $("map").replaceWith(Object.assign(document.createElement("p"), { className: "empty", textContent: "Map unavailable offline. See the table." })); return; }
+    const countries = ChartGeo.topojson.feature(world, world.objects.countries).features.filter(f => f.properties.name !== "Antarctica");
+    chart("map", { type: "choropleth", data: { labels: countries.map(f => f.properties.name),
+        datasets: [{ label: "Mentions", outline: countries, data: countries.map(f => ({ feature: f, value: c.get(f.properties.name) || 0 })),
+          borderColor: css("--line"), borderWidth: 0.5 }] },
+      options: { ...baseOpts(), showOutline: false, showGraticule: false, plugins: { legend: { display: false } },
+        scales: { projection: { axis: "x", projection: "equalEarth" },
+          color: { axis: "x", interpolate: v => v === 0 ? css("--bg") : `color-mix(in srgb, ${css("--brand-2")} ${Math.round(25 + 75 * v)}%, ${css("--bg")})`,
+            legend: { position: "bottom-left", align: "bottom" } } } } });
+  }
+
+  function renderSources(ms) {
+    const by = new Map();
+    ms.forEach(m => { const r = by.get(m.source_title) || { n: 0, type: m.source_type, country: m.country, last: "" }; r.n++; if (m.published_on > r.last) r.last = m.published_on; by.set(m.source_title, r); });
+    const rows = [...by.entries()].sort((a, b) => b[1].n - a[1].n).slice(0, 10);
+    $("sourcesTable").innerHTML = `<tr><th>Outlet</th><th>Type</th><th class="num">Mentions</th><th>Latest</th></tr>` +
+      (rows.length ? rows.map(([k, r]) => `<tr><td>${esc(k)}<br><span class="tag">${esc(r.country)}</span></td><td>${esc(r.type)}</td><td class="num">${r.n}</td><td>${fmtDate(r.last)}</td></tr>`).join("")
+        : `<tr><td colspan="4" class="empty">No mentions</td></tr>`);
+  }
+
+  function renderRollup() {
+    $("rollupCard").hidden = !!state.person;
+    if (state.person) return;
+    const rows = scopedStaff().map(p => {
+      const ms = filtered(p.id);
+      const topTopic = top(countBy(ms, m => m.topics), 1)[0]?.[0] || "—";
+      const topSrc = top(countBy(ms, m => m.source_title), 1)[0]?.[0] || "—";
+      const latest = ms.reduce((a, m) => m.published_on > a ? m.published_on : a, "");
+      return { p, n: ms.length, cited: ms.filter(m => m.mention_type === "cited").length, s: score(ms),
+        c: new Set(ms.map(m => m.country).filter(c => !NON_MAP.has(c))).size, topTopic, topSrc, latest };
+    }).sort((a, b) => b.s - a.s);
+    $("rollup").innerHTML = `<tr><th>Staff member</th><th class="num">Mentions</th><th class="num">Cited</th><th class="num">Impact</th><th class="num">Countries</th><th>Known for</th><th>Top outlet</th><th>Most recent</th></tr>` +
+      rows.map(r => `<tr class="clickable" data-id="${esc(r.p.id)}"><td>${esc(r.p.name)}</td><td class="num">${r.n}</td><td class="num">${r.cited}</td><td class="num">${r.s}</td><td class="num">${r.c}</td><td>${esc(r.topTopic)}</td><td>${esc(r.topSrc)}</td><td>${fmtDate(r.latest)}</td></tr>`).join("");
+    $("rollup").querySelectorAll("tr.clickable").forEach(tr => tr.onclick = () => { state.person = tr.dataset.id; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+  }
+
+  function renderRecent(ms) {
+    const names = Object.fromEntries(DATA.staff.map(s => [s.id, s.name]));
+    const rows = [...ms].sort((a, b) => b.published_on.localeCompare(a.published_on)).slice(0, 15);
+    $("recent").innerHTML = `<tr><th>Date</th><th>Document</th>${state.person ? "" : "<th>Staff</th>"}<th>Outlet</th><th>Type</th><th>Topics</th></tr>` +
+      (rows.length ? rows.map(m => `<tr><td style="white-space:nowrap">${fmtDate(m.published_on)}</td>
+        <td>${m.document_url ? `<a href="${esc(m.document_url)}" target="_blank" rel="noopener">${esc(m.title)}</a>` : esc(m.title)}</td>
+        ${state.person ? "" : `<td>${esc(names[m.staff_id])}</td>`}
+        <td>${esc(m.source_title)}<br><span class="tag">${esc(m.country)}</span></td>
+        <td><span class="tag ${m.mention_type}">${m.mention_type === "cited" ? "Cited" : "Named"}</span></td>
+        <td>${m.topics.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</td></tr>`).join("")
+        : `<tr><td colspan="6" class="empty">No mentions in this period</td></tr>`);
+  }
+
+  function render() {
+    save();
+    $("group").value = state.group; $("range").value = state.range; $("mtype").value = state.mtype;
+    const ms = filtered(state.person);
+    renderPeople(); renderProfile(ms); renderKpis(ms); renderRollup(); renderRecent(ms); renderSources(ms);
+    if (window.Chart) { renderTimeline(ms); renderSourceTypes(ms); renderTopics(ms); renderMap(ms); }
+  }
+
+  $("group").onchange = e => { state.group = e.target.value; state.person = null; render(); };
+  $("range").onchange = e => { state.range = e.target.value; render(); };
+  $("mtype").onchange = e => { state.mtype = e.target.value; render(); };
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+  render();
+})();
+</script>
+</body>
+</html>
